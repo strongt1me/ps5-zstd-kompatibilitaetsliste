@@ -2,6 +2,14 @@
 
 New and changed entries per update (newest first).
 
+## 2026-11-09
+
+**Changed**
+
+| Game | Change |
+|---|---|
+| Ghost of Yotei | Test reports: 2 → 3 (new from muxi) |
+
 ## 2026-11-09 (first release, 94 games)
 
 **New since the previous version of the list**

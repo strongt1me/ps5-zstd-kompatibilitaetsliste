@@ -335,12 +335,12 @@
    "id": "ghost-of-yotei",
    "title": "Ghost of Yotei",
    "ppsa": "PPSA26344",
-   "region": "–",
+   "region": "US",
    "status": "mixed",
    "format": "ZSTD",
-   "tester": "zhangyun111, nisec_eric",
-   "notes": "Offiziell vereinfachtes Chinesisch; GitHub-Berichte alle fehlgeschlagen; auch in der Problemtabelle erfasst; Widerspruch zu P-034 (zhangyun111: läuft, GitHub-Berichte alle fehlgeschlagen); Hängt am Logo",
-   "tests": 2
+   "tester": "zhangyun111, nisec_eric, muxi",
+   "notes": "Offiziell vereinfachtes Chinesisch; GitHub-Berichte alle fehlgeschlagen; auch in der Problemtabelle erfasst; Widerspruch zu P-034 (zhangyun111: läuft, GitHub-Berichte alle fehlgeschlagen); Hängt am Logo; Complete Edition, Version v02.002.000 (muxi); Backport 4.xx (muxi); gepackt mit ampr-emu-ng 0.3.2 (muxi, Test mit 0.3.3 folgt); exFAT-Image",
+   "tests": 3
   },
   {
    "id": "god-of-war-ragnarok",
@@ -361,7 +361,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "muxi",
-   "notes": "Version v01.015.000; Backport 4.xx; gepackt mit ampr-emu-ng 0.3.3",
+   "notes": "Version v01.015.000; Backport 4.xx; gepackt mit ampr-emu-ng 0.3.3; exFAT-Image",
    "tests": 1
   },
   {

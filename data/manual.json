@@ -23,12 +23,49 @@
         "de": [
           "Version v01.015.000",
           "Backport 4.xx",
-          "gepackt mit ampr-emu-ng 0.3.3"
+          "gepackt mit ampr-emu-ng 0.3.3",
+          "exFAT-Image"
         ],
         "en": [
           "Version v01.015.000",
           "Backport 4.xx",
-          "packed with ampr-emu-ng 0.3.3"
+          "packed with ampr-emu-ng 0.3.3",
+          "exFAT image"
+        ]
+      }
+    },
+    {
+      "id": "ghost-of-yotei-muxi",
+      "extra_for": "ghost-of-yotei",
+      "match": "",
+      "title": "Ghost of Yotei",
+      "ppsa": [
+        "PPSA26344"
+      ],
+      "regions": [
+        "US"
+      ],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "muxi"
+      ],
+      "notes": {
+        "de": [
+          "Complete Edition, Version v02.002.000 (muxi)",
+          "Backport 4.xx (muxi)",
+          "gepackt mit ampr-emu-ng 0.3.2 (muxi, Test mit 0.3.3 folgt)",
+          "exFAT-Image"
+        ],
+        "en": [
+          "Complete Edition, version v02.002.000 (muxi)",
+          "Backport 4.xx (muxi)",
+          "packed with ampr-emu-ng 0.3.2 (muxi, test with 0.3.3 to follow)",
+          "exFAT image"
         ]
       }
     }

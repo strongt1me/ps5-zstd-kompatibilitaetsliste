@@ -102,11 +102,21 @@ def build_games(lang="de"):
     # eigene, manuell gepflegte Eintraege (falls die Quelle sie noch nicht hat)
     have = " ".join(r["title"].lower() for r in rows.values())
     for m in manual:
+        notes = m["notes"][lang] if isinstance(m["notes"], dict) else m["notes"]
+        if m.get("extra_for"):  # zusaetzlicher Testbericht zu einem Spiel, das die Quelle schon fuehrt
+            r = rows.get(m["extra_for"])
+            if r is None:
+                continue
+            for key, vals in (("ppsa", m["ppsa"]), ("regions", m["regions"]), ("formats", m["formats"]),
+                              ("testers", m["testers"]), ("notes", notes)):
+                r[key] += [v for v in vals if v not in r[key]]
+            r["results"] += m["results"]
+            continue
         if m["match"].lower() in have:
             continue
         rows[m["id"]] = {"id": m["id"], "title": m["title"], "ppsa": m["ppsa"], "regions": m["regions"],
                          "results": m["results"], "formats": m["formats"], "testers": m["testers"],
-                         "notes": m["notes"][lang] if isinstance(m["notes"], dict) else m["notes"]}
+                         "notes": notes}
 
     out = []
     for r in rows.values():
@@ -136,11 +146,11 @@ def diff(old, new):
         else:
             what = []
             if o["status"] != g["status"]:
-                what.append(("status", o["status"], g["status"]))
+                what.append(("status", o["status"], g["status"], []))
             if o["format"] != g["format"]:
-                what.append(("format", o["format"], g["format"]))
+                what.append(("format", o["format"], g["format"], []))
             if o["tests"] != g["tests"]:
-                what.append(("tests", o["tests"], g["tests"]))
+                what.append(("tests", o["tests"], g["tests"], [t for t in g["tester"].split(", ") if t not in o["tester"]]))
             if what:
                 changed.append((g, what))
     removed = [o for i, o in old.items() if i not in {g['id'] for g in new}]
@@ -155,11 +165,11 @@ CL = {
     "de": {"head": "# Changelog\n\nNeue und geänderte Einträge pro Aktualisierung (neueste zuerst).\n\n",
            "new": "**Neu**", "chg": "**Geändert**", "rem": "**Entfernt**", "game": "Spiel", "change": "Änderung",
            "cols": "| Spiel | PPSA | Region | Status | Format | Tester | Hinweis |", "status": STATUS_DE,
-           "format": "Format", "tests": "Testberichte"},
+           "format": "Format", "tests": "Testberichte", "newfrom": "neu von"},
     "en": {"head": "# Changelog\n\nNew and changed entries per update (newest first).\n\n",
            "new": "**New**", "chg": "**Changed**", "rem": "**Removed**", "game": "Game", "change": "Change",
            "cols": "| Game | PPSA | Region | Status | Format | Tester | Note |", "status": STATUS_EN,
-           "format": "Format", "tests": "Test reports"},
+           "format": "Format", "tests": "Test reports", "newfrom": "new from"},
 }
 
 
@@ -178,9 +188,11 @@ def changelog_entry(date, added, changed, removed, lang="de", rows=None):
         L += [C["chg"], "", f"| {C['game']} | {C['change']} |", "|---|---|"]
         for g, what in changed:
             parts = []
-            for k, o, n in what:
+            for k, o, n, *extra in what:
                 if k == "status":
                     parts.append(f"Status: {C['status'][o]} → {C['status'][n]}")
+                elif k == "tests" and extra and extra[0]:
+                    parts.append(f"{C[k]}: {o} → {n} ({C['newfrom']} {', '.join(extra[0])})")
                 else:
                     parts.append(f"{C[k]}: {o} → {n}")
             L.append(f"| {esc(g['title'])} | {esc('; '.join(parts))} |")
@@ -292,6 +304,11 @@ Spiel-Backups werden mit ZSTD oder LZ4 komprimiert, damit sie weniger Speicherpl
 in Echtzeit. Die Liste zeigt, welche Spiele in dieser komprimierten Form tatsächlich laufen. In der Spalte
 „Format“ steht, mit welchem Verfahren getestet wurde.
 
+## Hinweis zu den Tests von muxi
+
+muxi packt alle Titel grundsätzlich im exFAT-Image-Format. Das spielt für die Funktion eines Titels zwar keine Rolle,
+ist aber erwähnenswert.
+
 ## Quelle und Lizenz
 
 Daten: [PS5 ZSTD Compatibility Database](https://theweil.github.io/PS5-ZSTD-Compatibility/)
@@ -350,6 +367,10 @@ LZ4 decompresses even faster than ZSTD but compresses less, so the files end up 
 Game backups are compressed with ZSTD or LZ4 to save disk space (e.g. as `.ffpfsc`). While playing, an emulator
 for the AMPR interface (ampr-emu / libSceAmpr) decompresses the data in real time. This list shows which games
 actually run in this compressed form. The "Format" column states which algorithm was used for the test.
+
+## Note on muxi's tests
+
+muxi packs all titles as exFAT images. This should not matter for whether a title works, but it is worth mentioning.
 
 ## Source and licence
 

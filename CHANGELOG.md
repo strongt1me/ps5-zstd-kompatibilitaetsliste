@@ -2,6 +2,14 @@
 
 Neue und geänderte Einträge pro Aktualisierung (neueste zuerst).
 
+## 2026-11-09
+
+**Geändert**
+
+| Spiel | Änderung |
+|---|---|
+| Ghost of Yotei | Testberichte: 2 → 3 (neu von muxi) |
+
 ## 2026-11-09 (erste Veröffentlichung, 94 Spiele)
 
 **Neu seit der letzten Version der Liste**

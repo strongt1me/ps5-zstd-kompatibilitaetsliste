@@ -48,6 +48,10 @@ Game backups are compressed with ZSTD or LZ4 to save disk space (e.g. as `.ffpfs
 for the AMPR interface (ampr-emu / libSceAmpr) decompresses the data in real time. This list shows which games
 actually run in this compressed form. The "Format" column states which algorithm was used for the test.
 
+## Note on muxi's tests
+
+muxi packs all titles as exFAT images. This should not matter for whether a title works, but it is worth mentioning.
+
 ## Source and licence
 
 Data: [PS5 ZSTD Compatibility Database](https://theweil.github.io/PS5-ZSTD-Compatibility/)

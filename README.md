@@ -50,6 +50,11 @@ Spiel-Backups werden mit ZSTD oder LZ4 komprimiert, damit sie weniger Speicherpl
 in Echtzeit. Die Liste zeigt, welche Spiele in dieser komprimierten Form tatsächlich laufen. In der Spalte
 „Format“ steht, mit welchem Verfahren getestet wurde.
 
+## Hinweis zu den Tests von muxi
+
+muxi packt alle Titel grundsätzlich im exFAT-Image-Format. Das spielt für die Funktion eines Titels zwar keine Rolle,
+ist aber erwähnenswert.
+
 ## Quelle und Lizenz
 
 Daten: [PS5 ZSTD Compatibility Database](https://theweil.github.io/PS5-ZSTD-Compatibility/)
