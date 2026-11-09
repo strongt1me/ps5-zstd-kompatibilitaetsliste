@@ -1,4 +1,4 @@
-![PS5 ZSTD & LZ4 Compatibility List](banner.png)
+![PS5 ZSTD & LZ4 Compatibility List](banner-en.png)
 
 # PS5 ZSTD & LZ4 Compatibility List (English)
 
@@ -44,7 +44,7 @@ LZ4 decompresses even faster than ZSTD but compresses less, so the files end up 
 
 ## Why does this matter for the PS5?
 
-Game backups are compressed with ZSTD or LZ4 to save disk space (e.g. as `.ffpfsc`). While playing, an emulator
+Game backups are compressed with ZSTD or LZ4 to save disk space. While playing, an emulator
 for the AMPR interface (ampr-emu / libSceAmpr) decompresses the data in real time. This list shows which games
 actually run in this compressed form. The "Format" column states which algorithm was used for the test.
 

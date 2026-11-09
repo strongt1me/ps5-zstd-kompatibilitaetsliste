@@ -257,13 +257,13 @@ def write_pdf(games, marks, date, path, lang="de"):
     doc.build(el, onFirstPage=footer, onLaterPages=footer)
 
 
-README_DE = """![PS5 ZSTD & LZ4 Kompatibilitätsliste](banner.png)
+README_DE = """![PS5 ZSTD & LZ4 Kompatibilitätsliste](banner-de.png)
 
 # PS5 ZSTD & LZ4 Kompatibilitätsliste (Deutsch)
 
 **Deutsch** | [English](README.en.md)
 
-Deutsche Übersicht, welche PS5-Spiele als ZSTD- oder LZ4-komprimiertes Backup (z. B. `.ffpfsc`) laufen.
+Deutsche Übersicht, welche PS5-Spiele als ZSTD- oder LZ4-komprimiertes Backup (z. B. `.ffpfsc, .exFAT, .ffpkg, usw.`) laufen.
 Die Liste wird täglich automatisch aktualisiert.
 
 ## Download
@@ -301,8 +301,8 @@ schwächer, die Dateien werden also größer.
 
 ## Warum ist das für die PS5 wichtig?
 
-Spiel-Backups werden mit ZSTD oder LZ4 komprimiert, damit sie weniger Speicherplatz brauchen (z. B. als
-`.ffpfsc`). Beim Spielen entpackt ein Emulator für die AMPR-Schnittstelle (ampr-emu bzw. libSceAmpr) die Daten
+Spiel-Backups werden mit ZSTD oder LZ4 komprimiert, damit sie weniger Speicherplatz brauchen.
+Beim Spielen entpackt ein Emulator für die AMPR-Schnittstelle (ampr-emu bzw. libSceAmpr) die Daten
 in Echtzeit. Die Liste zeigt, welche Spiele in dieser komprimierten Form tatsächlich laufen. In der Spalte
 „Format“ steht, mit welchem Verfahren getestet wurde.
 
@@ -323,13 +323,13 @@ Gebaut mit `python build.py` (benötigt `reportlab`).
 """
 
 
-README_EN = """![PS5 ZSTD & LZ4 Compatibility List](banner.png)
+README_EN = """![PS5 ZSTD & LZ4 Compatibility List](banner-en.png)
 
 # PS5 ZSTD & LZ4 Compatibility List (English)
 
 [Deutsch](README.md) | **English**
 
-Overview of which PS5 games run as ZSTD- or LZ4-compressed backups (e.g. `.ffpfsc`).
+Overview of which PS5 games run as ZSTD- or LZ4-compressed backups (e.g. `.ffpfsc, .exFAT, .ffpkg`).
 The list is updated automatically every day.
 
 ## Download
@@ -366,7 +366,7 @@ LZ4 decompresses even faster than ZSTD but compresses less, so the files end up 
 
 ## Why does this matter for the PS5?
 
-Game backups are compressed with ZSTD or LZ4 to save disk space (e.g. as `.ffpfsc`). While playing, an emulator
+Game backups are compressed with ZSTD or LZ4 to save disk space. While playing, an emulator
 for the AMPR interface (ampr-emu / libSceAmpr) decompresses the data in real time. This list shows which games
 actually run in this compressed form. The "Format" column states which algorithm was used for the test.
 
@@ -386,11 +386,12 @@ Built with `python build.py` (requires `reportlab`).
 """
 
 
-BANNER = ROOT / "banner.png"
+BANNER = ROOT / "banner-de.png"
+BANNER_EN = ROOT / "banner-en.png"
 BANNER_COLORS = {"ok": (80, 200, 120), "fail": (235, 90, 90), "mixed": (240, 190, 60), "unknown": (160, 170, 190)}
 
 
-def write_banner(games, date):
+def write_banner(games, date, lang="de"):
     """Forum-/Header-Bild mit den aktuellen Zahlen (passt zum jeweils letzten Release)."""
     from PIL import Image, ImageDraw, ImageFont
 
@@ -411,22 +412,26 @@ def write_banner(games, date):
         t = y / H
         d.line([(0, y), (W, y)], fill=(int(8 + 10 * t), int(20 + 40 * t), int(60 + 70 * t)))
     d.rectangle([0, 0, 14, H], fill=(0, 112, 209))
-    d.text((70, 60), "PS5  ZSTD & LZ4", font=font(88), fill="white")
-    d.text((70, 170), "Kompatibilitätsliste", font=font(60), fill=(120, 190, 255))
-    d.text((70, 255), "Welche PS5-Spiele laufen als komprimiertes Backup?", font=font(30, False), fill=(210, 220, 235))
+    d.text((70, 60), "PS5 ZSTD & LZ4", font=font(88), fill="white")
+    d.text((70, 170), "Kompatibilitätsliste" if lang == "de" else "Compatibility List", font=font(60), fill=(120, 190, 255))
+    d.text((70, 255), "Welche PS5-Spiele laufen als komprimiertes Backup?" if lang == "de" else "Which PS5 games run as compressed backups?", font=font(30, False), fill=(210, 220, 235))
     c = counts(games)
-    boxes = [(str(len(games)), "Spiele", (230, 230, 230))]
-    boxes += [(str(c[k]), STATUS_DE[k], BANNER_COLORS.get(k, (200, 200, 200))) for k in STATUS_ORDER if c[k]]
+    U = UI[lang]
+    boxes = [(str(len(games)), U["games"].capitalize(), (230, 230, 230))]
+    boxes += [(str(c[k]), U["status"][k], BANNER_COLORS.get(k, (200, 200, 200))) for k in STATUS_ORDER if c[k]]
     x = 70
     gap = 20
     bw = (W - 70 - 60 - gap * (len(boxes) - 1)) // len(boxes)
     for n, label, col in boxes:
         d.rounded_rectangle([x, 340, x + bw, 450], 14, fill=(20, 40, 80), outline=col, width=3)
         d.text((x + 20, 345), n, font=font(56), fill=col)
-        d.text((x + 20, 412), label, font=font(22, False), fill=(210, 220, 235))
+        fs = 22
+        while d.textlength(label, font=font(fs, False)) > bw - 30 and fs > 12:
+            fs -= 1
+        d.text((x + 20, 412), label, font=font(fs, False), fill=(210, 220, 235))
         x += bw + gap
-    d.text((70, 462), f"Stand: {date} · täglich aktualisiert · Deutsch & English", font=font(20, False), fill=(150, 170, 200))
-    img.save(BANNER)
+    d.text((70, 462), (f"Stand: {date} · täglich aktualisiert · Deutsch & English" if lang == "de" else f"As of: {date} · updated daily · Deutsch & English"), font=font(20, False), fill=(150, 170, 200))
+    img.save(BANNER if lang == "de" else BANNER_EN)
 
 
 def write_readme(games, date):
@@ -467,8 +472,9 @@ def main():
             write_pdf(games, {}, date, ROOT / PDF_NAME)
         if not (ROOT / PDF_NAME_EN).exists():
             write_pdf(games_en, {}, date, ROOT / PDF_NAME_EN, "en")
-        if not BANNER.exists():
-            write_banner(games, json.loads(state_path.read_text(encoding="utf-8"))["date"])
+        for lang, b in (("de", BANNER), ("en", BANNER_EN)):
+            if not b.exists():
+                write_banner(games_en if lang == "en" else games, st["date"], lang)
         print("keine Änderungen")
         return
     write_pdf(games, marks, date, ROOT / PDF_NAME)
@@ -482,6 +488,7 @@ def main():
     state_path.write_text(json.dumps({"date": date, "games": games, "games_en": games_en}, ensure_ascii=False, indent=1), encoding="utf-8")
     write_readme(games, date)
     write_banner(games, date)
+    write_banner(games_en, date, "en")
     (ROOT / ".changed").write_text(date)
     print("PDFs, CHANGELOGs, READMEs, state.json geschrieben")
 

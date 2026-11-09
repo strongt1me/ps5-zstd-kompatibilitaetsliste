@@ -1,4 +1,4 @@
-![PS5 ZSTD & LZ4 Kompatibilitätsliste](banner.png)
+![PS5 ZSTD & LZ4 Kompatibilitätsliste](banner-de.png)
 
 # PS5 ZSTD & LZ4 Kompatibilitätsliste (Deutsch)
 
@@ -45,8 +45,8 @@ schwächer, die Dateien werden also größer.
 
 ## Warum ist das für die PS5 wichtig?
 
-Spiel-Backups werden mit ZSTD oder LZ4 komprimiert, damit sie weniger Speicherplatz brauchen (z. B. als
-`.ffpfsc`). Beim Spielen entpackt ein Emulator für die AMPR-Schnittstelle (ampr-emu bzw. libSceAmpr) die Daten
+Spiel-Backups werden mit ZSTD oder LZ4 komprimiert, damit sie weniger Speicherplatz brauchen.
+Beim Spielen entpackt ein Emulator für die AMPR-Schnittstelle (ampr-emu bzw. libSceAmpr) die Daten
 in Echtzeit. Die Liste zeigt, welche Spiele in dieser komprimierten Form tatsächlich laufen. In der Spalte
 „Format“ steht, mit welchem Verfahren getestet wurde.
 
