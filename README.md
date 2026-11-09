@@ -4,7 +4,7 @@
 
 **Deutsch** | [English](README.en.md)
 
-Deutsche Übersicht, welche PS5-Spiele als ZSTD- oder LZ4-komprimiertes Backup (z. B. `.ffpfsc`) laufen.
+Deutsche Übersicht, welche PS5-Spiele als ZSTD- oder LZ4-komprimiertes Backup (z. B. `.ffpfsc, .exFAT, .ffpkg, usw.`) laufen.
 Die Liste wird täglich automatisch aktualisiert.
 
 ## Download
