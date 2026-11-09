@@ -19,11 +19,18 @@
       "testers": [
         "muxi"
       ],
-      "notes": [
-        "Version v01.015.000",
-        "Backport 4.xx",
-        "gepackt mit ampr-emu-ng 0.3.3"
-      ]
+      "notes": {
+        "de": [
+          "Version v01.015.000",
+          "Backport 4.xx",
+          "gepackt mit ampr-emu-ng 0.3.3"
+        ],
+        "en": [
+          "Version v01.015.000",
+          "Backport 4.xx",
+          "packed with ampr-emu-ng 0.3.3"
+        ]
+      }
     }
   ]
 }

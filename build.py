@@ -13,9 +13,23 @@ from pathlib import Path
 ROOT = Path(__file__).parent
 BASE = "https://theweil.github.io/PS5-ZSTD-Compatibility"
 PDF_NAME = "PS5-ZSTD-LZ4-Kompatibilitaetsliste.pdf"
+PDF_NAME_EN = "PS5-ZSTD-LZ4-Compatibility-List.pdf"
 DRY = "--dry-run" in sys.argv
 
 STATUS_DE = {"ok": "Läuft", "fail": "Läuft nicht", "mixed": "Widersprüchlich", "unknown": "Unbestätigt"}
+STATUS_EN = {"ok": "Works", "fail": "Does not run", "mixed": "Conflicting", "unknown": "Unconfirmed"}
+UI = {
+    "de": {"title": "PS5 ZSTD &amp; LZ4 Kompatibilitätsliste", "meta": "Stand", "games": "Spiele", "status": STATUS_DE,
+           "src": "Quelle: PS5 ZSTD Compatibility Database (theweil.github.io/PS5-ZSTD-Compatibility), Lizenz CC BY 4.0. Hinweise aus dem Chinesischen übersetzt; Tester-Nicknames im Original.",
+           "since": "Seit der letzten Aktualisierung:", "new": "neu", "chg": "geändert", "blue": "blau hinterlegt",
+           "mnew": "NEU", "mchg": "GEÄNDERT", "page": "Seite", "tested": "getestet am", "date": "%d.%m.%Y",
+           "cols": ("Nr.", "Spiel", "PPSA", "Region", "Status", "Format", "Tester", "Hinweise")},
+    "en": {"title": "PS5 ZSTD &amp; LZ4 Compatibility List", "meta": "As of", "games": "games", "status": STATUS_EN,
+           "src": "Source: PS5 ZSTD Compatibility Database (theweil.github.io/PS5-ZSTD-Compatibility), licence CC BY 4.0. Notes translated from Chinese; tester nicknames as in the original.",
+           "since": "Since the last update:", "new": "new", "chg": "changed", "blue": "highlighted in blue",
+           "mnew": "NEW", "mchg": "CHANGED", "page": "Page", "tested": "tested on", "date": "%Y-%m-%d",
+           "cols": ("No.", "Game", "PPSA", "Region", "Status", "Format", "Tester", "Notes")},
+}
 STATUS_ORDER = ["ok", "fail", "mixed", "unknown"]
 TITLE_OVERRIDES = {"unidentified-p-030": "Unbekannter Titel (vermutlich A Plague Tale)"}
 CJK = re.compile(r"[　-鿿＀-￯]")
@@ -39,18 +53,17 @@ def translate(note, tr):
     m = re.fullmatch(r"([\d.]+)(?: / (\d+)G)?(?:（(.+)）)?", note)
     if m:
         v, size, who = m.groups()
-        s = f"Version {v}" + (f" / {size} GB" if size else "") + (f" ({who})" if who else "")
-        return s
+        return f"Version {v}" + (f" / {size} GB" if size else "") + (f" ({who})" if who else "")
     if CJK.search(note):
         print(f"WARNUNG: Hinweis nicht übersetzt, wird ausgelassen: {note!r}", file=sys.stderr)
         return None
     return note
 
 
-def build_games():
+def build_games(lang="de"):
     games = fetch("games.json")["games"]
     tests = fetch("tests.json")["tests"]
-    tr = load_json(ROOT / "data" / "translations.json", {})
+    tr = load_json(ROOT / "data" / ("translations.json" if lang == "de" else "translations_en.json"), {})
     manual = load_json(ROOT / "data" / "manual.json", {"games": []})["games"]
 
     rows = {}
@@ -84,7 +97,7 @@ def build_games():
         if t.get("runtime_version"):
             r["notes"].append(f"Runtime {t['runtime_version']}")
         if t.get("tested_at"):
-            r["notes"].append(f"getestet am {datetime.fromisoformat(t['tested_at']).strftime('%d.%m.%Y')}")
+            r["notes"].append(f"{UI[lang]['tested']} {datetime.fromisoformat(t['tested_at']).strftime(UI[lang]['date'])}")
 
     # eigene, manuell gepflegte Eintraege (falls die Quelle sie noch nicht hat)
     have = " ".join(r["title"].lower() for r in rows.values())
@@ -93,7 +106,7 @@ def build_games():
             continue
         rows[m["id"]] = {"id": m["id"], "title": m["title"], "ppsa": m["ppsa"], "regions": m["regions"],
                          "results": m["results"], "formats": m["formats"], "testers": m["testers"],
-                         "notes": m["notes"]}
+                         "notes": m["notes"][lang] if isinstance(m["notes"], dict) else m["notes"]}
 
     out = []
     for r in rows.values():
@@ -157,7 +170,7 @@ def counts(games):
     return {k: sum(1 for g in games if g["status"] == k) for k in STATUS_ORDER}
 
 
-def write_pdf(games, marks, date, path):
+def write_pdf(games, marks, date, path, lang="de"):
     from reportlab.lib import colors
     from reportlab.lib.pagesizes import A4, landscape
     from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
@@ -169,29 +182,29 @@ def write_pdf(games, marks, date, path):
     head = ParagraphStyle("h", parent=cell, textColor=colors.white, fontName="Helvetica-Bold")
     esc_x = lambda s: s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
     c = counts(games)
+    U = UI[lang]
     doc = SimpleDocTemplate(str(path), pagesize=landscape(A4), leftMargin=10 * mm, rightMargin=10 * mm,
                             topMargin=10 * mm, bottomMargin=12 * mm,
-                            title="PS5 ZSTD & LZ4 Kompatibilitätsliste", author="Community-Datenbank (CC BY 4.0)")
-    el = [Paragraph("PS5 ZSTD & LZ4 Kompatibilitätsliste", ss["Title"]),
-          Paragraph(f"Stand: {date} · {len(games)} Spiele · " + " · ".join(f"{STATUS_DE[k]}: {c[k]}" for k in STATUS_ORDER), ss["Normal"]),
-          Paragraph("Quelle: PS5 ZSTD Compatibility Database (theweil.github.io/PS5-ZSTD-Compatibility), "
-                    "Lizenz CC BY 4.0. Hinweise aus dem Chinesischen übersetzt; Tester-Nicknames im Original.", cell)]
+                            title=U["title"].replace("&amp;", "&"), author="Community-Datenbank (CC BY 4.0)")
+    el = [Paragraph(U["title"], ss["Title"]),
+          Paragraph(f"{U['meta']}: {date} · {len(games)} {U['games']} · " + " · ".join(f"{U['status'][k]}: {c[k]}" for k in STATUS_ORDER), ss["Normal"]),
+          Paragraph(U["src"], cell)]
     if marks:
         el.append(Spacer(1, 3 * mm))
-        el.append(Paragraph(f"<b>Seit der letzten Aktualisierung:</b> {sum(1 for v in marks.values() if v == 'NEU')} neu, "
-                            f"{sum(1 for v in marks.values() if v == 'GEÄNDERT')} geändert (blau hinterlegt).", ss["Normal"]))
+        el.append(Paragraph(f"<b>{U['since']}</b> {sum(1 for v in marks.values() if v == 'NEU')} {U['new']}, "
+                            f"{sum(1 for v in marks.values() if v == 'GEÄNDERT')} {U['chg']} ({U['blue']}).", ss["Normal"]))
     el.append(Spacer(1, 4 * mm))
-    data = [[Paragraph(h, head) for h in ("Nr.", "Spiel", "PPSA", "Region", "Status", "Format", "Tester", "Hinweise")]]
+    data = [[Paragraph(h, head) for h in U["cols"]]]
     colors_st = {"ok": "#1b7f3b", "fail": "#b3261e", "mixed": "#b26a00", "unknown": "#555555"}
     style = [("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#333333")), ("VALIGN", (0, 0), (-1, -1), "TOP"),
              ("GRID", (0, 0), (-1, -1), 0.25, colors.HexColor("#bbbbbb")),
              ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, colors.HexColor("#f4f4f4")])]
     for i, g in enumerate(games, 1):
         m = marks.get(g["id"])
-        title = esc_x(g["title"]) + (f" <b>[{m}]</b>" if m else "")
+        title = esc_x(g["title"]) + (f" <b>[{U['mnew'] if m == 'NEU' else U['mchg']}]</b>" if m else "")
         data.append([Paragraph(str(i), cell), Paragraph(title, cell), Paragraph(esc_x(g["ppsa"]), cell),
                      Paragraph(esc_x(g["region"]), cell),
-                     Paragraph(f'<font color="{colors_st[g["status"]]}"><b>{STATUS_DE[g["status"]]}</b></font>', cell),
+                     Paragraph(f'<font color="{colors_st[g["status"]]}"><b>{U["status"][g["status"]]}</b></font>', cell),
                      Paragraph(esc_x(g["format"]), cell), Paragraph(esc_x(g["tester"]), cell),
                      Paragraph(esc_x(g["notes"]), cell)])
         if m:
@@ -202,7 +215,7 @@ def write_pdf(games, marks, date, path):
 
     def footer(cv, d):
         cv.setFont("Helvetica", 7)
-        cv.drawRightString(landscape(A4)[0] - 10 * mm, 6 * mm, f"Seite {d.page}")
+        cv.drawRightString(landscape(A4)[0] - 10 * mm, 6 * mm, f"{U['page']} {d.page}")
     doc.build(el, onFirstPage=footer, onLaterPages=footer)
 
 
@@ -216,7 +229,8 @@ Die Liste wird täglich automatisch aktualisiert.
 
 ## Download
 
-**[⬇ Aktuelle PDF herunterladen](https://github.com/strongt1me/ps5-zstd-kompatibilitaetsliste/releases/latest/download/{PDF_NAME})**
+**[⬇ Aktuelle PDF herunterladen (Deutsch)](https://github.com/strongt1me/ps5-zstd-kompatibilitaetsliste/releases/latest/download/{PDF_NAME})**
+· **[⬇ Download latest PDF (English)](https://github.com/strongt1me/ps5-zstd-kompatibilitaetsliste/releases/latest/download/{PDF_NAME_EN})**
 
 Was neu ist, steht im [CHANGELOG](CHANGELOG.md). In der PDF sind neue und geänderte Spiele mit
 `[NEU]` bzw. `[GEÄNDERT]` markiert und blau hinterlegt.
@@ -282,10 +296,13 @@ def main():
         # Keine Aenderung: nichts neu veroeffentlichen, PDF trotzdem (ohne Markierungen) lokal verfuegbar halten
         if not (ROOT / PDF_NAME).exists():
             write_pdf(games, {}, date, ROOT / PDF_NAME)
+        if not (ROOT / PDF_NAME_EN).exists():
+            write_pdf(build_games("en"), {}, date, ROOT / PDF_NAME_EN, "en")
         print("keine Änderungen")
         return
     # PDF mit Markierungen der letzten Aenderung
     write_pdf(games, marks, date, ROOT / PDF_NAME)
+    write_pdf(build_games("en"), marks, date, ROOT / PDF_NAME_EN, "en")
     cl = ROOT / "CHANGELOG.md"
     header = "# Changelog\n\nNeue und geänderte Einträge pro Aktualisierung (neueste zuerst).\n\n"
     body = cl.read_text(encoding="utf-8").split("\n\n", 2)[2] if cl.exists() else ""
