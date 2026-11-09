@@ -34,7 +34,7 @@ jobs:
             TAG="v$DATE-$(date +%H%M)"
             # Release-Info = neuester CHANGELOG-Abschnitt (was neu ist)
             awk '/^## /{n++} n==1' CHANGELOG.md > notes.md
-            gh release create "$TAG" PS5-ZSTD-Kompatibilitaetsliste.pdf               --title "Stand $DATE" --notes-file notes.md
+            gh release create "$TAG" PS5-ZSTD-LZ4-Kompatibilitaetsliste.pdf               --title "Stand $DATE" --notes-file notes.md
           else
             echo "Keine Änderungen"
           fi
