@@ -68,6 +68,17 @@
    "tests": 1
   },
   {
+   "id": "anno-117-pax-romana",
+   "title": "Anno 117 Pax Romana",
+   "ppsa": "PPSA23559",
+   "region": "EU",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "muxi",
+   "notes": "Version v02.100.000; Backport 4.xx; exFAT-Image",
+   "tests": 1
+  },
+  {
    "id": "assassins-creed-shadows",
    "title": "Assassin's Creed Shadows",
    "ppsa": "PPSA20397",
@@ -1101,6 +1112,17 @@
    "format": "ZSTD",
    "tester": "zo",
    "notes": "Version v1.000.011; tested on 2026-11-08",
+   "tests": 1
+  },
+  {
+   "id": "anno-117-pax-romana",
+   "title": "Anno 117 Pax Romana",
+   "ppsa": "PPSA23559",
+   "region": "EU",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "muxi",
+   "notes": "Version v02.100.000; Backport 4.xx; exFAT image",
    "tests": 1
   },
   {

@@ -4,6 +4,14 @@ Neue und geänderte Einträge pro Aktualisierung (neueste zuerst).
 
 ## 2026-11-09
 
+**Neu**
+
+| Spiel | PPSA | Region | Status | Format | Tester | Hinweis |
+|---|---|---|---|---|---|---|
+| Anno 117 Pax Romana | PPSA23559 | EU | Läuft | ZSTD | muxi | Version v02.100.000; Backport 4.xx; exFAT-Image |
+
+## 2026-11-09
+
 **Geändert**
 
 | Spiel | Änderung |

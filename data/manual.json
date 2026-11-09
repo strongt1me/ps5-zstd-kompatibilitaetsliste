@@ -68,6 +68,38 @@
           "exFAT image"
         ]
       }
+    },
+    {
+      "id": "anno-117-pax-romana",
+      "match": "anno 117",
+      "title": "Anno 117 Pax Romana",
+      "ppsa": [
+        "PPSA23559"
+      ],
+      "regions": [
+        "EU"
+      ],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "muxi"
+      ],
+      "notes": {
+        "de": [
+          "Version v02.100.000",
+          "Backport 4.xx",
+          "exFAT-Image"
+        ],
+        "en": [
+          "Version v02.100.000",
+          "Backport 4.xx",
+          "exFAT image"
+        ]
+      }
     }
   ]
 }
