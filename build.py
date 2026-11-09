@@ -243,7 +243,9 @@ def write_pdf(games, marks, date, path, lang="de"):
     doc.build(el, onFirstPage=footer, onLaterPages=footer)
 
 
-README_DE = """# PS5 ZSTD & LZ4 Kompatibilitätsliste (Deutsch)
+README_DE = """![PS5 ZSTD & LZ4 Kompatibilitätsliste](banner.png)
+
+# PS5 ZSTD & LZ4 Kompatibilitätsliste (Deutsch)
 
 **Deutsch** | [English](README.en.md)
 
@@ -302,7 +304,9 @@ Gebaut mit `python build.py` (benötigt `reportlab`).
 """
 
 
-README_EN = """# PS5 ZSTD & LZ4 Compatibility List (English)
+README_EN = """![PS5 ZSTD & LZ4 Compatibility List](banner.png)
+
+# PS5 ZSTD & LZ4 Compatibility List (English)
 
 [Deutsch](README.md) | **English**
 
@@ -359,7 +363,7 @@ Built with `python build.py` (requires `reportlab`).
 """
 
 
-BANNER = ROOT / "forum" / "forum-banner.png"
+BANNER = ROOT / "banner.png"
 BANNER_COLORS = {"ok": (80, 200, 120), "fail": (235, 90, 90), "mixed": (240, 190, 60), "unknown": (160, 170, 190)}
 
 
@@ -399,7 +403,6 @@ def write_banner(games, date):
         d.text((x + 20, 412), label, font=font(22, False), fill=(210, 220, 235))
         x += bw + gap
     d.text((70, 462), f"Stand: {date} · täglich aktualisiert · Deutsch & English", font=font(20, False), fill=(150, 170, 200))
-    BANNER.parent.mkdir(exist_ok=True)
     img.save(BANNER)
 
 

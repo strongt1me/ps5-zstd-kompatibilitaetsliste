@@ -1,3 +1,5 @@
+![PS5 ZSTD & LZ4 Kompatibilitätsliste](banner.png)
+
 # PS5 ZSTD & LZ4 Kompatibilitätsliste (Deutsch)
 
 **Deutsch** | [English](README.en.md)
