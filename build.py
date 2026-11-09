@@ -413,7 +413,7 @@ def write_banner(games, date):
     d.rectangle([0, 0, 14, H], fill=(0, 112, 209))
     d.text((70, 60), "PS5  ZSTD & LZ4", font=font(88), fill="white")
     d.text((70, 170), "Kompatibilitätsliste", font=font(60), fill=(120, 190, 255))
-    d.text((70, 255), "Welche PS5-Spiele laufen als komprimiertes Backup (.ffpfsc)?", font=font(30, False), fill=(210, 220, 235))
+    d.text((70, 255), "Welche PS5-Spiele laufen als komprimiertes Backup?", font=font(30, False), fill=(210, 220, 235))
     c = counts(games)
     boxes = [(str(len(games)), "Spiele", (230, 230, 230))]
     boxes += [(str(c[k]), STATUS_DE[k], BANNER_COLORS.get(k, (200, 200, 200))) for k in STATUS_ORDER if c[k]]
