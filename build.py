@@ -150,7 +150,8 @@ def diff(old, new):
             if o["format"] != g["format"]:
                 what.append(("format", o["format"], g["format"], []))
             if o["tests"] != g["tests"]:
-                what.append(("tests", o["tests"], g["tests"], [t for t in g["tester"].split(", ") if t not in o["tester"]]))
+                what.append(("tests", o["tests"], g["tests"], [t for t in g["tester"].split(", ") if t not in o["tester"]],
+                         [x for x in g["notes"].split("; ") if x and x not in o["notes"]]))
             if what:
                 changed.append((g, what))
     removed = [o for i, o in old.items() if i not in {g['id'] for g in new}]
@@ -192,7 +193,8 @@ def changelog_entry(date, added, changed, removed, lang="de", rows=None):
                 if k == "status":
                     parts.append(f"Status: {C['status'][o]} → {C['status'][n]}")
                 elif k == "tests" and extra and extra[0]:
-                    parts.append(f"{C[k]}: {o} → {n} ({C['newfrom']} {', '.join(extra[0])})")
+                    det = ": " + "; ".join(extra[1]) if len(extra) > 1 and extra[1] else ""
+                    parts.append(f"{C[k]}: {o} → {n} ({C['newfrom']} {', '.join(extra[0])}){det}")
                 else:
                     parts.append(f"{C[k]}: {o} → {n}")
             L.append(f"| {esc(g['title'])} | {esc('; '.join(parts))} |")
@@ -444,8 +446,15 @@ def main():
     rows_en = {g["id"]: g for g in games_en}
     state_path = ROOT / "state.json"
     first = not state_path.exists()
-    old = {} if first else {g["id"]: g for g in json.loads(state_path.read_text(encoding="utf-8"))["games"]}
+    st = {} if first else json.loads(state_path.read_text(encoding="utf-8"))
+    old = {g["id"]: g for g in st.get("games", [])}
+    if "games_en" in st:
+        old_en = {g["id"]: g for g in st["games_en"]}
+    else:  # aeltere state.json ohne englische Zeilen: nur Status/Format/Tester/Anzahl vergleichen
+        old_en = {i: {**rows_en[i], **{k: o[k] for k in ("status", "format", "tester", "tests")}}
+                  for i, o in old.items() if i in rows_en}
     added, changed, removed = diff(old, games) if not first else ([], [], [])
+    changed_en = diff(old_en, games_en)[1] if not first else []
     marks = {g["id"]: "NEU" for g in added}
     marks.update({g["id"]: "GEÄNDERT" for g, _ in changed})
     print(f"{len(games)} Spiele, neu: {len(added)}, geändert: {len(changed)}, entfernt: {len(removed)}")
@@ -468,9 +477,9 @@ def main():
         cl = ROOT / name
         body = cl.read_text(encoding="utf-8").split("\n\n", 2)[2] if cl.exists() else ""
         if not first:
-            body = changelog_entry(date, added, changed, removed, lang, rows_en if lang == "en" else None) + "\n" + body
+            body = changelog_entry(date, added, changed_en if lang == "en" else changed, removed, lang, rows_en if lang == "en" else None) + "\n" + body
         cl.write_text(CL[lang]["head"] + body, encoding="utf-8")
-    state_path.write_text(json.dumps({"date": date, "games": games}, ensure_ascii=False, indent=1), encoding="utf-8")
+    state_path.write_text(json.dumps({"date": date, "games": games, "games_en": games_en}, ensure_ascii=False, indent=1), encoding="utf-8")
     write_readme(games, date)
     write_banner(games, date)
     (ROOT / ".changed").write_text(date)

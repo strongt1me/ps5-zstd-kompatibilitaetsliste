@@ -8,7 +8,7 @@ Neue und geänderte Einträge pro Aktualisierung (neueste zuerst).
 
 | Spiel | Änderung |
 |---|---|
-| Ghost of Yotei | Testberichte: 2 → 3 (neu von muxi) |
+| Ghost of Yotei | Testberichte: 2 → 3 (neu von muxi): Complete Edition, Version v02.002.000 (muxi); Backport 4.xx (muxi); gepackt mit ampr-emu-ng 0.3.2 (muxi, Test mit 0.3.3 folgt); exFAT-Image |
 
 ## 2026-11-09 (erste Veröffentlichung, 94 Spiele)
 
