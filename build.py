@@ -359,6 +359,50 @@ Built with `python build.py` (requires `reportlab`).
 """
 
 
+BANNER = ROOT / "forum" / "forum-banner.png"
+BANNER_COLORS = {"ok": (80, 200, 120), "fail": (235, 90, 90), "mixed": (240, 190, 60), "unknown": (160, 170, 190)}
+
+
+def write_banner(games, date):
+    """Forum-/Header-Bild mit den aktuellen Zahlen (passt zum jeweils letzten Release)."""
+    from PIL import Image, ImageDraw, ImageFont
+
+    def font(size, bold=True):
+        names = (["segoeuib.ttf", "DejaVuSans-Bold.ttf"] if bold else ["segoeui.ttf", "DejaVuSans.ttf"])
+        for n in names:
+            for base in ("C:/Windows/Fonts/", "/usr/share/fonts/truetype/dejavu/"):
+                try:
+                    return ImageFont.truetype(base + n, size)
+                except OSError:
+                    pass
+        return ImageFont.load_default()
+
+    W, H = 1200, 500
+    img = Image.new("RGB", (W, H))
+    d = ImageDraw.Draw(img)
+    for y in range(H):
+        t = y / H
+        d.line([(0, y), (W, y)], fill=(int(8 + 10 * t), int(20 + 40 * t), int(60 + 70 * t)))
+    d.rectangle([0, 0, 14, H], fill=(0, 112, 209))
+    d.text((70, 60), "PS5  ZSTD & LZ4", font=font(88), fill="white")
+    d.text((70, 170), "Kompatibilitätsliste", font=font(60), fill=(120, 190, 255))
+    d.text((70, 255), "Welche PS5-Spiele laufen als komprimiertes Backup (.ffpfsc)?", font=font(30, False), fill=(210, 220, 235))
+    c = counts(games)
+    boxes = [(str(len(games)), "Spiele", (230, 230, 230))]
+    boxes += [(str(c[k]), STATUS_DE[k], BANNER_COLORS.get(k, (200, 200, 200))) for k in STATUS_ORDER if c[k]]
+    x = 70
+    gap = 20
+    bw = (W - 70 - 60 - gap * (len(boxes) - 1)) // len(boxes)
+    for n, label, col in boxes:
+        d.rounded_rectangle([x, 340, x + bw, 450], 14, fill=(20, 40, 80), outline=col, width=3)
+        d.text((x + 20, 345), n, font=font(56), fill=col)
+        d.text((x + 20, 412), label, font=font(22, False), fill=(210, 220, 235))
+        x += bw + gap
+    d.text((70, 462), f"Stand: {date} · täglich aktualisiert · Deutsch & English", font=font(20, False), fill=(150, 170, 200))
+    BANNER.parent.mkdir(exist_ok=True)
+    img.save(BANNER)
+
+
 def write_readme(games, date):
     c = counts(games)
     rows = "\n".join(f"| {STATUS_DE[k]} | {c[k]} |" for k in STATUS_ORDER)
@@ -390,6 +434,8 @@ def main():
             write_pdf(games, {}, date, ROOT / PDF_NAME)
         if not (ROOT / PDF_NAME_EN).exists():
             write_pdf(games_en, {}, date, ROOT / PDF_NAME_EN, "en")
+        if not BANNER.exists():
+            write_banner(games, json.loads(state_path.read_text(encoding="utf-8"))["date"])
         print("keine Änderungen")
         return
     write_pdf(games, marks, date, ROOT / PDF_NAME)
@@ -402,6 +448,7 @@ def main():
         cl.write_text(CL[lang]["head"] + body, encoding="utf-8")
     state_path.write_text(json.dumps({"date": date, "games": games}, ensure_ascii=False, indent=1), encoding="utf-8")
     write_readme(games, date)
+    write_banner(games, date)
     (ROOT / ".changed").write_text(date)
     print("PDFs, CHANGELOGs, READMEs, state.json geschrieben")
 

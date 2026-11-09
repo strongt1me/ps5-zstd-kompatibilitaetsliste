@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install reportlab
+      - run: pip install reportlab pillow
       - name: Bauen
         run: python build.py
       - name: Commit und Release
