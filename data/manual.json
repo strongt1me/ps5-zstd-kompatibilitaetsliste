@@ -1,0 +1,29 @@
+{
+  "games": [
+    {
+      "id": "gothic-1-remake",
+      "match": "gothic",
+      "title": "Gothic 1 Remake",
+      "ppsa": [
+        "PPSA09826"
+      ],
+      "regions": [
+        "US"
+      ],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "muxi"
+      ],
+      "notes": [
+        "Version v01.015.000",
+        "Backport 4.xx",
+        "gepackt mit ampr-emu-ng 0.3.3"
+      ]
+    }
+  ]
+}
