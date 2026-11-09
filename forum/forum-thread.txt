@@ -1,0 +1,27 @@
+[Liste] PS5 ZSTD & LZ4 Kompatibilitätsliste (Deutsch + English) – täglich aktualisiert
+
+[img]https://raw.githubusercontent.com/strongt1me/ps5-zstd-kompatibilitaetsliste/main/forum/forum-banner.png[/img]
+
+Hallo zusammen,
+
+ich habe eine übersichtliche Liste gebaut, welche PS5-Spiele als ZSTD- oder LZ4-komprimiertes Backup (z. B. [i].ffpfsc[/i]) laufen. Es gibt sie als PDF auf Deutsch und Englisch, die Liste wird täglich automatisch aktualisiert.
+
+[b]DOWNLOAD[/b]
+[url=https://github.com/strongt1me/ps5-zstd-kompatibilitaetsliste/releases/latest/download/PS5-ZSTD-LZ4-Kompatibilitaetsliste.pdf]⬇ PDF (Deutsch)[/url]
+[url=https://github.com/strongt1me/ps5-zstd-kompatibilitaetsliste/releases/latest/download/PS5-ZSTD-LZ4-Compatibility-List.pdf]⬇ PDF (English)[/url]
+[url=https://github.com/strongt1me/ps5-zstd-kompatibilitaetsliste]GitHub-Projekt (README, Changelog)[/url]
+
+[b]WAS STEHT DRIN?[/b]
+Spiel, PPSA-Nummer, Region, Status, getestetes Format (ZSTD/LZ4), Tester und Hinweise (z. B. Backport-Version, ampr-emu-Version, Fehlerbild). Neue und geänderte Spiele sind in der PDF mit [b][NEU][/b] bzw. [b][GEÄNDERT][/b] markiert und blau hinterlegt. Was sich pro Update geändert hat, steht im Changelog.
+
+[b]KURZ ERKLÄRT: ZSTD UND LZ4[/b]
+[b]ZSTD[/b] (Zstandard) ist ein verlustfreies Kompressionsverfahren von Yann Collet (Meta, Open Source seit 2016): ähnlich gute Kompression wie zlib/gzip, aber deutlich schnelleres Entpacken.
+[b]LZ4[/b] stammt vom selben Entwickler und ist auf maximale Geschwindigkeit ausgelegt: noch schnelleres Entpacken, dafür schwächere Kompression (größere Dateien).
+Beim Spielen entpackt ein Emulator für die AMPR-Schnittstelle (ampr-emu) die Daten in Echtzeit.
+
+[b]QUELLE[/b]
+Daten: PS5 ZSTD Compatibility Database (https://theweil.github.io/PS5-ZSTD-Compatibility/, Lizenz CC BY 4.0). Hinweise wurden aus dem Chinesischen übersetzt, Tester-Nicknames stehen im Original. Eigene Ergänzungen stehen in der [i]manual.json[/i] im GitHub-Projekt.
+
+Feedback, Korrekturen und eigene Testberichte sind willkommen – am besten direkt an die Quelle oder hier im Thread!
+
+[b]English:[/b] This is a PS5 ZSTD & LZ4 compatibility list, available as German and English PDF (links above), updated daily.
