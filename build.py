@@ -136,13 +136,13 @@ def diff(old, new):
         else:
             what = []
             if o["status"] != g["status"]:
-                what.append(f"Status: {STATUS_DE[o['status']]} → {STATUS_DE[g['status']]}")
+                what.append(("status", o["status"], g["status"]))
             if o["format"] != g["format"]:
-                what.append(f"Format: {o['format']} → {g['format']}")
+                what.append(("format", o["format"], g["format"]))
             if o["tests"] != g["tests"]:
-                what.append(f"Testberichte: {o['tests']} → {g['tests']}")
+                what.append(("tests", o["tests"], g["tests"]))
             if what:
-                changed.append((g, "; ".join(what)))
+                changed.append((g, what))
     removed = [o for i, o in old.items() if i not in {g['id'] for g in new}]
     return added, changed, removed
 
@@ -151,18 +151,42 @@ def esc(s):
     return s.replace("|", "\\|")
 
 
-def changelog_entry(date, added, changed, removed):
+CL = {
+    "de": {"head": "# Changelog\n\nNeue und geänderte Einträge pro Aktualisierung (neueste zuerst).\n\n",
+           "new": "**Neu**", "chg": "**Geändert**", "rem": "**Entfernt**", "game": "Spiel", "change": "Änderung",
+           "cols": "| Spiel | PPSA | Region | Status | Format | Tester | Hinweis |", "status": STATUS_DE,
+           "format": "Format", "tests": "Testberichte"},
+    "en": {"head": "# Changelog\n\nNew and changed entries per update (newest first).\n\n",
+           "new": "**New**", "chg": "**Changed**", "rem": "**Removed**", "game": "Game", "change": "Change",
+           "cols": "| Game | PPSA | Region | Status | Format | Tester | Note |", "status": STATUS_EN,
+           "format": "Format", "tests": "Test reports"},
+}
+
+
+def changelog_entry(date, added, changed, removed, lang="de", rows=None):
+    """rows: id -> Spielzeile in der Zielsprache (fuer uebersetzte Hinweise)."""
+    C = CL[lang]
+    rows = rows or {}
     L = [f"## {date}", ""]
     if added:
-        L += ["**Neu**", "", "| Spiel | PPSA | Region | Status | Format | Tester | Hinweis |", "|---|---|---|---|---|---|---|"]
-        L += [f"| {esc(g['title'])} | {g['ppsa']} | {g['region']} | {STATUS_DE[g['status']]} | {g['format']} | {esc(g['tester'])} | {esc(g['notes'])} |" for g in added]
+        L += [C["new"], "", C["cols"], "|---|---|---|---|---|---|---|"]
+        for g in added:
+            g = rows.get(g["id"], g)
+            L.append(f"| {esc(g['title'])} | {g['ppsa']} | {g['region']} | {C['status'][g['status']]} | {g['format']} | {esc(g['tester'])} | {esc(g['notes'])} |")
         L.append("")
     if changed:
-        L += ["**Geändert**", "", "| Spiel | Änderung |", "|---|---|"]
-        L += [f"| {esc(g['title'])} | {esc(w)} |" for g, w in changed]
+        L += [C["chg"], "", f"| {C['game']} | {C['change']} |", "|---|---|"]
+        for g, what in changed:
+            parts = []
+            for k, o, n in what:
+                if k == "status":
+                    parts.append(f"Status: {C['status'][o]} → {C['status'][n]}")
+                else:
+                    parts.append(f"{C[k]}: {o} → {n}")
+            L.append(f"| {esc(g['title'])} | {esc('; '.join(parts))} |")
         L.append("")
     if removed:
-        L += ["**Entfernt**", ""] + [f"- {o['title']}" for o in removed] + [""]
+        L += [C["rem"], ""] + [f"- {o['title']}" for o in removed] + [""]
     return "\n".join(L)
 
 
@@ -219,25 +243,24 @@ def write_pdf(games, marks, date, path, lang="de"):
     doc.build(el, onFirstPage=footer, onLaterPages=footer)
 
 
-def write_readme(games, date):
-    c = counts(games)
-    rows = "\n".join(f"| {STATUS_DE[k]} | {c[k]} |" for k in STATUS_ORDER)
-    (ROOT / "README.md").write_text(f"""# PS5 ZSTD & LZ4 Kompatibilitätsliste (Deutsch)
+README_DE = """# PS5 ZSTD & LZ4 Kompatibilitätsliste (Deutsch)
+
+**Deutsch** | [English](README.en.md)
 
 Deutsche Übersicht, welche PS5-Spiele als ZSTD- oder LZ4-komprimiertes Backup (z. B. `.ffpfsc`) laufen.
 Die Liste wird täglich automatisch aktualisiert.
 
 ## Download
 
-**[⬇ Aktuelle PDF herunterladen (Deutsch)](https://github.com/strongt1me/ps5-zstd-kompatibilitaetsliste/releases/latest/download/{PDF_NAME})**
-· **[⬇ Download latest PDF (English)](https://github.com/strongt1me/ps5-zstd-kompatibilitaetsliste/releases/latest/download/{PDF_NAME_EN})**
+**[⬇ Aktuelle PDF herunterladen (Deutsch)](https://github.com/strongt1me/ps5-zstd-kompatibilitaetsliste/releases/latest/download/{pdf_de})**
+· **[⬇ Download latest PDF (English)](https://github.com/strongt1me/ps5-zstd-kompatibilitaetsliste/releases/latest/download/{pdf_en})**
 
 Was neu ist, steht im [CHANGELOG](CHANGELOG.md). In der PDF sind neue und geänderte Spiele mit
 `[NEU]` bzw. `[GEÄNDERT]` markiert und blau hinterlegt.
 
 ## Stand: {date}
 
-{len(games)} Spiele
+{n} Spiele
 
 | Status | Anzahl |
 |---|---|
@@ -276,12 +299,81 @@ Chinesischen übersetzt; Tester-Nicknames stehen im Original. Eigene Ergänzunge
 Chinesische Hinweise, die noch keine Übersetzung in `data/translations.json` haben, werden ausgelassen.
 
 Gebaut mit `python build.py` (benötigt `reportlab`).
-""", encoding="utf-8")
+"""
+
+
+README_EN = """# PS5 ZSTD & LZ4 Compatibility List (English)
+
+[Deutsch](README.md) | **English**
+
+Overview of which PS5 games run as ZSTD- or LZ4-compressed backups (e.g. `.ffpfsc`).
+The list is updated automatically every day.
+
+## Download
+
+**[⬇ Download latest PDF (English)](https://github.com/strongt1me/ps5-zstd-kompatibilitaetsliste/releases/latest/download/{pdf_en})**
+· **[⬇ Aktuelle PDF (Deutsch)](https://github.com/strongt1me/ps5-zstd-kompatibilitaetsliste/releases/latest/download/{pdf_de})**
+
+See the [CHANGELOG](CHANGELOG.en.md) for what is new. In the PDF, new and changed games are marked
+`[NEW]` / `[CHANGED]` and highlighted in blue.
+
+## Status: {date}
+
+{n} games
+
+| Status | Count |
+|---|---|
+{rows}
+
+- **Works**: all test reports successful
+- **Does not run**: all test reports failed
+- **Conflicting**: reports with different results
+- **Unconfirmed**: result unclear
+
+## What is ZSTD?
+
+Zstandard (ZSTD) is a lossless compression algorithm developed by Yann Collet at Facebook (now Meta) and open
+source since 2016. It compresses about as well as zlib/gzip but decompresses much faster, which is ideal when
+data is unpacked at runtime.
+
+## What is LZ4?
+
+LZ4 is also a lossless compression algorithm by the same author (Yann Collet). It is built for maximum speed:
+LZ4 decompresses even faster than ZSTD but compresses less, so the files end up larger.
+
+## Why does this matter for the PS5?
+
+Game backups are compressed with ZSTD or LZ4 to save disk space (e.g. as `.ffpfsc`). While playing, an emulator
+for the AMPR interface (ampr-emu / libSceAmpr) decompresses the data in real time. This list shows which games
+actually run in this compressed form. The "Format" column states which algorithm was used for the test.
+
+## Source and licence
+
+Data: [PS5 ZSTD Compatibility Database](https://theweil.github.io/PS5-ZSTD-Compatibility/)
+([GitHub](https://github.com/Theweil/PS5-ZSTD-Compatibility)), licence CC BY 4.0. Notes were translated from
+Chinese; tester nicknames are as in the original. Own additions are in `data/manual.json` (e.g. Gothic 1 Remake,
+tested by muxi) until the source lists them. Chinese notes without a translation in `data/translations_en.json`
+are omitted.
+
+Built with `python build.py` (requires `reportlab`).
+"""
+
+
+def write_readme(games, date):
+    c = counts(games)
+    rows = "\n".join(f"| {STATUS_DE[k]} | {c[k]} |" for k in STATUS_ORDER)
+    rows_en = "\n".join(f"| {STATUS_EN[k]} | {c[k]} |" for k in STATUS_ORDER)
+    (ROOT / "README.en.md").write_text(README_EN.format(pdf_en=PDF_NAME_EN, pdf_de=PDF_NAME, date=date,
+                                                       n=len(games), rows=rows_en), encoding="utf-8")
+    (ROOT / "README.md").write_text(README_DE.format(pdf_de=PDF_NAME, pdf_en=PDF_NAME_EN, date=date,
+                                                    n=len(games), rows=rows), encoding="utf-8")
 
 
 def main():
     date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     games = build_games()
+    games_en = build_games("en")
+    rows_en = {g["id"]: g for g in games_en}
     state_path = ROOT / "state.json"
     first = not state_path.exists()
     old = {} if first else {g["id"]: g for g in json.loads(state_path.read_text(encoding="utf-8"))["games"]}
@@ -293,26 +385,25 @@ def main():
         print(changelog_entry(date, added, changed, removed) if (added or changed or removed) else "keine Änderungen")
         return
     if not first and not (added or changed or removed):
-        # Keine Aenderung: nichts neu veroeffentlichen, PDF trotzdem (ohne Markierungen) lokal verfuegbar halten
+        # Keine Aenderung: nichts neu veroeffentlichen, fehlende Dateien aber nachbauen
         if not (ROOT / PDF_NAME).exists():
             write_pdf(games, {}, date, ROOT / PDF_NAME)
         if not (ROOT / PDF_NAME_EN).exists():
-            write_pdf(build_games("en"), {}, date, ROOT / PDF_NAME_EN, "en")
+            write_pdf(games_en, {}, date, ROOT / PDF_NAME_EN, "en")
         print("keine Änderungen")
         return
-    # PDF mit Markierungen der letzten Aenderung
     write_pdf(games, marks, date, ROOT / PDF_NAME)
-    write_pdf(build_games("en"), marks, date, ROOT / PDF_NAME_EN, "en")
-    cl = ROOT / "CHANGELOG.md"
-    header = "# Changelog\n\nNeue und geänderte Einträge pro Aktualisierung (neueste zuerst).\n\n"
-    body = cl.read_text(encoding="utf-8").split("\n\n", 2)[2] if cl.exists() else ""
-    if not first:
-        body = changelog_entry(date, added, changed, removed) + "\n" + body
-    cl.write_text(header + body, encoding="utf-8")
+    write_pdf(games_en, marks, date, ROOT / PDF_NAME_EN, "en")
+    for lang, name in (("de", "CHANGELOG.md"), ("en", "CHANGELOG.en.md")):
+        cl = ROOT / name
+        body = cl.read_text(encoding="utf-8").split("\n\n", 2)[2] if cl.exists() else ""
+        if not first:
+            body = changelog_entry(date, added, changed, removed, lang, rows_en if lang == "en" else None) + "\n" + body
+        cl.write_text(CL[lang]["head"] + body, encoding="utf-8")
     state_path.write_text(json.dumps({"date": date, "games": games}, ensure_ascii=False, indent=1), encoding="utf-8")
     write_readme(games, date)
     (ROOT / ".changed").write_text(date)
-    print("PDF, CHANGELOG, README, state.json geschrieben")
+    print("PDFs, CHANGELOGs, READMEs, state.json geschrieben")
 
 
 if __name__ == "__main__":

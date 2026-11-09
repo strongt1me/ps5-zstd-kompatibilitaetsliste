@@ -1,5 +1,7 @@
 # PS5 ZSTD & LZ4 Kompatibilitätsliste (Deutsch)
 
+**Deutsch** | [English](README.en.md)
+
 Deutsche Übersicht, welche PS5-Spiele als ZSTD- oder LZ4-komprimiertes Backup (z. B. `.ffpfsc`) laufen.
 Die Liste wird täglich automatisch aktualisiert.
 

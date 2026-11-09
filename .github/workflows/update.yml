@@ -33,7 +33,7 @@ jobs:
             git push
             TAG="v$DATE-$(date +%H%M)"
             # Release-Info = neuester CHANGELOG-Abschnitt (was neu ist)
-            awk '/^## /{n++} n==1' CHANGELOG.md > notes.md
+            { awk '/^## /{n++} n==1' CHANGELOG.md; echo; echo '---'; echo; awk '/^## /{n++} n==1' CHANGELOG.en.md; } > notes.md
             gh release create "$TAG" PS5-ZSTD-LZ4-Kompatibilitaetsliste.pdf PS5-ZSTD-LZ4-Compatibility-List.pdf               --title "Stand $DATE" --notes-file notes.md
           else
             echo "Keine Änderungen"
