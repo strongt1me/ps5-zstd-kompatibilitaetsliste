@@ -4,7 +4,7 @@
 
 [Deutsch](README.md) | **English**
 
-Overview of which PS5 games run as ZSTD- or LZ4-compressed backups (e.g. `.ffpfsc`).
+Overview of which PS5 games run as ZSTD- or LZ4-compressed backups (e.g. `.ffpfsc, .exFAT, .ffpkg`).
 The list is updated automatically every day.
 
 ## Download
