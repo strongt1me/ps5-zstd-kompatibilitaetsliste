@@ -111,6 +111,7 @@ def build_games(lang="de"):
                               ("testers", m["testers"]), ("notes", notes)):
                 r[key] += [v for v in vals if v not in r[key]]
             r["results"] += m["results"]
+            r["superseded"] = r.get("superseded") or m.get("supersedes", False)  # neuere Version behebt frueheren Fehler
             continue
         if m["match"].lower() in have:
             continue
@@ -121,6 +122,9 @@ def build_games(lang="de"):
     out = []
     for r in rows.values():
         res = set(r["results"])
+        if r.get("superseded"):
+            res.discard("fail")
+            res.discard("unknown")
         if "pass" in res and ("fail" in res):
             st = "mixed"
         elif "pass" in res and "unknown" not in res:

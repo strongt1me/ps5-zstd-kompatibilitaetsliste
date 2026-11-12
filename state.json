@@ -1,5 +1,5 @@
 {
- "date": "2026-11-09",
+ "date": "2026-11-12",
  "games": [
   {
    "id": "007-first-light",
@@ -94,11 +94,11 @@
    "title": "ASTRO BOT",
    "ppsa": "PPSA21567",
    "region": "–",
-   "status": "mixed",
-   "format": "LZ4",
-   "tester": "hmh715, nisec_eric",
-   "notes": "Auch in der Problemtabelle erfasst (hängt am Logo, widersprüchliche Ergebnisse); GitHub-Issue wird verfolgt; jemand konvertierte erfolgreich mit 0.5.2, aber mit über 40000 kleinen Dateien; widerspricht P-054 (hmh715: LZ4 läuft); Hängt am Logo",
-   "tests": 2
+   "status": "ok",
+   "format": "LZ4/ZSTD",
+   "tester": "hmh715, nisec_eric, jamesst20, Akaguiri",
+   "notes": "Auch in der Problemtabelle erfasst (hängt am Logo, widersprüchliche Ergebnisse); GitHub-Issue wird verfolgt; jemand konvertierte erfolgreich mit 0.5.2, aber mit über 40000 kleinen Dateien; widerspricht P-054 (hmh715: LZ4 läuft); Hängt am Logo; v01.019: läuft mit ampr-emu-ng v0.3.4 (Thread-Probleme behoben; Quelle: Issue #17, 11.11.2026)",
+   "tests": 3
   },
   {
    "id": "bionic-bay",
@@ -202,13 +202,13 @@
   {
    "id": "crimson-desert",
    "title": "Crimson Desert",
-   "ppsa": "–",
+   "ppsa": "PPSA25286",
    "region": "–",
-   "status": "fail",
-   "format": "–",
-   "tester": "nisec_eric",
-   "notes": "Schwarzbild",
-   "tests": 1
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "nisec_eric, lautaronf, RedCowboy85, marczito",
+   "notes": "Schwarzbild; v01.000.568: läuft mit ampr-emu-ng v0.3.5 (Start-Hänger mit v0.3.4, Speicherstände mit v0.3.5 behoben; Quelle: Issue #13, 11.11.2026)",
+   "tests": 2
   },
   {
    "id": "death-stranding-2",
@@ -356,13 +356,13 @@
   {
    "id": "god-of-war-ragnarok",
    "title": "God of War Ragnarök",
-   "ppsa": "–",
+   "ppsa": "PPSA08330",
    "region": "–",
-   "status": "fail",
-   "format": "–",
-   "tester": "nisec_eric",
-   "notes": "Schwarzbild",
-   "tests": 1
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "nisec_eric, jamesst20, Vov4k957",
+   "notes": "Schwarzbild; v06.006.000: läuft mit ampr-emu-ng v0.3.4; Absturz beim Start mit v0.3.3 behoben, Schwarzbild verursachte eine fehlende libScePlayGo.sprx in fakelib/ (Quelle: Issue #18, 11.11.2026)",
+   "tests": 2
   },
   {
    "id": "gothic-1-remake",
@@ -631,13 +631,13 @@
   {
    "id": "ratchet-and-clank-rift-apart",
    "title": "Ratchet & Clank: Rift Apart",
-   "ppsa": "–",
+   "ppsa": "PPSA01474",
    "region": "–",
-   "status": "fail",
-   "format": "–",
-   "tester": "nisec_eric",
-   "notes": "Schwarzbild",
-   "tests": 1
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "nisec_eric, RGdevz",
+   "notes": "Schwarzbild; v01.005.003: läuft mit ampr-emu-ng v0.3.3 (mit v0.3.2 Schwarzbild; Quelle: Issue #19, 08.11.2026)",
+   "tests": 2
   },
   {
    "id": "re4-remake-gold",
@@ -1141,11 +1141,11 @@
    "title": "ASTRO BOT",
    "ppsa": "PPSA21567",
    "region": "–",
-   "status": "mixed",
-   "format": "LZ4",
-   "tester": "hmh715, nisec_eric",
-   "notes": "Also listed in the problem table (hangs at logo, conflicting results); GitHub issue being tracked; someone converted successfully with 0.5.2 but with over 40000 small files; contradicts P-054 (hmh715: LZ4 works); Hangs at logo",
-   "tests": 2
+   "status": "ok",
+   "format": "LZ4/ZSTD",
+   "tester": "hmh715, nisec_eric, jamesst20, Akaguiri",
+   "notes": "Also listed in the problem table (hangs at logo, conflicting results); GitHub issue being tracked; someone converted successfully with 0.5.2 but with over 40000 small files; contradicts P-054 (hmh715: LZ4 works); Hangs at logo; v01.019: works with ampr-emu-ng v0.3.4 (thread problems fixed; source: issue #17, 2026-11-11)",
+   "tests": 3
   },
   {
    "id": "bionic-bay",
@@ -1249,13 +1249,13 @@
   {
    "id": "crimson-desert",
    "title": "Crimson Desert",
-   "ppsa": "–",
+   "ppsa": "PPSA25286",
    "region": "–",
-   "status": "fail",
-   "format": "–",
-   "tester": "nisec_eric",
-   "notes": "Black screen",
-   "tests": 1
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "nisec_eric, lautaronf, RedCowboy85, marczito",
+   "notes": "Black screen; v01.000.568: works with ampr-emu-ng v0.3.5 (launch hang fixed in v0.3.4, saves fixed in v0.3.5; source: issue #13, 2026-11-11)",
+   "tests": 2
   },
   {
    "id": "death-stranding-2",
@@ -1403,13 +1403,13 @@
   {
    "id": "god-of-war-ragnarok",
    "title": "God of War Ragnarök",
-   "ppsa": "–",
+   "ppsa": "PPSA08330",
    "region": "–",
-   "status": "fail",
-   "format": "–",
-   "tester": "nisec_eric",
-   "notes": "Black screen",
-   "tests": 1
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "nisec_eric, jamesst20, Vov4k957",
+   "notes": "Black screen; v06.006.000: works with ampr-emu-ng v0.3.4; launch crash fixed in v0.3.3, black screen was caused by a missing libScePlayGo.sprx in fakelib/ (source: issue #18, 2026-11-11)",
+   "tests": 2
   },
   {
    "id": "gothic-1-remake",
@@ -1678,13 +1678,13 @@
   {
    "id": "ratchet-and-clank-rift-apart",
    "title": "Ratchet & Clank: Rift Apart",
-   "ppsa": "–",
+   "ppsa": "PPSA01474",
    "region": "–",
-   "status": "fail",
-   "format": "–",
-   "tester": "nisec_eric",
-   "notes": "Black screen",
-   "tests": 1
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "nisec_eric, RGdevz",
+   "notes": "Black screen; v01.005.003: works with ampr-emu-ng v0.3.3 (black screen with v0.3.2; source: issue #19, 2026-11-08)",
+   "tests": 2
   },
   {
    "id": "re4-remake-gold",

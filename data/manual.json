@@ -100,6 +100,123 @@
           "exFAT image"
         ]
       }
+    },
+    {
+      "id": "astro-bot-issues",
+      "extra_for": "astro-bot",
+      "match": "",
+      "title": "",
+      "ppsa": [
+        "PPSA21567"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "jamesst20",
+        "Akaguiri",
+        "nisec_eric"
+      ],
+      "notes": {
+        "de": [
+          "v01.019: läuft mit ampr-emu-ng v0.3.4 (Thread-Probleme behoben; Quelle: Issue #17, 11.11.2026)"
+        ],
+        "en": [
+          "v01.019: works with ampr-emu-ng v0.3.4 (thread problems fixed; source: issue #17, 2026-11-11)"
+        ]
+      },
+      "supersedes": true
+    },
+    {
+      "id": "crimson-desert-issues",
+      "extra_for": "crimson-desert",
+      "match": "",
+      "title": "",
+      "ppsa": [
+        "PPSA25286"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "lautaronf",
+        "RedCowboy85",
+        "marczito"
+      ],
+      "notes": {
+        "de": [
+          "v01.000.568: läuft mit ampr-emu-ng v0.3.5 (Start-Hänger mit v0.3.4, Speicherstände mit v0.3.5 behoben; Quelle: Issue #13, 11.11.2026)"
+        ],
+        "en": [
+          "v01.000.568: works with ampr-emu-ng v0.3.5 (launch hang fixed in v0.3.4, saves fixed in v0.3.5; source: issue #13, 2026-11-11)"
+        ]
+      },
+      "supersedes": true
+    },
+    {
+      "id": "god-of-war-ragnarok-issues",
+      "extra_for": "god-of-war-ragnarok",
+      "match": "",
+      "title": "",
+      "ppsa": [
+        "PPSA08330"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "jamesst20",
+        "Vov4k957"
+      ],
+      "notes": {
+        "de": [
+          "v06.006.000: läuft mit ampr-emu-ng v0.3.4; Absturz beim Start mit v0.3.3 behoben, Schwarzbild verursachte eine fehlende libScePlayGo.sprx in fakelib/ (Quelle: Issue #18, 11.11.2026)"
+        ],
+        "en": [
+          "v06.006.000: works with ampr-emu-ng v0.3.4; launch crash fixed in v0.3.3, black screen was caused by a missing libScePlayGo.sprx in fakelib/ (source: issue #18, 2026-11-11)"
+        ]
+      },
+      "supersedes": true
+    },
+    {
+      "id": "ratchet-and-clank-rift-apart-issues",
+      "extra_for": "ratchet-and-clank-rift-apart",
+      "match": "",
+      "title": "",
+      "ppsa": [
+        "PPSA01474"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "RGdevz"
+      ],
+      "notes": {
+        "de": [
+          "v01.005.003: läuft mit ampr-emu-ng v0.3.3 (mit v0.3.2 Schwarzbild; Quelle: Issue #19, 08.11.2026)"
+        ],
+        "en": [
+          "v01.005.003: works with ampr-emu-ng v0.3.3 (black screen with v0.3.2; source: issue #19, 2026-11-08)"
+        ]
+      },
+      "supersedes": true
     }
   ]
 }

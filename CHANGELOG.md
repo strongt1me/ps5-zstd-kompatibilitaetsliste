@@ -2,6 +2,17 @@
 
 Neue und geänderte Einträge pro Aktualisierung (neueste zuerst).
 
+## 2026-11-12
+
+**Geändert**
+
+| Spiel | Änderung |
+|---|---|
+| ASTRO BOT | Status: Widersprüchlich → Läuft; Format: LZ4 → LZ4/ZSTD; Testberichte: 2 → 3 (neu von jamesst20, Akaguiri): v01.019: läuft mit ampr-emu-ng v0.3.4 (Thread-Probleme behoben; Quelle: Issue #17, 11.11.2026) |
+| Crimson Desert | Status: Läuft nicht → Läuft; Format: – → ZSTD; Testberichte: 1 → 2 (neu von lautaronf, RedCowboy85, marczito): v01.000.568: läuft mit ampr-emu-ng v0.3.5 (Start-Hänger mit v0.3.4, Speicherstände mit v0.3.5 behoben; Quelle: Issue #13, 11.11.2026) |
+| God of War Ragnarök | Status: Läuft nicht → Läuft; Format: – → ZSTD; Testberichte: 1 → 2 (neu von jamesst20, Vov4k957): v06.006.000: läuft mit ampr-emu-ng v0.3.4; Absturz beim Start mit v0.3.3 behoben, Schwarzbild verursachte eine fehlende libScePlayGo.sprx in fakelib/ (Quelle: Issue #18, 11.11.2026) |
+| Ratchet & Clank: Rift Apart | Status: Läuft nicht → Läuft; Format: – → ZSTD; Testberichte: 1 → 2 (neu von RGdevz): v01.005.003: läuft mit ampr-emu-ng v0.3.3 (mit v0.3.2 Schwarzbild; Quelle: Issue #19, 08.11.2026) |
+
 ## 2026-11-09
 
 **Neu**
