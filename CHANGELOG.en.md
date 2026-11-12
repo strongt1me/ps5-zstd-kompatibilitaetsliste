@@ -4,6 +4,21 @@ New and changed entries per update (newest first).
 
 ## 2026-11-12
 
+**New**
+
+| Game | PPSA | Region | Status | Format | Tester | Note |
+|---|---|---|---|---|---|---|
+| AI LIMIT | PPSA27366 | – | Works | ZSTD | Mrfireos | Version 01.000.025; works with ampr-emu-ng v0.3.3 (source: issue #41, 2026-11-09) |
+| Days Gone Remastered | PPSA28180 | – | Works | ZSTD | axotk1k1 | Version v1.036.178; works with the fix from ampr-emu-ng v0.3.1 (loading screen hang fixed; source: issue #9, 2026-11-05) |
+| Forza Horizon 5 | PPSA22327 | – | Works | ZSTD | dlangamer, jamesst20 | Version 01.685.672; works with ampr-emu-ng v0.3.4 (intro video freeze fixed; source: issue #38, 2026-11-11) |
+| GRID Legends | PPSA03864 | – | Works | ZSTD | betelopson | Version 06.001.000; works with ampr-emu-ng v0.2 (source: issue #27, 2026-11-08) |
+| Koumajou Remilia Scarlet Symphony | PPSA17203 | – | Works | ZSTD | betelopson | Version v1.000.002; works with ampr-emu-ng v0.3.4 (source: issue #42, 2026-11-11) |
+| Mafia: The Old Country | PPSA14299 | – | Works | ZSTD | tnnuy23-dot | Works with ampr-emu-ng v0.3.3 (source: issue #34, 2026-11-08) |
+| Marvel's Spider-Man 2 | PPSA08338 | – | Works | ZSTD | tnnuy23-dot | Version 01.005.001; works with ampr-emu-ng v0.3.3 (black screen with v0.3.2; source: issues #31, #34, 2026-11-08) |
+| WWE 2K26 | PPSA34299 | US | Works | ZSTD | tnnuy23-dot | Version v01.018; Backport 4.xx+; works with ampr-emu-ng v0.3.3 (source: issue #34, 2026-11-08) |
+
+## 2026-11-12
+
 **Changed**
 
 | Game | Change |

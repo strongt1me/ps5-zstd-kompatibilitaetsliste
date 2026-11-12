@@ -57,6 +57,17 @@
    "tests": 1
   },
   {
+   "id": "ai-limit",
+   "title": "AI LIMIT",
+   "ppsa": "PPSA27366",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "Mrfireos",
+   "notes": "Version 01.000.025; läuft mit ampr-emu-ng v0.3.3 (Quelle: Issue #41, 09.11.2026)",
+   "tests": 1
+  },
+  {
    "id": "animal-well",
    "title": "Animal Well",
    "ppsa": "PPSA22520",
@@ -211,6 +222,17 @@
    "tests": 2
   },
   {
+   "id": "days-gone-remastered",
+   "title": "Days Gone Remastered",
+   "ppsa": "PPSA28180",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "axotk1k1",
+   "notes": "Version v1.036.178; läuft mit dem Fix aus ampr-emu-ng v0.3.1 (Hänger am Ladebildschirm behoben; Quelle: Issue #9, 05.11.2026)",
+   "tests": 1
+  },
+  {
    "id": "death-stranding-2",
    "title": "Death Stranding 2",
    "ppsa": "PPSA02015",
@@ -332,6 +354,17 @@
    "tests": 1
   },
   {
+   "id": "forza-horizon-5",
+   "title": "Forza Horizon 5",
+   "ppsa": "PPSA22327",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "dlangamer, jamesst20",
+   "notes": "Version 01.685.672; läuft mit ampr-emu-ng v0.3.4 (Intro-Video-Hänger behoben; Quelle: Issue #38, 11.11.2026)",
+   "tests": 1
+  },
+  {
    "id": "ghost-of-tsushima-directors-cut",
    "title": "Ghost of Tsushima DC",
    "ppsa": "PPSA02225, PPSA03210",
@@ -387,6 +420,17 @@
    "tests": 1
   },
   {
+   "id": "grid-legends",
+   "title": "GRID Legends",
+   "ppsa": "PPSA03864",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "betelopson",
+   "notes": "Version 06.001.000; läuft mit ampr-emu-ng v0.2 (Quelle: Issue #27, 08.11.2026)",
+   "tests": 1
+  },
+  {
    "id": "gundam-breaker-4",
    "title": "Gundam Breaker 4",
    "ppsa": "PPSA08065",
@@ -439,6 +483,17 @@
    "format": "ZSTD",
    "tester": "chenlidong",
    "notes": "Kingdom Hearts III hat keine eigene PS5-Version (PS4 = CUSA15072); getestet wurde vermutlich diese Sammlung",
+   "tests": 1
+  },
+  {
+   "id": "koumajou-remilia-scarlet-symphony",
+   "title": "Koumajou Remilia Scarlet Symphony",
+   "ppsa": "PPSA17203",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "betelopson",
+   "notes": "Version v1.000.002; läuft mit ampr-emu-ng v0.3.4 (Quelle: Issue #42, 11.11.2026)",
    "tests": 1
   },
   {
@@ -516,6 +571,28 @@
    "format": "ZSTD",
    "tester": "nisec_eric",
    "notes": "",
+   "tests": 1
+  },
+  {
+   "id": "mafia-the-old-country",
+   "title": "Mafia: The Old Country",
+   "ppsa": "PPSA14299",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "tnnuy23-dot",
+   "notes": "Läuft mit ampr-emu-ng v0.3.3 (Quelle: Issue #34, 08.11.2026)",
+   "tests": 1
+  },
+  {
+   "id": "marvels-spider-man-2",
+   "title": "Marvel's Spider-Man 2",
+   "ppsa": "PPSA08338",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "tnnuy23-dot",
+   "notes": "Version 01.005.001; läuft mit ampr-emu-ng v0.3.3 (Schwarzbild mit v0.3.2; Quelle: Issues #31, #34, 08.11.2026)",
    "tests": 1
   },
   {
@@ -1025,6 +1102,17 @@
    "tests": 1
   },
   {
+   "id": "wwe-2k26",
+   "title": "WWE 2K26",
+   "ppsa": "PPSA34299",
+   "region": "US",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "tnnuy23-dot",
+   "notes": "Version v01.018; Backport 4.xx+; läuft mit ampr-emu-ng v0.3.3 (Quelle: Issue #34, 08.11.2026)",
+   "tests": 1
+  },
+  {
    "id": "yakuza-kiwami-3-dark-ties",
    "title": "Yakuza Kiwami 3 & Dark Ties",
    "ppsa": "PPSA30223",
@@ -1101,6 +1189,17 @@
    "format": "ZSTD",
    "tester": "aiwo1986",
    "notes": "",
+   "tests": 1
+  },
+  {
+   "id": "ai-limit",
+   "title": "AI LIMIT",
+   "ppsa": "PPSA27366",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "Mrfireos",
+   "notes": "Version 01.000.025; works with ampr-emu-ng v0.3.3 (source: issue #41, 2026-11-09)",
    "tests": 1
   },
   {
@@ -1258,6 +1357,17 @@
    "tests": 2
   },
   {
+   "id": "days-gone-remastered",
+   "title": "Days Gone Remastered",
+   "ppsa": "PPSA28180",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "axotk1k1",
+   "notes": "Version v1.036.178; works with the fix from ampr-emu-ng v0.3.1 (loading screen hang fixed; source: issue #9, 2026-11-05)",
+   "tests": 1
+  },
+  {
    "id": "death-stranding-2",
    "title": "Death Stranding 2",
    "ppsa": "PPSA02015",
@@ -1379,6 +1489,17 @@
    "tests": 1
   },
   {
+   "id": "forza-horizon-5",
+   "title": "Forza Horizon 5",
+   "ppsa": "PPSA22327",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "dlangamer, jamesst20",
+   "notes": "Version 01.685.672; works with ampr-emu-ng v0.3.4 (intro video freeze fixed; source: issue #38, 2026-11-11)",
+   "tests": 1
+  },
+  {
    "id": "ghost-of-tsushima-directors-cut",
    "title": "Ghost of Tsushima DC",
    "ppsa": "PPSA02225, PPSA03210",
@@ -1434,6 +1555,17 @@
    "tests": 1
   },
   {
+   "id": "grid-legends",
+   "title": "GRID Legends",
+   "ppsa": "PPSA03864",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "betelopson",
+   "notes": "Version 06.001.000; works with ampr-emu-ng v0.2 (source: issue #27, 2026-11-08)",
+   "tests": 1
+  },
+  {
    "id": "gundam-breaker-4",
    "title": "Gundam Breaker 4",
    "ppsa": "PPSA08065",
@@ -1486,6 +1618,17 @@
    "format": "ZSTD",
    "tester": "chenlidong",
    "notes": "Kingdom Hearts III has no standalone PS5 version (PS4 = CUSA15072); the tested title is probably this collection",
+   "tests": 1
+  },
+  {
+   "id": "koumajou-remilia-scarlet-symphony",
+   "title": "Koumajou Remilia Scarlet Symphony",
+   "ppsa": "PPSA17203",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "betelopson",
+   "notes": "Version v1.000.002; works with ampr-emu-ng v0.3.4 (source: issue #42, 2026-11-11)",
    "tests": 1
   },
   {
@@ -1563,6 +1706,28 @@
    "format": "ZSTD",
    "tester": "nisec_eric",
    "notes": "",
+   "tests": 1
+  },
+  {
+   "id": "mafia-the-old-country",
+   "title": "Mafia: The Old Country",
+   "ppsa": "PPSA14299",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "tnnuy23-dot",
+   "notes": "Works with ampr-emu-ng v0.3.3 (source: issue #34, 2026-11-08)",
+   "tests": 1
+  },
+  {
+   "id": "marvels-spider-man-2",
+   "title": "Marvel's Spider-Man 2",
+   "ppsa": "PPSA08338",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "tnnuy23-dot",
+   "notes": "Version 01.005.001; works with ampr-emu-ng v0.3.3 (black screen with v0.3.2; source: issues #31, #34, 2026-11-08)",
    "tests": 1
   },
   {
@@ -2069,6 +2234,17 @@
    "format": "ZSTD",
    "tester": "wupeng2",
    "notes": "SKU UP4040-PPSA09518 (Deluxe Edition has the same ID)",
+   "tests": 1
+  },
+  {
+   "id": "wwe-2k26",
+   "title": "WWE 2K26",
+   "ppsa": "PPSA34299",
+   "region": "US",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "tnnuy23-dot",
+   "notes": "Version v01.018; Backport 4.xx+; works with ampr-emu-ng v0.3.3 (source: issue #34, 2026-11-08)",
    "tests": 1
   },
   {

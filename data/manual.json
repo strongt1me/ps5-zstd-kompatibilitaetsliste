@@ -217,6 +217,217 @@
         ]
       },
       "supersedes": true
+    },
+    {
+      "id": "forza-horizon-5",
+      "match": "forza horizon 5",
+      "title": "Forza Horizon 5",
+      "ppsa": [
+        "PPSA22327"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "dlangamer",
+        "jamesst20"
+      ],
+      "notes": {
+        "de": [
+          "Version 01.685.672; läuft mit ampr-emu-ng v0.3.4 (Intro-Video-Hänger behoben; Quelle: Issue #38, 11.11.2026)"
+        ],
+        "en": [
+          "Version 01.685.672; works with ampr-emu-ng v0.3.4 (intro video freeze fixed; source: issue #38, 2026-11-11)"
+        ]
+      }
+    },
+    {
+      "id": "koumajou-remilia-scarlet-symphony",
+      "match": "koumajou",
+      "title": "Koumajou Remilia Scarlet Symphony",
+      "ppsa": [
+        "PPSA17203"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "betelopson"
+      ],
+      "notes": {
+        "de": [
+          "Version v1.000.002; läuft mit ampr-emu-ng v0.3.4 (Quelle: Issue #42, 11.11.2026)"
+        ],
+        "en": [
+          "Version v1.000.002; works with ampr-emu-ng v0.3.4 (source: issue #42, 2026-11-11)"
+        ]
+      }
+    },
+    {
+      "id": "ai-limit",
+      "match": "ai limit",
+      "title": "AI LIMIT",
+      "ppsa": [
+        "PPSA27366"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "Mrfireos"
+      ],
+      "notes": {
+        "de": [
+          "Version 01.000.025; läuft mit ampr-emu-ng v0.3.3 (Quelle: Issue #41, 09.11.2026)"
+        ],
+        "en": [
+          "Version 01.000.025; works with ampr-emu-ng v0.3.3 (source: issue #41, 2026-11-09)"
+        ]
+      }
+    },
+    {
+      "id": "marvels-spider-man-2",
+      "match": "spider-man 2",
+      "title": "Marvel's Spider-Man 2",
+      "ppsa": [
+        "PPSA08338"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "tnnuy23-dot"
+      ],
+      "notes": {
+        "de": [
+          "Version 01.005.001; läuft mit ampr-emu-ng v0.3.3 (Schwarzbild mit v0.3.2; Quelle: Issues #31, #34, 08.11.2026)"
+        ],
+        "en": [
+          "Version 01.005.001; works with ampr-emu-ng v0.3.3 (black screen with v0.3.2; source: issues #31, #34, 2026-11-08)"
+        ]
+      }
+    },
+    {
+      "id": "wwe-2k26",
+      "match": "wwe 2k26",
+      "title": "WWE 2K26",
+      "ppsa": [
+        "PPSA34299"
+      ],
+      "regions": [
+        "US"
+      ],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "tnnuy23-dot"
+      ],
+      "notes": {
+        "de": [
+          "Version v01.018; Backport 4.xx+; läuft mit ampr-emu-ng v0.3.3 (Quelle: Issue #34, 08.11.2026)"
+        ],
+        "en": [
+          "Version v01.018; Backport 4.xx+; works with ampr-emu-ng v0.3.3 (source: issue #34, 2026-11-08)"
+        ]
+      }
+    },
+    {
+      "id": "grid-legends",
+      "match": "grid legends",
+      "title": "GRID Legends",
+      "ppsa": [
+        "PPSA03864"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "betelopson"
+      ],
+      "notes": {
+        "de": [
+          "Version 06.001.000; läuft mit ampr-emu-ng v0.2 (Quelle: Issue #27, 08.11.2026)"
+        ],
+        "en": [
+          "Version 06.001.000; works with ampr-emu-ng v0.2 (source: issue #27, 2026-11-08)"
+        ]
+      }
+    },
+    {
+      "id": "days-gone-remastered",
+      "match": "days gone",
+      "title": "Days Gone Remastered",
+      "ppsa": [
+        "PPSA28180"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "axotk1k1"
+      ],
+      "notes": {
+        "de": [
+          "Version v1.036.178; läuft mit dem Fix aus ampr-emu-ng v0.3.1 (Hänger am Ladebildschirm behoben; Quelle: Issue #9, 05.11.2026)"
+        ],
+        "en": [
+          "Version v1.036.178; works with the fix from ampr-emu-ng v0.3.1 (loading screen hang fixed; source: issue #9, 2026-11-05)"
+        ]
+      }
+    },
+    {
+      "id": "mafia-the-old-country",
+      "match": "mafia",
+      "title": "Mafia: The Old Country",
+      "ppsa": [
+        "PPSA14299"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "tnnuy23-dot"
+      ],
+      "notes": {
+        "de": [
+          "Läuft mit ampr-emu-ng v0.3.3 (Quelle: Issue #34, 08.11.2026)"
+        ],
+        "en": [
+          "Works with ampr-emu-ng v0.3.3 (source: issue #34, 2026-11-08)"
+        ]
+      }
     }
   ]
 }
