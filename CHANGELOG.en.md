@@ -2,6 +2,15 @@
 
 New and changed entries per update (newest first).
 
+## 2026-11-13
+
+**New**
+
+| Game | PPSA | Region | Status | Format | Tester | Note |
+|---|---|---|---|---|---|---|
+| Avowed | PPSA26136 | US | Works | ZSTD | muxi | Version v01.000.000; Backport 4.xx; packed with ampr-emu-ng 0.3.4; exFAT image |
+| Indiana Jones and the Great Circle | PPSA26786 | US | Works | ZSTD | muxi | Version v01.015.000; Backport 4.xx; packed with ampr-emu-ng 0.3.4; exFAT image |
+
 ## 2026-11-12
 
 **New**

@@ -1,5 +1,5 @@
 {
- "date": "2026-11-12",
+ "date": "2026-11-13",
  "games": [
   {
    "id": "007-first-light",
@@ -110,6 +110,17 @@
    "tester": "hmh715, nisec_eric, jamesst20, Akaguiri",
    "notes": "Auch in der Problemtabelle erfasst (hängt am Logo, widersprüchliche Ergebnisse); GitHub-Issue wird verfolgt; jemand konvertierte erfolgreich mit 0.5.2, aber mit über 40000 kleinen Dateien; widerspricht P-054 (hmh715: LZ4 läuft); Hängt am Logo; v01.019: läuft mit ampr-emu-ng v0.3.4 (Thread-Probleme behoben; Quelle: Issue #17, 11.11.2026)",
    "tests": 3
+  },
+  {
+   "id": "avowed",
+   "title": "Avowed",
+   "ppsa": "PPSA26136",
+   "region": "US",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "muxi",
+   "notes": "Version v01.000.000; Backport 4.xx; gepackt mit ampr-emu-ng 0.3.4; exFAT-Image",
+   "tests": 1
   },
   {
    "id": "bionic-bay",
@@ -461,6 +472,17 @@
    "format": "ZSTD",
    "tester": "zylcw1122, hmh715",
    "notes": "",
+   "tests": 1
+  },
+  {
+   "id": "indiana-jones-and-the-great-circle",
+   "title": "Indiana Jones and the Great Circle",
+   "ppsa": "PPSA26786",
+   "region": "US",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "muxi",
+   "notes": "Version v01.015.000; Backport 4.xx; gepackt mit ampr-emu-ng 0.3.4; exFAT-Image",
    "tests": 1
   },
   {
@@ -1247,6 +1269,17 @@
    "tests": 3
   },
   {
+   "id": "avowed",
+   "title": "Avowed",
+   "ppsa": "PPSA26136",
+   "region": "US",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "muxi",
+   "notes": "Version v01.000.000; Backport 4.xx; packed with ampr-emu-ng 0.3.4; exFAT image",
+   "tests": 1
+  },
+  {
    "id": "bionic-bay",
    "title": "Bionic Bay",
    "ppsa": "PPSA23767",
@@ -1596,6 +1629,17 @@
    "format": "ZSTD",
    "tester": "zylcw1122, hmh715",
    "notes": "",
+   "tests": 1
+  },
+  {
+   "id": "indiana-jones-and-the-great-circle",
+   "title": "Indiana Jones and the Great Circle",
+   "ppsa": "PPSA26786",
+   "region": "US",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "muxi",
+   "notes": "Version v01.015.000; Backport 4.xx; packed with ampr-emu-ng 0.3.4; exFAT image",
    "tests": 1
   },
   {

@@ -428,6 +428,74 @@
           "Works with ampr-emu-ng v0.3.3 (source: issue #34, 2026-11-08)"
         ]
       }
+    },
+    {
+      "id": "avowed",
+      "match": "avowed",
+      "title": "Avowed",
+      "ppsa": [
+        "PPSA26136"
+      ],
+      "regions": [
+        "US"
+      ],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "muxi"
+      ],
+      "notes": {
+        "de": [
+          "Version v01.000.000",
+          "Backport 4.xx",
+          "gepackt mit ampr-emu-ng 0.3.4",
+          "exFAT-Image"
+        ],
+        "en": [
+          "Version v01.000.000",
+          "Backport 4.xx",
+          "packed with ampr-emu-ng 0.3.4",
+          "exFAT image"
+        ]
+      }
+    },
+    {
+      "id": "indiana-jones-and-the-great-circle",
+      "match": "indiana jones",
+      "title": "Indiana Jones and the Great Circle",
+      "ppsa": [
+        "PPSA26786"
+      ],
+      "regions": [
+        "US"
+      ],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "muxi"
+      ],
+      "notes": {
+        "de": [
+          "Version v01.015.000",
+          "Backport 4.xx",
+          "gepackt mit ampr-emu-ng 0.3.4",
+          "exFAT-Image"
+        ],
+        "en": [
+          "Version v01.015.000",
+          "Backport 4.xx",
+          "packed with ampr-emu-ng 0.3.4",
+          "exFAT image"
+        ]
+      }
     }
   ]
 }
