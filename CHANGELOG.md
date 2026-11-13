@@ -8,7 +8,7 @@ Neue und geänderte Einträge pro Aktualisierung (neueste zuerst).
 
 | Spiel | PPSA | Region | Status | Format | Tester | Hinweis |
 |---|---|---|---|---|---|---|
-| Avowed | PPSA26136 | US | Läuft | ZSTD | muxi | Version v01.000.000; Backport 4.xx; gepackt mit ampr-emu-ng 0.3.4; exFAT-Image |
+| Avowed | PPSA26136 | US | Läuft | ZSTD | muxi | Version v02.001.000; Backport 4.xx; gepackt mit ampr-emu-ng 0.3.4; exFAT-Image |
 | Indiana Jones and the Great Circle | PPSA26786 | US | Läuft | ZSTD | muxi | Version v01.015.000; Backport 4.xx; gepackt mit ampr-emu-ng 0.3.4; exFAT-Image |
 
 ## 2026-11-12

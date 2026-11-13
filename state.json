@@ -119,7 +119,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "muxi",
-   "notes": "Version v01.000.000; Backport 4.xx; gepackt mit ampr-emu-ng 0.3.4; exFAT-Image",
+   "notes": "Version v02.001.000; Backport 4.xx; gepackt mit ampr-emu-ng 0.3.4; exFAT-Image",
    "tests": 1
   },
   {
@@ -1276,7 +1276,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "muxi",
-   "notes": "Version v01.000.000; Backport 4.xx; packed with ampr-emu-ng 0.3.4; exFAT image",
+   "notes": "Version v02.001.000; Backport 4.xx; packed with ampr-emu-ng 0.3.4; exFAT image",
    "tests": 1
   },
   {

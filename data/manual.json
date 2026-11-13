@@ -450,13 +450,13 @@
       ],
       "notes": {
         "de": [
-          "Version v01.000.000",
+          "Version v02.001.000",
           "Backport 4.xx",
           "gepackt mit ampr-emu-ng 0.3.4",
           "exFAT-Image"
         ],
         "en": [
-          "Version v01.000.000",
+          "Version v02.001.000",
           "Backport 4.xx",
           "packed with ampr-emu-ng 0.3.4",
           "exFAT image"

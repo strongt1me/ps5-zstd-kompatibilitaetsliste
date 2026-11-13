@@ -15,6 +15,7 @@ BASE = "https://theweil.github.io/PS5-ZSTD-Compatibility"
 PDF_NAME = "PS5-ZSTD-LZ4-Kompatibilitaetsliste.pdf"
 PDF_NAME_EN = "PS5-ZSTD-LZ4-Compatibility-List.pdf"
 DRY = "--dry-run" in sys.argv
+FORCE = "--force" in sys.argv  # PDFs/State neu schreiben, z. B. nach Korrektur nur eines Hinweistexts
 
 STATUS_DE = {"ok": "Läuft", "fail": "Läuft nicht", "mixed": "Widersprüchlich", "unknown": "Unbestätigt"}
 STATUS_EN = {"ok": "Works", "fail": "Does not run", "mixed": "Conflicting", "unknown": "Unconfirmed"}
@@ -470,7 +471,7 @@ def main():
     if DRY:
         print(changelog_entry(date, added, changed, removed) if (added or changed or removed) else "keine Änderungen")
         return
-    if not first and not (added or changed or removed):
+    if not first and not FORCE and not (added or changed or removed):
         # Keine Aenderung: nichts neu veroeffentlichen, fehlende Dateien aber nachbauen
         if not (ROOT / PDF_NAME).exists():
             write_pdf(games, {}, date, ROOT / PDF_NAME)
@@ -486,7 +487,7 @@ def main():
     for lang, name in (("de", "CHANGELOG.md"), ("en", "CHANGELOG.en.md")):
         cl = ROOT / name
         body = cl.read_text(encoding="utf-8").split("\n\n", 2)[2] if cl.exists() else ""
-        if not first:
+        if not first and (added or changed or removed):
             body = changelog_entry(date, added, changed_en if lang == "en" else changed, removed, lang, rows_en if lang == "en" else None) + "\n" + body
         cl.write_text(CL[lang]["head"] + body, encoding="utf-8")
     state_path.write_text(json.dumps({"date": date, "games": games, "games_en": games_en}, ensure_ascii=False, indent=1), encoding="utf-8")
