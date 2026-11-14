@@ -4,6 +4,43 @@ New and changed entries per update (newest first).
 
 ## 2026-11-14
 
+**New**
+
+| Game | PPSA | Region | Status | Format | Tester | Note |
+|---|---|---|---|---|---|---|
+| Achilles: Legends Untold | – | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.3 |
+| Asterix & Obelix XXL 2 | – | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
+| Asterix & Obelix XXL 3: The Crystal Menhir | – | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
+| Asterix & Obelix XXL: Romastered | – | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
+| Asterix & Obelix XXXL: The Ram From Hibernia | – | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
+| Asterix & Obelix: Babylon Mission | – | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
+| Asterix & Obelix: Heroes | – | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
+| Asterix & Obelix: Slap Them All! | – | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
+| Asterix & Obelix: Slap Them All! 2 | – | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
+| BloodRayne 2: ReVamped | – | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.3 |
+| Crash Bandicoot 4: It's About Time | – | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
+| Dragon Ball: FighterZ | – | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.3 |
+| Dragon Ball: Xenoverse 2 | – | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.3 |
+| KAIJU: Ancient Seal | – | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.3 |
+| The Blood of Dawnwalker | – | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.3 |
+| The Last of Us Part II Remastered | – | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.3 |
+
+**Changed**
+
+| Game | Change |
+|---|---|
+| ACE COMBAT 8: Wings of Theve | Test reports: 1 → 2 (new from carljhonsen317): carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image) |
+| Achilles: Survivor | Test reports: 1 → 2 (new from carljhonsen317): carljhonsen317: works (folder format, ampr-emu-ng 0.3.5) |
+| ASTRO BOT | Test reports: 3 → 4 (new from carljhonsen317): carljhonsen317: works, played about 10 minutes (ampr-emu-ng 0.3.3, exFAT image) |
+| LEGO Batman: Legacy of the Dark Knight | Test reports: 1 → 2 (new from carljhonsen317): carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image) |
+| Marvel's Spider-Man 2 | Test reports: 1 → 2 (new from carljhonsen317): carljhonsen317: works (version 01.005.001, ampr-emu-ng 0.3.3, exFAT image) |
+| Resonance: A Plague Tale Legacy | Test reports: 1 → 2 (new from carljhonsen317): carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image); title identified |
+| Rise of the Ronin | Test reports: 1 → 2 (new from carljhonsen317): carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image) |
+| Star Wars: Galactic Racer | Test reports: 1 → 2 (new from carljhonsen317): carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image) |
+| The Last of Us Part I | Status: Unconfirmed → Works; Test reports: 2 → 3 (new from carljhonsen317): carljhonsen317: works (version 02.002.000, ampr-emu-ng 0.3.3, exFAT image) |
+
+## 2026-11-14
+
 **Changed**
 
 | Game | Change |

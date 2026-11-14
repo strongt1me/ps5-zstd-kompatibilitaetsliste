@@ -636,6 +636,650 @@
           "exFAT image"
         ]
       }
+    },
+    {
+      "id": "asterix-obelix-babylon-mission",
+      "match": "asterix and obelix babylon",
+      "title": "Asterix & Obelix: Babylon Mission",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "Ordnerformat",
+          "gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3)"
+        ],
+        "en": [
+          "folder format",
+          "packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3)"
+        ]
+      }
+    },
+    {
+      "id": "asterix-obelix-heroes",
+      "match": "asterix and obelix heroes",
+      "title": "Asterix & Obelix: Heroes",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "Ordnerformat",
+          "gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3)"
+        ],
+        "en": [
+          "folder format",
+          "packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3)"
+        ]
+      }
+    },
+    {
+      "id": "asterix-obelix-slap-them-all",
+      "match": "asterix and obelix slap them all",
+      "title": "Asterix & Obelix: Slap Them All!",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "Ordnerformat",
+          "gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3)"
+        ],
+        "en": [
+          "folder format",
+          "packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3)"
+        ]
+      }
+    },
+    {
+      "id": "asterix-obelix-slap-them-all-2",
+      "match": "asterix and obelix slap them all 2",
+      "title": "Asterix & Obelix: Slap Them All! 2",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "Ordnerformat",
+          "gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3)"
+        ],
+        "en": [
+          "folder format",
+          "packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3)"
+        ]
+      }
+    },
+    {
+      "id": "asterix-obelix-xxl-2",
+      "match": "asterix and obelix xxl 2",
+      "title": "Asterix & Obelix XXL 2",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "Ordnerformat",
+          "gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3)"
+        ],
+        "en": [
+          "folder format",
+          "packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3)"
+        ]
+      }
+    },
+    {
+      "id": "asterix-obelix-xxl-3-the-crystal-menhir",
+      "match": "asterix and obelix xxl 3",
+      "title": "Asterix & Obelix XXL 3: The Crystal Menhir",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "Ordnerformat",
+          "gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3)"
+        ],
+        "en": [
+          "folder format",
+          "packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3)"
+        ]
+      }
+    },
+    {
+      "id": "asterix-obelix-xxl-romastered",
+      "match": "asterix and obelix xxl romastered",
+      "title": "Asterix & Obelix XXL: Romastered",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "Ordnerformat",
+          "gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3)"
+        ],
+        "en": [
+          "folder format",
+          "packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3)"
+        ]
+      }
+    },
+    {
+      "id": "asterix-obelix-xxxl-the-ram-from-hibernia",
+      "match": "asterix and obelix xxxl",
+      "title": "Asterix & Obelix XXXL: The Ram From Hibernia",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "Ordnerformat",
+          "gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3)"
+        ],
+        "en": [
+          "folder format",
+          "packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3)"
+        ]
+      }
+    },
+    {
+      "id": "crash-bandicoot-4-it-s-about-time",
+      "match": "crash bandicoot 4",
+      "title": "Crash Bandicoot 4: It's About Time",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "Ordnerformat",
+          "gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3)"
+        ],
+        "en": [
+          "folder format",
+          "packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3)"
+        ]
+      }
+    },
+    {
+      "id": "bloodrayne-2-revamped",
+      "match": "bloodrayne",
+      "title": "BloodRayne 2: ReVamped",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.3"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.3"
+        ]
+      }
+    },
+    {
+      "id": "dragon-ball-xenoverse-2",
+      "match": "xenoverse",
+      "title": "Dragon Ball: Xenoverse 2",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.3"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.3"
+        ]
+      }
+    },
+    {
+      "id": "dragon-ball-fighterz",
+      "match": "fighterz",
+      "title": "Dragon Ball: FighterZ",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.3"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.3"
+        ]
+      }
+    },
+    {
+      "id": "the-last-of-us-part-ii-remastered",
+      "match": "last of us part ii",
+      "title": "The Last of Us Part II Remastered",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.3"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.3"
+        ]
+      }
+    },
+    {
+      "id": "achilles-legends-untold",
+      "match": "legends untold",
+      "title": "Achilles: Legends Untold",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.3"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.3"
+        ]
+      }
+    },
+    {
+      "id": "the-blood-of-dawnwalker",
+      "match": "dawnwalker",
+      "title": "The Blood of Dawnwalker",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.3"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.3"
+        ]
+      }
+    },
+    {
+      "id": "kaiju-ancient-seal",
+      "match": "ancient seal",
+      "title": "KAIJU: Ancient Seal",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.3"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.3"
+        ]
+      }
+    },
+    {
+      "id": "achilles-survivor-carljhonsen317",
+      "extra_for": "achilles-survivor",
+      "match": "",
+      "title": "",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "carljhonsen317: läuft (Ordnerformat, ampr-emu-ng 0.3.5)"
+        ],
+        "en": [
+          "carljhonsen317: works (folder format, ampr-emu-ng 0.3.5)"
+        ]
+      }
+    },
+    {
+      "id": "rise-of-the-ronin-carljhonsen317",
+      "extra_for": "rise-of-the-ronin",
+      "match": "",
+      "title": "",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image)"
+        ],
+        "en": [
+          "carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image)"
+        ]
+      }
+    },
+    {
+      "id": "ace-combat-8-wings-of-theve-carljhonsen317",
+      "extra_for": "ace-combat-8-wings-of-theve",
+      "match": "",
+      "title": "",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image)"
+        ],
+        "en": [
+          "carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image)"
+        ]
+      }
+    },
+    {
+      "id": "the-last-of-us-part-i-carljhonsen317",
+      "extra_for": "the-last-of-us-part-i",
+      "match": "",
+      "title": "",
+      "ppsa": [
+        "PPSA07642"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "carljhonsen317: läuft (Version 02.002.000, ampr-emu-ng 0.3.3, exFAT-Image)"
+        ],
+        "en": [
+          "carljhonsen317: works (version 02.002.000, ampr-emu-ng 0.3.3, exFAT image)"
+        ]
+      },
+      "supersedes": true
+    },
+    {
+      "id": "marvels-spider-man-2-carljhonsen317",
+      "extra_for": "marvels-spider-man-2",
+      "match": "",
+      "title": "",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "carljhonsen317: läuft (Version 01.005.001, ampr-emu-ng 0.3.3, exFAT-Image)"
+        ],
+        "en": [
+          "carljhonsen317: works (version 01.005.001, ampr-emu-ng 0.3.3, exFAT image)"
+        ]
+      }
+    },
+    {
+      "id": "lego-batman-legacy-of-the-dark-knight-carljhonsen317",
+      "extra_for": "lego-batman-legacy-of-the-dark-knight",
+      "match": "",
+      "title": "",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image)"
+        ],
+        "en": [
+          "carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image)"
+        ]
+      }
+    },
+    {
+      "id": "astro-bot-carljhonsen317",
+      "extra_for": "astro-bot",
+      "match": "",
+      "title": "",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "carljhonsen317: läuft, etwa 10 Minuten gespielt (ampr-emu-ng 0.3.3, exFAT-Image)"
+        ],
+        "en": [
+          "carljhonsen317: works, played about 10 minutes (ampr-emu-ng 0.3.3, exFAT image)"
+        ]
+      }
+    },
+    {
+      "id": "star-wars-galactic-racer-carljhonsen317",
+      "extra_for": "star-wars-galactic-racer",
+      "match": "",
+      "title": "",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image)"
+        ],
+        "en": [
+          "carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image)"
+        ]
+      }
+    },
+    {
+      "id": "unidentified-p-030-carljhonsen317",
+      "extra_for": "unidentified-p-030",
+      "match": "",
+      "title": "",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image); Titel identifiziert"
+        ],
+        "en": [
+          "carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image); title identified"
+        ]
+      }
     }
   ]
 }

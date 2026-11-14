@@ -41,8 +41,19 @@
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
-   "tester": "bmoon",
-   "notes": "",
+   "tester": "bmoon, carljhonsen317",
+   "notes": "carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image)",
+   "tests": 2
+  },
+  {
+   "id": "achilles-legends-untold",
+   "title": "Achilles: Legends Untold",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.3",
    "tests": 1
   },
   {
@@ -52,9 +63,9 @@
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
-   "tester": "aiwo1986",
-   "notes": "",
-   "tests": 1
+   "tester": "aiwo1986, carljhonsen317",
+   "notes": "carljhonsen317: läuft (Ordnerformat, ampr-emu-ng 0.3.5)",
+   "tests": 2
   },
   {
    "id": "ai-limit",
@@ -101,15 +112,103 @@
    "tests": 1
   },
   {
+   "id": "asterix-obelix-xxl-2",
+   "title": "Asterix & Obelix XXL 2",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3)",
+   "tests": 1
+  },
+  {
+   "id": "asterix-obelix-xxl-3-the-crystal-menhir",
+   "title": "Asterix & Obelix XXL 3: The Crystal Menhir",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3)",
+   "tests": 1
+  },
+  {
+   "id": "asterix-obelix-xxl-romastered",
+   "title": "Asterix & Obelix XXL: Romastered",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3)",
+   "tests": 1
+  },
+  {
+   "id": "asterix-obelix-xxxl-the-ram-from-hibernia",
+   "title": "Asterix & Obelix XXXL: The Ram From Hibernia",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3)",
+   "tests": 1
+  },
+  {
+   "id": "asterix-obelix-babylon-mission",
+   "title": "Asterix & Obelix: Babylon Mission",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3)",
+   "tests": 1
+  },
+  {
+   "id": "asterix-obelix-heroes",
+   "title": "Asterix & Obelix: Heroes",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3)",
+   "tests": 1
+  },
+  {
+   "id": "asterix-obelix-slap-them-all",
+   "title": "Asterix & Obelix: Slap Them All!",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3)",
+   "tests": 1
+  },
+  {
+   "id": "asterix-obelix-slap-them-all-2",
+   "title": "Asterix & Obelix: Slap Them All! 2",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3)",
+   "tests": 1
+  },
+  {
    "id": "astro-bot",
    "title": "ASTRO BOT",
    "ppsa": "PPSA21567",
    "region": "–",
    "status": "ok",
    "format": "LZ4/ZSTD",
-   "tester": "hmh715, nisec_eric, jamesst20, Akaguiri",
-   "notes": "Auch in der Problemtabelle erfasst (hängt am Logo, widersprüchliche Ergebnisse); GitHub-Issue wird verfolgt; jemand konvertierte erfolgreich mit 0.5.2, aber mit über 40000 kleinen Dateien; widerspricht P-054 (hmh715: LZ4 läuft); Hängt am Logo; v01.019: läuft mit ampr-emu-ng v0.3.4 (Thread-Probleme behoben; Quelle: Issue #17, 11.11.2026)",
-   "tests": 3
+   "tester": "hmh715, nisec_eric, jamesst20, Akaguiri, carljhonsen317",
+   "notes": "Auch in der Problemtabelle erfasst (hängt am Logo, widersprüchliche Ergebnisse); GitHub-Issue wird verfolgt; jemand konvertierte erfolgreich mit 0.5.2, aber mit über 40000 kleinen Dateien; widerspricht P-054 (hmh715: LZ4 läuft); Hängt am Logo; v01.019: läuft mit ampr-emu-ng v0.3.4 (Thread-Probleme behoben; Quelle: Issue #17, 11.11.2026); carljhonsen317: läuft, etwa 10 Minuten gespielt (ampr-emu-ng 0.3.3, exFAT-Image)",
+   "tests": 4
   },
   {
    "id": "avowed",
@@ -142,6 +241,17 @@
    "format": "ZSTD",
    "tester": "快上楼, hmh715",
    "notes": "",
+   "tests": 1
+  },
+  {
+   "id": "bloodrayne-2-revamped",
+   "title": "BloodRayne 2: ReVamped",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.3",
    "tests": 1
   },
   {
@@ -222,6 +332,17 @@
    "tests": 1
   },
   {
+   "id": "crash-bandicoot-4-it-s-about-time",
+   "title": "Crash Bandicoot 4: It's About Time",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3)",
+   "tests": 1
+  },
+  {
    "id": "crimson-desert",
    "title": "Crimson Desert",
    "ppsa": "PPSA25286",
@@ -285,6 +406,28 @@
    "format": "ZSTD",
    "tester": "q751733367q",
    "notes": "JP-ID (Koei, offiziell mit Chinesisch); HK-ID nicht verifiziert",
+   "tests": 1
+  },
+  {
+   "id": "dragon-ball-fighterz",
+   "title": "Dragon Ball: FighterZ",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.3",
+   "tests": 1
+  },
+  {
+   "id": "dragon-ball-xenoverse-2",
+   "title": "Dragon Ball: Xenoverse 2",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.3",
    "tests": 1
   },
   {
@@ -508,6 +651,17 @@
    "tests": 1
   },
   {
+   "id": "kaiju-ancient-seal",
+   "title": "KAIJU: Ancient Seal",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.3",
+   "tests": 1
+  },
+  {
    "id": "kingdom-come-deliverance-ii",
    "title": "Kingdom Come: Deliverance II",
    "ppsa": "PPSA21704",
@@ -569,9 +723,9 @@
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
-   "tester": "hmh715",
-   "notes": "Neuerscheinung vom 26.05.2026, nicht das alte LEGO Batman von 2008",
-   "tests": 1
+   "tester": "hmh715, carljhonsen317",
+   "notes": "Neuerscheinung vom 26.05.2026, nicht das alte LEGO Batman von 2008; carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image)",
+   "tests": 2
   },
   {
    "id": "lego-voyagers",
@@ -635,9 +789,9 @@
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
-   "tester": "tnnuy23-dot",
-   "notes": "Version 01.005.001; läuft mit ampr-emu-ng v0.3.3 (Schwarzbild mit v0.3.2; Quelle: Issues #31, #34, 08.11.2026)",
-   "tests": 1
+   "tester": "tnnuy23-dot, carljhonsen317",
+   "notes": "Version 01.005.001; läuft mit ampr-emu-ng v0.3.3 (Schwarzbild mit v0.3.2; Quelle: Issues #31, #34, 08.11.2026); carljhonsen317: läuft (Version 01.005.001, ampr-emu-ng 0.3.3, exFAT-Image)",
+   "tests": 2
   },
   {
    "id": "marvels-wolverine",
@@ -827,6 +981,17 @@
    "tests": 1
   },
   {
+   "id": "unidentified-p-030",
+   "title": "Resonance: A Plague Tale Legacy",
+   "ppsa": "PPSA30601",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "fdong, carljhonsen317",
+   "notes": "Version 01.002.000 / 66 GB; Name nicht eindeutig identifiziert, Originalnamen des Downloads prüfen; carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image); Titel identifiziert",
+   "tests": 2
+  },
+  {
    "id": "returnal",
    "title": "Returnal",
    "ppsa": "PPSA01287",
@@ -855,9 +1020,9 @@
    "region": "US",
    "status": "ok",
    "format": "ZSTD",
-   "tester": "铉的小恶魔",
-   "notes": "",
-   "tests": 1
+   "tester": "铉的小恶魔, carljhonsen317",
+   "notes": "carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image)",
+   "tests": 2
   },
   {
    "id": "saros",
@@ -943,9 +1108,9 @@
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
-   "tester": "hmh715",
-   "notes": "",
-   "tests": 1
+   "tester": "hmh715, carljhonsen317",
+   "notes": "carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image)",
+   "tests": 2
   },
   {
    "id": "stellar-blade",
@@ -967,6 +1132,17 @@
    "format": "ZSTD",
    "tester": "yueliang137",
    "notes": "",
+   "tests": 1
+  },
+  {
+   "id": "the-blood-of-dawnwalker",
+   "title": "The Blood of Dawnwalker",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.3",
    "tests": 1
   },
   {
@@ -1005,13 +1181,24 @@
   {
    "id": "the-last-of-us-part-i",
    "title": "The Last of Us Part I",
-   "ppsa": "PPSA07644",
+   "ppsa": "PPSA07644, PPSA07642",
    "region": "–",
-   "status": "unknown",
+   "status": "ok",
    "format": "ZSTD",
-   "tester": "hmh715, nisec_eric",
-   "notes": "In der Problemtabelle zu klären (widersprüchliche Ergebnisse); Laut Netz lauffähig; P-063 (hmh715): läuft; Zu bestätigen",
-   "tests": 2
+   "tester": "hmh715, nisec_eric, carljhonsen317",
+   "notes": "In der Problemtabelle zu klären (widersprüchliche Ergebnisse); Laut Netz lauffähig; P-063 (hmh715): läuft; Zu bestätigen; carljhonsen317: läuft (Version 02.002.000, ampr-emu-ng 0.3.3, exFAT-Image)",
+   "tests": 3
+  },
+  {
+   "id": "the-last-of-us-part-ii-remastered",
+   "title": "The Last of Us Part II Remastered",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.3",
+   "tests": 1
   },
   {
    "id": "tiebreak-grand-slam-edition",
@@ -1088,17 +1275,6 @@
    "format": "ZSTD",
    "tester": "aiwo1986",
    "notes": "",
-   "tests": 1
-  },
-  {
-   "id": "unidentified-p-030",
-   "title": "Unbekannter Titel (vermutlich A Plague Tale)",
-   "ppsa": "PPSA30601",
-   "region": "–",
-   "status": "ok",
-   "format": "ZSTD",
-   "tester": "fdong",
-   "notes": "Version 01.002.000 / 66 GB; Name nicht eindeutig identifiziert, Originalnamen des Downloads prüfen",
    "tests": 1
   },
   {
@@ -1242,8 +1418,19 @@
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
-   "tester": "bmoon",
-   "notes": "",
+   "tester": "bmoon, carljhonsen317",
+   "notes": "carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image)",
+   "tests": 2
+  },
+  {
+   "id": "achilles-legends-untold",
+   "title": "Achilles: Legends Untold",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.3",
    "tests": 1
   },
   {
@@ -1253,9 +1440,9 @@
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
-   "tester": "aiwo1986",
-   "notes": "",
-   "tests": 1
+   "tester": "aiwo1986, carljhonsen317",
+   "notes": "carljhonsen317: works (folder format, ampr-emu-ng 0.3.5)",
+   "tests": 2
   },
   {
    "id": "ai-limit",
@@ -1302,15 +1489,103 @@
    "tests": 1
   },
   {
+   "id": "asterix-obelix-xxl-2",
+   "title": "Asterix & Obelix XXL 2",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3)",
+   "tests": 1
+  },
+  {
+   "id": "asterix-obelix-xxl-3-the-crystal-menhir",
+   "title": "Asterix & Obelix XXL 3: The Crystal Menhir",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3)",
+   "tests": 1
+  },
+  {
+   "id": "asterix-obelix-xxl-romastered",
+   "title": "Asterix & Obelix XXL: Romastered",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3)",
+   "tests": 1
+  },
+  {
+   "id": "asterix-obelix-xxxl-the-ram-from-hibernia",
+   "title": "Asterix & Obelix XXXL: The Ram From Hibernia",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3)",
+   "tests": 1
+  },
+  {
+   "id": "asterix-obelix-babylon-mission",
+   "title": "Asterix & Obelix: Babylon Mission",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3)",
+   "tests": 1
+  },
+  {
+   "id": "asterix-obelix-heroes",
+   "title": "Asterix & Obelix: Heroes",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3)",
+   "tests": 1
+  },
+  {
+   "id": "asterix-obelix-slap-them-all",
+   "title": "Asterix & Obelix: Slap Them All!",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3)",
+   "tests": 1
+  },
+  {
+   "id": "asterix-obelix-slap-them-all-2",
+   "title": "Asterix & Obelix: Slap Them All! 2",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3)",
+   "tests": 1
+  },
+  {
    "id": "astro-bot",
    "title": "ASTRO BOT",
    "ppsa": "PPSA21567",
    "region": "–",
    "status": "ok",
    "format": "LZ4/ZSTD",
-   "tester": "hmh715, nisec_eric, jamesst20, Akaguiri",
-   "notes": "Also listed in the problem table (hangs at logo, conflicting results); GitHub issue being tracked; someone converted successfully with 0.5.2 but with over 40000 small files; contradicts P-054 (hmh715: LZ4 works); Hangs at logo; v01.019: works with ampr-emu-ng v0.3.4 (thread problems fixed; source: issue #17, 2026-11-11)",
-   "tests": 3
+   "tester": "hmh715, nisec_eric, jamesst20, Akaguiri, carljhonsen317",
+   "notes": "Also listed in the problem table (hangs at logo, conflicting results); GitHub issue being tracked; someone converted successfully with 0.5.2 but with over 40000 small files; contradicts P-054 (hmh715: LZ4 works); Hangs at logo; v01.019: works with ampr-emu-ng v0.3.4 (thread problems fixed; source: issue #17, 2026-11-11); carljhonsen317: works, played about 10 minutes (ampr-emu-ng 0.3.3, exFAT image)",
+   "tests": 4
   },
   {
    "id": "avowed",
@@ -1343,6 +1618,17 @@
    "format": "ZSTD",
    "tester": "快上楼, hmh715",
    "notes": "",
+   "tests": 1
+  },
+  {
+   "id": "bloodrayne-2-revamped",
+   "title": "BloodRayne 2: ReVamped",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.3",
    "tests": 1
   },
   {
@@ -1423,6 +1709,17 @@
    "tests": 1
   },
   {
+   "id": "crash-bandicoot-4-it-s-about-time",
+   "title": "Crash Bandicoot 4: It's About Time",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3)",
+   "tests": 1
+  },
+  {
    "id": "crimson-desert",
    "title": "Crimson Desert",
    "ppsa": "PPSA25286",
@@ -1486,6 +1783,28 @@
    "format": "ZSTD",
    "tester": "q751733367q",
    "notes": "JP ID (Koei, official Chinese); HK ID not verified",
+   "tests": 1
+  },
+  {
+   "id": "dragon-ball-fighterz",
+   "title": "Dragon Ball: FighterZ",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.3",
+   "tests": 1
+  },
+  {
+   "id": "dragon-ball-xenoverse-2",
+   "title": "Dragon Ball: Xenoverse 2",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.3",
    "tests": 1
   },
   {
@@ -1709,6 +2028,17 @@
    "tests": 1
   },
   {
+   "id": "kaiju-ancient-seal",
+   "title": "KAIJU: Ancient Seal",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.3",
+   "tests": 1
+  },
+  {
    "id": "kingdom-come-deliverance-ii",
    "title": "Kingdom Come: Deliverance II",
    "ppsa": "PPSA21704",
@@ -1770,9 +2100,9 @@
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
-   "tester": "hmh715",
-   "notes": "New release of 2026-05-26, not the old 2008 LEGO Batman",
-   "tests": 1
+   "tester": "hmh715, carljhonsen317",
+   "notes": "New release of 2026-05-26, not the old 2008 LEGO Batman; carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image)",
+   "tests": 2
   },
   {
    "id": "lego-voyagers",
@@ -1836,9 +2166,9 @@
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
-   "tester": "tnnuy23-dot",
-   "notes": "Version 01.005.001; works with ampr-emu-ng v0.3.3 (black screen with v0.3.2; source: issues #31, #34, 2026-11-08)",
-   "tests": 1
+   "tester": "tnnuy23-dot, carljhonsen317",
+   "notes": "Version 01.005.001; works with ampr-emu-ng v0.3.3 (black screen with v0.3.2; source: issues #31, #34, 2026-11-08); carljhonsen317: works (version 01.005.001, ampr-emu-ng 0.3.3, exFAT image)",
+   "tests": 2
   },
   {
    "id": "marvels-wolverine",
@@ -2028,6 +2358,17 @@
    "tests": 1
   },
   {
+   "id": "unidentified-p-030",
+   "title": "Resonance: A Plague Tale Legacy",
+   "ppsa": "PPSA30601",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "fdong, carljhonsen317",
+   "notes": "Version 01.002.000 / 66 GB; name not clearly identified, check the original download name; carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image); title identified",
+   "tests": 2
+  },
+  {
    "id": "returnal",
    "title": "Returnal",
    "ppsa": "PPSA01287",
@@ -2056,9 +2397,9 @@
    "region": "US",
    "status": "ok",
    "format": "ZSTD",
-   "tester": "铉的小恶魔",
-   "notes": "",
-   "tests": 1
+   "tester": "铉的小恶魔, carljhonsen317",
+   "notes": "carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image)",
+   "tests": 2
   },
   {
    "id": "saros",
@@ -2144,9 +2485,9 @@
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
-   "tester": "hmh715",
-   "notes": "",
-   "tests": 1
+   "tester": "hmh715, carljhonsen317",
+   "notes": "carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image)",
+   "tests": 2
   },
   {
    "id": "stellar-blade",
@@ -2168,6 +2509,17 @@
    "format": "ZSTD",
    "tester": "yueliang137",
    "notes": "",
+   "tests": 1
+  },
+  {
+   "id": "the-blood-of-dawnwalker",
+   "title": "The Blood of Dawnwalker",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.3",
    "tests": 1
   },
   {
@@ -2206,13 +2558,24 @@
   {
    "id": "the-last-of-us-part-i",
    "title": "The Last of Us Part I",
-   "ppsa": "PPSA07644",
+   "ppsa": "PPSA07644, PPSA07642",
    "region": "–",
-   "status": "unknown",
+   "status": "ok",
    "format": "ZSTD",
-   "tester": "hmh715, nisec_eric",
-   "notes": "To be clarified in the problem table (conflicting results); Reported to work online; P-063 (hmh715): works; To be confirmed",
-   "tests": 2
+   "tester": "hmh715, nisec_eric, carljhonsen317",
+   "notes": "To be clarified in the problem table (conflicting results); Reported to work online; P-063 (hmh715): works; To be confirmed; carljhonsen317: works (version 02.002.000, ampr-emu-ng 0.3.3, exFAT image)",
+   "tests": 3
+  },
+  {
+   "id": "the-last-of-us-part-ii-remastered",
+   "title": "The Last of Us Part II Remastered",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.3",
+   "tests": 1
   },
   {
    "id": "tiebreak-grand-slam-edition",
@@ -2289,17 +2652,6 @@
    "format": "ZSTD",
    "tester": "aiwo1986",
    "notes": "",
-   "tests": 1
-  },
-  {
-   "id": "unidentified-p-030",
-   "title": "Unbekannter Titel (vermutlich A Plague Tale)",
-   "ppsa": "PPSA30601",
-   "region": "–",
-   "status": "ok",
-   "format": "ZSTD",
-   "tester": "fdong",
-   "notes": "Version 01.002.000 / 66 GB; name not clearly identified, check the original download name",
    "tests": 1
   },
   {

@@ -32,7 +32,7 @@ UI = {
            "cols": ("No.", "Game", "PPSA", "Region", "Status", "Format", "Tester", "Notes")},
 }
 STATUS_ORDER = ["ok", "fail", "mixed", "unknown"]
-TITLE_OVERRIDES = {"unidentified-p-030": "Unbekannter Titel (vermutlich A Plague Tale)"}
+TITLE_OVERRIDES = {"unidentified-p-030": "Resonance: A Plague Tale Legacy"}
 CJK = re.compile(r"[　-鿿＀-￯]")
 
 
