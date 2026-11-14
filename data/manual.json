@@ -875,7 +875,9 @@
       "id": "bloodrayne-2-revamped",
       "match": "bloodrayne",
       "title": "BloodRayne 2: ReVamped",
-      "ppsa": [],
+      "ppsa": [
+        "PPSA05975"
+      ],
       "regions": [],
       "results": [
         "pass"
@@ -901,7 +903,9 @@
       "id": "dragon-ball-xenoverse-2",
       "match": "xenoverse",
       "title": "Dragon Ball: Xenoverse 2",
-      "ppsa": [],
+      "ppsa": [
+        "PPSA08587"
+      ],
       "regions": [],
       "results": [
         "pass"
@@ -927,7 +931,9 @@
       "id": "dragon-ball-fighterz",
       "match": "fighterz",
       "title": "Dragon Ball: FighterZ",
-      "ppsa": [],
+      "ppsa": [
+        "PPSA09790"
+      ],
       "regions": [],
       "results": [
         "pass"
@@ -953,7 +959,9 @@
       "id": "the-last-of-us-part-ii-remastered",
       "match": "last of us part ii",
       "title": "The Last of Us Part II Remastered",
-      "ppsa": [],
+      "ppsa": [
+        "PPSA15508"
+      ],
       "regions": [],
       "results": [
         "pass"
@@ -979,7 +987,9 @@
       "id": "achilles-legends-untold",
       "match": "legends untold",
       "title": "Achilles: Legends Untold",
-      "ppsa": [],
+      "ppsa": [
+        "PPSA16626"
+      ],
       "regions": [],
       "results": [
         "pass"
@@ -1005,7 +1015,9 @@
       "id": "the-blood-of-dawnwalker",
       "match": "dawnwalker",
       "title": "The Blood of Dawnwalker",
-      "ppsa": [],
+      "ppsa": [
+        "PPSA28000"
+      ],
       "regions": [],
       "results": [
         "pass"
@@ -1030,8 +1042,10 @@
     {
       "id": "kaiju-ancient-seal",
       "match": "ancient seal",
-      "title": "KAIJU: Ancient Seal",
-      "ppsa": [],
+      "title": "KAKU: Ancient Seal",
+      "ppsa": [
+        "PPSA30797"
+      ],
       "regions": [],
       "results": [
         "pass"
@@ -1045,11 +1059,13 @@
       "notes": {
         "de": [
           "exFAT-Image",
-          "gepackt mit ampr-emu-ng 0.3.3"
+          "gepackt mit ampr-emu-ng 0.3.3",
+          "Version 01.005"
         ],
         "en": [
           "exFAT image",
-          "packed with ampr-emu-ng 0.3.3"
+          "packed with ampr-emu-ng 0.3.3",
+          "Version 01.005"
         ]
       }
     },
@@ -1083,7 +1099,9 @@
       "extra_for": "rise-of-the-ronin",
       "match": "",
       "title": "",
-      "ppsa": [],
+      "ppsa": [
+        "PPSA04540"
+      ],
       "regions": [],
       "results": [
         "pass"
@@ -1211,7 +1229,9 @@
       "extra_for": "astro-bot",
       "match": "",
       "title": "",
-      "ppsa": [],
+      "ppsa": [
+        "PPSA21564"
+      ],
       "regions": [],
       "results": [
         "pass"

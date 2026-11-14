@@ -8,7 +8,7 @@ Neue und geänderte Einträge pro Aktualisierung (neueste zuerst).
 
 | Spiel | PPSA | Region | Status | Format | Tester | Hinweis |
 |---|---|---|---|---|---|---|
-| Achilles: Legends Untold | – | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.3 |
+| Achilles: Legends Untold | PPSA16626 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.3 |
 | Asterix & Obelix XXL 2 | – | – | Läuft | ZSTD | carljhonsen317 | Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
 | Asterix & Obelix XXL 3: The Crystal Menhir | – | – | Läuft | ZSTD | carljhonsen317 | Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
 | Asterix & Obelix XXL: Romastered | – | – | Läuft | ZSTD | carljhonsen317 | Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
@@ -17,13 +17,13 @@ Neue und geänderte Einträge pro Aktualisierung (neueste zuerst).
 | Asterix & Obelix: Heroes | – | – | Läuft | ZSTD | carljhonsen317 | Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
 | Asterix & Obelix: Slap Them All! | – | – | Läuft | ZSTD | carljhonsen317 | Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
 | Asterix & Obelix: Slap Them All! 2 | – | – | Läuft | ZSTD | carljhonsen317 | Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
-| BloodRayne 2: ReVamped | – | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.3 |
+| BloodRayne 2: ReVamped | PPSA05975 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.3 |
 | Crash Bandicoot 4: It's About Time | – | – | Läuft | ZSTD | carljhonsen317 | Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
-| Dragon Ball: FighterZ | – | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.3 |
-| Dragon Ball: Xenoverse 2 | – | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.3 |
-| KAIJU: Ancient Seal | – | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.3 |
-| The Blood of Dawnwalker | – | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.3 |
-| The Last of Us Part II Remastered | – | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.3 |
+| Dragon Ball: FighterZ | PPSA09790 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.3 |
+| Dragon Ball: Xenoverse 2 | PPSA08587 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.3 |
+| KAKU: Ancient Seal | PPSA30797 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.3 |
+| The Blood of Dawnwalker | PPSA28000 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.3 |
+| The Last of Us Part II Remastered | PPSA15508 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.3 |
 
 **Geändert**
 

@@ -48,7 +48,7 @@
   {
    "id": "achilles-legends-untold",
    "title": "Achilles: Legends Untold",
-   "ppsa": "–",
+   "ppsa": "PPSA16626",
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
@@ -202,7 +202,7 @@
   {
    "id": "astro-bot",
    "title": "ASTRO BOT",
-   "ppsa": "PPSA21567",
+   "ppsa": "PPSA21567, PPSA21564",
    "region": "–",
    "status": "ok",
    "format": "LZ4/ZSTD",
@@ -246,7 +246,7 @@
   {
    "id": "bloodrayne-2-revamped",
    "title": "BloodRayne 2: ReVamped",
-   "ppsa": "–",
+   "ppsa": "PPSA05975",
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
@@ -411,7 +411,7 @@
   {
    "id": "dragon-ball-fighterz",
    "title": "Dragon Ball: FighterZ",
-   "ppsa": "–",
+   "ppsa": "PPSA09790",
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
@@ -422,7 +422,7 @@
   {
    "id": "dragon-ball-xenoverse-2",
    "title": "Dragon Ball: Xenoverse 2",
-   "ppsa": "–",
+   "ppsa": "PPSA08587",
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
@@ -652,13 +652,13 @@
   },
   {
    "id": "kaiju-ancient-seal",
-   "title": "KAIJU: Ancient Seal",
-   "ppsa": "–",
+   "title": "KAKU: Ancient Seal",
+   "ppsa": "PPSA30797",
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
    "tester": "carljhonsen317",
-   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.3",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.3; Version 01.005",
    "tests": 1
   },
   {
@@ -1016,7 +1016,7 @@
   {
    "id": "rise-of-the-ronin",
    "title": "Rise of the Ronin",
-   "ppsa": "PPSA04539",
+   "ppsa": "PPSA04539, PPSA04540",
    "region": "US",
    "status": "ok",
    "format": "ZSTD",
@@ -1137,7 +1137,7 @@
   {
    "id": "the-blood-of-dawnwalker",
    "title": "The Blood of Dawnwalker",
-   "ppsa": "–",
+   "ppsa": "PPSA28000",
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
@@ -1192,7 +1192,7 @@
   {
    "id": "the-last-of-us-part-ii-remastered",
    "title": "The Last of Us Part II Remastered",
-   "ppsa": "–",
+   "ppsa": "PPSA15508",
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
@@ -1425,7 +1425,7 @@
   {
    "id": "achilles-legends-untold",
    "title": "Achilles: Legends Untold",
-   "ppsa": "–",
+   "ppsa": "PPSA16626",
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
@@ -1579,7 +1579,7 @@
   {
    "id": "astro-bot",
    "title": "ASTRO BOT",
-   "ppsa": "PPSA21567",
+   "ppsa": "PPSA21567, PPSA21564",
    "region": "–",
    "status": "ok",
    "format": "LZ4/ZSTD",
@@ -1623,7 +1623,7 @@
   {
    "id": "bloodrayne-2-revamped",
    "title": "BloodRayne 2: ReVamped",
-   "ppsa": "–",
+   "ppsa": "PPSA05975",
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
@@ -1788,7 +1788,7 @@
   {
    "id": "dragon-ball-fighterz",
    "title": "Dragon Ball: FighterZ",
-   "ppsa": "–",
+   "ppsa": "PPSA09790",
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
@@ -1799,7 +1799,7 @@
   {
    "id": "dragon-ball-xenoverse-2",
    "title": "Dragon Ball: Xenoverse 2",
-   "ppsa": "–",
+   "ppsa": "PPSA08587",
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
@@ -2029,13 +2029,13 @@
   },
   {
    "id": "kaiju-ancient-seal",
-   "title": "KAIJU: Ancient Seal",
-   "ppsa": "–",
+   "title": "KAKU: Ancient Seal",
+   "ppsa": "PPSA30797",
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
    "tester": "carljhonsen317",
-   "notes": "exFAT image; packed with ampr-emu-ng 0.3.3",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.3; Version 01.005",
    "tests": 1
   },
   {
@@ -2393,7 +2393,7 @@
   {
    "id": "rise-of-the-ronin",
    "title": "Rise of the Ronin",
-   "ppsa": "PPSA04539",
+   "ppsa": "PPSA04539, PPSA04540",
    "region": "US",
    "status": "ok",
    "format": "ZSTD",
@@ -2514,7 +2514,7 @@
   {
    "id": "the-blood-of-dawnwalker",
    "title": "The Blood of Dawnwalker",
-   "ppsa": "–",
+   "ppsa": "PPSA28000",
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
@@ -2569,7 +2569,7 @@
   {
    "id": "the-last-of-us-part-ii-remastered",
    "title": "The Last of Us Part II Remastered",
-   "ppsa": "–",
+   "ppsa": "PPSA15508",
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
