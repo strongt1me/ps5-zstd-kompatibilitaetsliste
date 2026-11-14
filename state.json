@@ -64,7 +64,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "aiwo1986, carljhonsen317",
-   "notes": "carljhonsen317: läuft (Ordnerformat, ampr-emu-ng 0.3.5)",
+   "notes": "carljhonsen317: läuft (exFAT-Image, ampr-emu-ng 0.3.5)",
    "tests": 2
   },
   {
@@ -1485,7 +1485,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "aiwo1986, carljhonsen317",
-   "notes": "carljhonsen317: works (folder format, ampr-emu-ng 0.3.5)",
+   "notes": "carljhonsen317: works (exFAT image, ampr-emu-ng 0.3.5)",
    "tests": 2
   },
   {

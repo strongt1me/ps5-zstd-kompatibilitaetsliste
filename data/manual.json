@@ -1109,10 +1109,10 @@
       ],
       "notes": {
         "de": [
-          "carljhonsen317: läuft (Ordnerformat, ampr-emu-ng 0.3.5)"
+          "carljhonsen317: läuft (exFAT-Image, ampr-emu-ng 0.3.5)"
         ],
         "en": [
-          "carljhonsen317: works (folder format, ampr-emu-ng 0.3.5)"
+          "carljhonsen317: works (exFAT image, ampr-emu-ng 0.3.5)"
         ]
       }
     },

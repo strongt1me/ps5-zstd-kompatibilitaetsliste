@@ -48,7 +48,7 @@ Neue und geänderte Einträge pro Aktualisierung (neueste zuerst).
 | Spiel | Änderung |
 |---|---|
 | ACE COMBAT 8: Wings of Theve | Testberichte: 1 → 2 (neu von carljhonsen317): carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image) |
-| Achilles: Survivor | Testberichte: 1 → 2 (neu von carljhonsen317): carljhonsen317: läuft (Ordnerformat, ampr-emu-ng 0.3.5) |
+| Achilles: Survivor | Testberichte: 1 → 2 (neu von carljhonsen317): carljhonsen317: läuft (exFAT-Image, ampr-emu-ng 0.3.5) |
 | ASTRO BOT | Testberichte: 3 → 4 (neu von carljhonsen317): carljhonsen317: läuft, etwa 10 Minuten gespielt (ampr-emu-ng 0.3.3, exFAT-Image) |
 | LEGO Batman: Legacy of the Dark Knight | Testberichte: 1 → 2 (neu von carljhonsen317): carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image) |
 | Marvel's Spider-Man 2 | Testberichte: 1 → 2 (neu von carljhonsen317): carljhonsen317: läuft (Version 01.005.001, ampr-emu-ng 0.3.3, exFAT-Image) |
