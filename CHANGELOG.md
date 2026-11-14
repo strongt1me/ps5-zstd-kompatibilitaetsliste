@@ -27,16 +27,16 @@ Neue und geänderte Einträge pro Aktualisierung (neueste zuerst).
 | Spiel | PPSA | Region | Status | Format | Tester | Hinweis |
 |---|---|---|---|---|---|---|
 | Achilles: Legends Untold | PPSA16626 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.3 |
-| Asterix & Obelix XXL 2 | PPSA08164 | – | Läuft | ZSTD | carljhonsen317 | Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
-| Asterix & Obelix XXL 3: The Crystal Menhir | PPSA07498 | – | Läuft | ZSTD | carljhonsen317 | Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
-| Asterix & Obelix XXL: Romastered | PPSA08162 | – | Läuft | ZSTD | carljhonsen317 | Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
-| Asterix & Obelix XXXL: The Ram From Hibernia | PPSA08448 | – | Läuft | ZSTD | carljhonsen317 | Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
-| Asterix & Obelix: Babylon Mission | PPSA30490 | – | Läuft | ZSTD | carljhonsen317 | Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
-| Asterix & Obelix: Heroes | PPSA16709 | – | Läuft | ZSTD | carljhonsen317 | Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
-| Asterix & Obelix: Slap Them All! | PPSA08576 | – | Läuft | ZSTD | carljhonsen317 | Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
-| Asterix & Obelix: Slap Them All! 2 | PPSA16746 | – | Läuft | ZSTD | carljhonsen317 | Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
+| Asterix & Obelix XXL 2 | PPSA08164 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
+| Asterix & Obelix XXL 3: The Crystal Menhir | PPSA07498 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
+| Asterix & Obelix XXL: Romastered | PPSA08162 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
+| Asterix & Obelix XXXL: The Ram From Hibernia | PPSA08448 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
+| Asterix & Obelix: Babylon Mission | PPSA30490 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
+| Asterix & Obelix: Heroes | PPSA16709 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
+| Asterix & Obelix: Slap Them All! | PPSA08576 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
+| Asterix & Obelix: Slap Them All! 2 | PPSA16746 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
 | BloodRayne 2: ReVamped | PPSA05975 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.3 |
-| Crash Bandicoot 4: It's About Time | PPSA02433 | – | Läuft | ZSTD | carljhonsen317 | Ordnerformat; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
+| Crash Bandicoot 4: It's About Time | PPSA02433 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3) |
 | Dragon Ball: FighterZ | PPSA09790 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.3 |
 | Dragon Ball: Xenoverse 2 | PPSA08587 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.3 |
 | KAKU: Ancient Seal | PPSA30797 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.3 |
