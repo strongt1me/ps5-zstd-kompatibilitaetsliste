@@ -2,6 +2,17 @@
 
 New and changed entries per update (newest first).
 
+## 2026-11-14
+
+**New**
+
+| Game | PPSA | Region | Status | Format | Tester | Note |
+|---|---|---|---|---|---|---|
+| Horizon Zero Dawn Remastered | PPSA13427 | EU | Works | ZSTD | muxi | Version 01.008.001; Backport 4.xx; packed with ampr-emu-ng 0.3.4; exFAT image |
+| Kingdom Come: Deliverance II | PPSA21704 | EU | Works | ZSTD | muxi | Version 01.052.000; Royal Edition; runs without errors; Backport 4.xx; packed with ampr-emu-ng 0.3.4; exFAT image |
+| The Elder Scrolls IV: Oblivion Remastered | PPSA21203 | US | Works | ZSTD | muxi | Version 01.512.105; Backport 4.xx; packed with ampr-emu-ng 0.3.4; exFAT image |
+| The First Berserker: Khazan | PPSA20447 | US | Works | ZSTD | muxi | Version 01.021.003; Backport 4.xx; packed with ampr-emu-ng 0.3.4; exFAT image |
+
 ## 2026-11-13
 
 **New**

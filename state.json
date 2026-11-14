@@ -1,5 +1,5 @@
 {
- "date": "2026-11-13",
+ "date": "2026-11-14",
  "games": [
   {
    "id": "007-first-light",
@@ -394,7 +394,7 @@
    "status": "mixed",
    "format": "ZSTD",
    "tester": "zhangyun111, nisec_eric, muxi",
-   "notes": "Offiziell vereinfachtes Chinesisch; GitHub-Berichte alle fehlgeschlagen; auch in der Problemtabelle erfasst; Widerspruch zu P-034 (zhangyun111: läuft, GitHub-Berichte alle fehlgeschlagen); Hängt am Logo; Complete Edition, Version v02.002.000 (muxi); Backport 4.xx (muxi); gepackt mit ampr-emu-ng 0.3.2 (muxi, Test mit 0.3.3 folgt); exFAT-Image",
+   "notes": "Offiziell vereinfachtes Chinesisch; GitHub-Berichte alle fehlgeschlagen; auch in der Problemtabelle erfasst; Widerspruch zu P-034 (zhangyun111: läuft, GitHub-Berichte alle fehlgeschlagen); Hängt am Logo; Complete Edition, Version v02.002.000 (muxi); Backport 4.xx (muxi); läuft mit ampr-emu-ng 0.3.2 und 0.3.4 (muxi); exFAT-Image",
    "tests": 3
   },
   {
@@ -475,6 +475,17 @@
    "tests": 1
   },
   {
+   "id": "horizon-zero-dawn-remastered",
+   "title": "Horizon Zero Dawn Remastered",
+   "ppsa": "PPSA13427",
+   "region": "EU",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "muxi",
+   "notes": "Version 01.008.001; Backport 4.xx; gepackt mit ampr-emu-ng 0.3.4; exFAT-Image",
+   "tests": 1
+  },
+  {
    "id": "indiana-jones-and-the-great-circle",
    "title": "Indiana Jones and the Great Circle",
    "ppsa": "PPSA26786",
@@ -494,6 +505,17 @@
    "format": "ZSTD",
    "tester": "hmh715",
    "notes": "Version 01.500.000",
+   "tests": 1
+  },
+  {
+   "id": "kingdom-come-deliverance-ii",
+   "title": "Kingdom Come: Deliverance II",
+   "ppsa": "PPSA21704",
+   "region": "EU",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "muxi",
+   "notes": "Version 01.052.000; Royal Edition; läuft fehlerfrei; Backport 4.xx; gepackt mit ampr-emu-ng 0.3.4; exFAT-Image",
    "tests": 1
   },
   {
@@ -945,6 +967,28 @@
    "format": "ZSTD",
    "tester": "yueliang137",
    "notes": "",
+   "tests": 1
+  },
+  {
+   "id": "elder-scrolls-iv-oblivion-remastered",
+   "title": "The Elder Scrolls IV: Oblivion Remastered",
+   "ppsa": "PPSA21203",
+   "region": "US",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "muxi",
+   "notes": "Version 01.512.105; Backport 4.xx; gepackt mit ampr-emu-ng 0.3.4; exFAT-Image",
+   "tests": 1
+  },
+  {
+   "id": "the-first-berserker-khazan",
+   "title": "The First Berserker: Khazan",
+   "ppsa": "PPSA20447",
+   "region": "US",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "muxi",
+   "notes": "Version 01.021.003; Backport 4.xx; gepackt mit ampr-emu-ng 0.3.4; exFAT-Image",
    "tests": 1
   },
   {
@@ -1551,7 +1595,7 @@
    "status": "mixed",
    "format": "ZSTD",
    "tester": "zhangyun111, nisec_eric, muxi",
-   "notes": "Official Simplified Chinese; GitHub reports all failed; also listed in the problem table; Contradicts P-034 (zhangyun111: works, GitHub reports all failed); Hangs at logo; Complete Edition, version v02.002.000 (muxi); Backport 4.xx (muxi); packed with ampr-emu-ng 0.3.2 (muxi, test with 0.3.3 to follow); exFAT image",
+   "notes": "Official Simplified Chinese; GitHub reports all failed; also listed in the problem table; Contradicts P-034 (zhangyun111: works, GitHub reports all failed); Hangs at logo; Complete Edition, version v02.002.000 (muxi); Backport 4.xx (muxi); works with ampr-emu-ng 0.3.2 and 0.3.4 (muxi); exFAT image",
    "tests": 3
   },
   {
@@ -1632,6 +1676,17 @@
    "tests": 1
   },
   {
+   "id": "horizon-zero-dawn-remastered",
+   "title": "Horizon Zero Dawn Remastered",
+   "ppsa": "PPSA13427",
+   "region": "EU",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "muxi",
+   "notes": "Version 01.008.001; Backport 4.xx; packed with ampr-emu-ng 0.3.4; exFAT image",
+   "tests": 1
+  },
+  {
    "id": "indiana-jones-and-the-great-circle",
    "title": "Indiana Jones and the Great Circle",
    "ppsa": "PPSA26786",
@@ -1651,6 +1706,17 @@
    "format": "ZSTD",
    "tester": "hmh715",
    "notes": "Version 01.500.000",
+   "tests": 1
+  },
+  {
+   "id": "kingdom-come-deliverance-ii",
+   "title": "Kingdom Come: Deliverance II",
+   "ppsa": "PPSA21704",
+   "region": "EU",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "muxi",
+   "notes": "Version 01.052.000; Royal Edition; runs without errors; Backport 4.xx; packed with ampr-emu-ng 0.3.4; exFAT image",
    "tests": 1
   },
   {
@@ -2102,6 +2168,28 @@
    "format": "ZSTD",
    "tester": "yueliang137",
    "notes": "",
+   "tests": 1
+  },
+  {
+   "id": "elder-scrolls-iv-oblivion-remastered",
+   "title": "The Elder Scrolls IV: Oblivion Remastered",
+   "ppsa": "PPSA21203",
+   "region": "US",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "muxi",
+   "notes": "Version 01.512.105; Backport 4.xx; packed with ampr-emu-ng 0.3.4; exFAT image",
+   "tests": 1
+  },
+  {
+   "id": "the-first-berserker-khazan",
+   "title": "The First Berserker: Khazan",
+   "ppsa": "PPSA20447",
+   "region": "US",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "muxi",
+   "notes": "Version 01.021.003; Backport 4.xx; packed with ampr-emu-ng 0.3.4; exFAT image",
    "tests": 1
   },
   {

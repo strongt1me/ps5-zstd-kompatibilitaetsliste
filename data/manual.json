@@ -58,13 +58,13 @@
         "de": [
           "Complete Edition, Version v02.002.000 (muxi)",
           "Backport 4.xx (muxi)",
-          "gepackt mit ampr-emu-ng 0.3.2 (muxi, Test mit 0.3.3 folgt)",
+          "läuft mit ampr-emu-ng 0.3.2 und 0.3.4 (muxi)",
           "exFAT-Image"
         ],
         "en": [
           "Complete Edition, version v02.002.000 (muxi)",
           "Backport 4.xx (muxi)",
-          "packed with ampr-emu-ng 0.3.2 (muxi, test with 0.3.3 to follow)",
+          "works with ampr-emu-ng 0.3.2 and 0.3.4 (muxi)",
           "exFAT image"
         ]
       }
@@ -491,6 +491,144 @@
         ],
         "en": [
           "Version v01.015.000",
+          "Backport 4.xx",
+          "packed with ampr-emu-ng 0.3.4",
+          "exFAT image"
+        ]
+      }
+    },
+    {
+      "id": "horizon-zero-dawn-remastered",
+      "match": "horizon zero dawn",
+      "title": "Horizon Zero Dawn Remastered",
+      "ppsa": [
+        "PPSA13427"
+      ],
+      "regions": [
+        "EU"
+      ],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "muxi"
+      ],
+      "notes": {
+        "de": [
+          "Version 01.008.001",
+          "Backport 4.xx",
+          "gepackt mit ampr-emu-ng 0.3.4",
+          "exFAT-Image"
+        ],
+        "en": [
+          "Version 01.008.001",
+          "Backport 4.xx",
+          "packed with ampr-emu-ng 0.3.4",
+          "exFAT image"
+        ]
+      }
+    },
+    {
+      "id": "kingdom-come-deliverance-ii",
+      "match": "kingdom come",
+      "title": "Kingdom Come: Deliverance II",
+      "ppsa": [
+        "PPSA21704"
+      ],
+      "regions": [
+        "EU"
+      ],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "muxi"
+      ],
+      "notes": {
+        "de": [
+          "Version 01.052.000",
+          "Royal Edition; läuft fehlerfrei",
+          "Backport 4.xx",
+          "gepackt mit ampr-emu-ng 0.3.4",
+          "exFAT-Image"
+        ],
+        "en": [
+          "Version 01.052.000",
+          "Royal Edition; runs without errors",
+          "Backport 4.xx",
+          "packed with ampr-emu-ng 0.3.4",
+          "exFAT image"
+        ]
+      }
+    },
+    {
+      "id": "elder-scrolls-iv-oblivion-remastered",
+      "match": "oblivion",
+      "title": "The Elder Scrolls IV: Oblivion Remastered",
+      "ppsa": [
+        "PPSA21203"
+      ],
+      "regions": [
+        "US"
+      ],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "muxi"
+      ],
+      "notes": {
+        "de": [
+          "Version 01.512.105",
+          "Backport 4.xx",
+          "gepackt mit ampr-emu-ng 0.3.4",
+          "exFAT-Image"
+        ],
+        "en": [
+          "Version 01.512.105",
+          "Backport 4.xx",
+          "packed with ampr-emu-ng 0.3.4",
+          "exFAT image"
+        ]
+      }
+    },
+    {
+      "id": "the-first-berserker-khazan",
+      "match": "khazan",
+      "title": "The First Berserker: Khazan",
+      "ppsa": [
+        "PPSA20447"
+      ],
+      "regions": [
+        "US"
+      ],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "muxi"
+      ],
+      "notes": {
+        "de": [
+          "Version 01.021.003",
+          "Backport 4.xx",
+          "gepackt mit ampr-emu-ng 0.3.4",
+          "exFAT-Image"
+        ],
+        "en": [
+          "Version 01.021.003",
           "Backport 4.xx",
           "packed with ampr-emu-ng 0.3.4",
           "exFAT image"
