@@ -391,10 +391,10 @@
    "title": "Ghost of Yotei",
    "ppsa": "PPSA26344",
    "region": "US",
-   "status": "mixed",
+   "status": "ok",
    "format": "ZSTD",
    "tester": "zhangyun111, nisec_eric, muxi",
-   "notes": "Offiziell vereinfachtes Chinesisch; GitHub-Berichte alle fehlgeschlagen; auch in der Problemtabelle erfasst; Widerspruch zu P-034 (zhangyun111: läuft, GitHub-Berichte alle fehlgeschlagen); Hängt am Logo; Complete Edition, Version v02.002.000 (muxi); Backport 4.xx (muxi); läuft mit ampr-emu-ng 0.3.2 und 0.3.4 (muxi); exFAT-Image",
+   "notes": "Complete Edition, Version v02.002.000 (muxi); Backport 4.xx (muxi); läuft mit ampr-emu-ng 0.3.2 und 0.3.4 (muxi); exFAT-Image",
    "tests": 3
   },
   {
@@ -1592,10 +1592,10 @@
    "title": "Ghost of Yotei",
    "ppsa": "PPSA26344",
    "region": "US",
-   "status": "mixed",
+   "status": "ok",
    "format": "ZSTD",
    "tester": "zhangyun111, nisec_eric, muxi",
-   "notes": "Official Simplified Chinese; GitHub reports all failed; also listed in the problem table; Contradicts P-034 (zhangyun111: works, GitHub reports all failed); Hangs at logo; Complete Edition, version v02.002.000 (muxi); Backport 4.xx (muxi); works with ampr-emu-ng 0.3.2 and 0.3.4 (muxi); exFAT image",
+   "notes": "Complete Edition, version v02.002.000 (muxi); Backport 4.xx (muxi); works with ampr-emu-ng 0.3.2 and 0.3.4 (muxi); exFAT image",
    "tests": 3
   },
   {

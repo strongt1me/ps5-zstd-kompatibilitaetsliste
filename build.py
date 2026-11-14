@@ -111,6 +111,8 @@ def build_games(lang="de"):
             for key, vals in (("ppsa", m["ppsa"]), ("regions", m["regions"]), ("formats", m["formats"]),
                               ("testers", m["testers"]), ("notes", notes)):
                 r[key] += [v for v in vals if v not in r[key]]
+            if m.get("replace_notes"):  # alte, widerspruechliche Hinweise verwerfen
+                r["notes"] = list(notes)
             r["results"] += m["results"]
             r["superseded"] = r.get("superseded") or m.get("supersedes", False)  # neuere Version behebt frueheren Fehler
             continue

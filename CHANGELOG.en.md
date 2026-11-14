@@ -4,6 +4,14 @@ New and changed entries per update (newest first).
 
 ## 2026-11-14
 
+**Changed**
+
+| Game | Change |
+|---|---|
+| Ghost of Yotei | Status: Conflicting → Works |
+
+## 2026-11-14
+
 **New**
 
 | Game | PPSA | Region | Status | Format | Tester | Note |

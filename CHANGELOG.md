@@ -4,6 +4,14 @@ Neue und geänderte Einträge pro Aktualisierung (neueste zuerst).
 
 ## 2026-11-14
 
+**Geändert**
+
+| Spiel | Änderung |
+|---|---|
+| Ghost of Yotei | Status: Widersprüchlich → Läuft |
+
+## 2026-11-14
+
 **Neu**
 
 | Spiel | PPSA | Region | Status | Format | Tester | Hinweis |

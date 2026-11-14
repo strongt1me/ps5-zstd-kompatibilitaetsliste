@@ -67,7 +67,9 @@
           "works with ampr-emu-ng 0.3.2 and 0.3.4 (muxi)",
           "exFAT image"
         ]
-      }
+      },
+      "supersedes": true,
+      "replace_notes": true
     },
     {
       "id": "anno-117-pax-romana",
