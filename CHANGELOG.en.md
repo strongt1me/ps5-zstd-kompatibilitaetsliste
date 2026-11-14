@@ -27,16 +27,16 @@ New and changed entries per update (newest first).
 | Game | PPSA | Region | Status | Format | Tester | Note |
 |---|---|---|---|---|---|---|
 | Achilles: Legends Untold | PPSA16626 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.3 |
-| Asterix & Obelix XXL 2 | – | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
-| Asterix & Obelix XXL 3: The Crystal Menhir | – | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
-| Asterix & Obelix XXL: Romastered | – | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
-| Asterix & Obelix XXXL: The Ram From Hibernia | – | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
-| Asterix & Obelix: Babylon Mission | – | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
-| Asterix & Obelix: Heroes | – | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
-| Asterix & Obelix: Slap Them All! | – | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
-| Asterix & Obelix: Slap Them All! 2 | – | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
+| Asterix & Obelix XXL 2 | PPSA08164 | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
+| Asterix & Obelix XXL 3: The Crystal Menhir | PPSA07498 | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
+| Asterix & Obelix XXL: Romastered | PPSA08162 | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
+| Asterix & Obelix XXXL: The Ram From Hibernia | PPSA08448 | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
+| Asterix & Obelix: Babylon Mission | PPSA30490 | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
+| Asterix & Obelix: Heroes | PPSA16709 | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
+| Asterix & Obelix: Slap Them All! | PPSA08576 | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
+| Asterix & Obelix: Slap Them All! 2 | PPSA16746 | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
 | BloodRayne 2: ReVamped | PPSA05975 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.3 |
-| Crash Bandicoot 4: It's About Time | – | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
+| Crash Bandicoot 4: It's About Time | PPSA02433 | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
 | Dragon Ball: FighterZ | PPSA09790 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.3 |
 | Dragon Ball: Xenoverse 2 | PPSA08587 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.3 |
 | KAKU: Ancient Seal | PPSA30797 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.3 |

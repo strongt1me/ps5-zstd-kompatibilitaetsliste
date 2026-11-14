@@ -641,7 +641,9 @@
       "id": "asterix-obelix-babylon-mission",
       "match": "asterix and obelix babylon",
       "title": "Asterix & Obelix: Babylon Mission",
-      "ppsa": [],
+      "ppsa": [
+        "PPSA30490"
+      ],
       "regions": [],
       "results": [
         "pass"
@@ -667,7 +669,9 @@
       "id": "asterix-obelix-heroes",
       "match": "asterix and obelix heroes",
       "title": "Asterix & Obelix: Heroes",
-      "ppsa": [],
+      "ppsa": [
+        "PPSA16709"
+      ],
       "regions": [],
       "results": [
         "pass"
@@ -681,10 +685,12 @@
       "notes": {
         "de": [
           "Ordnerformat",
+          "Version 01.000",
           "gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3)"
         ],
         "en": [
           "folder format",
+          "Version 01.000",
           "packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3)"
         ]
       }
@@ -693,7 +699,9 @@
       "id": "asterix-obelix-slap-them-all",
       "match": "asterix and obelix slap them all",
       "title": "Asterix & Obelix: Slap Them All!",
-      "ppsa": [],
+      "ppsa": [
+        "PPSA08576"
+      ],
       "regions": [],
       "results": [
         "pass"
@@ -719,7 +727,9 @@
       "id": "asterix-obelix-slap-them-all-2",
       "match": "asterix and obelix slap them all 2",
       "title": "Asterix & Obelix: Slap Them All! 2",
-      "ppsa": [],
+      "ppsa": [
+        "PPSA16746"
+      ],
       "regions": [],
       "results": [
         "pass"
@@ -745,7 +755,9 @@
       "id": "asterix-obelix-xxl-2",
       "match": "asterix and obelix xxl 2",
       "title": "Asterix & Obelix XXL 2",
-      "ppsa": [],
+      "ppsa": [
+        "PPSA08164"
+      ],
       "regions": [],
       "results": [
         "pass"
@@ -759,10 +771,12 @@
       "notes": {
         "de": [
           "Ordnerformat",
+          "Version 01.001.000",
           "gepackt mit ampr-emu-ng 0.3.5 (Anzeige zeigt beim Tester noch 0.3.3)"
         ],
         "en": [
           "folder format",
+          "Version 01.001.000",
           "packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3)"
         ]
       }
@@ -771,7 +785,9 @@
       "id": "asterix-obelix-xxl-3-the-crystal-menhir",
       "match": "asterix and obelix xxl 3",
       "title": "Asterix & Obelix XXL 3: The Crystal Menhir",
-      "ppsa": [],
+      "ppsa": [
+        "PPSA07498"
+      ],
       "regions": [],
       "results": [
         "pass"
@@ -797,7 +813,9 @@
       "id": "asterix-obelix-xxl-romastered",
       "match": "asterix and obelix xxl romastered",
       "title": "Asterix & Obelix XXL: Romastered",
-      "ppsa": [],
+      "ppsa": [
+        "PPSA08162"
+      ],
       "regions": [],
       "results": [
         "pass"
@@ -823,7 +841,9 @@
       "id": "asterix-obelix-xxxl-the-ram-from-hibernia",
       "match": "asterix and obelix xxxl",
       "title": "Asterix & Obelix XXXL: The Ram From Hibernia",
-      "ppsa": [],
+      "ppsa": [
+        "PPSA08448"
+      ],
       "regions": [],
       "results": [
         "pass"
@@ -849,7 +869,9 @@
       "id": "crash-bandicoot-4-it-s-about-time",
       "match": "crash bandicoot 4",
       "title": "Crash Bandicoot 4: It's About Time",
-      "ppsa": [],
+      "ppsa": [
+        "PPSA02433"
+      ],
       "regions": [],
       "results": [
         "pass"
