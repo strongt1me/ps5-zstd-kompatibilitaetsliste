@@ -1300,6 +1300,172 @@
           "carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image); title identified"
         ]
       }
+    },
+    {
+      "id": "spider-man-miles-morales",
+      "match": "miles morales",
+      "title": "Marvel's Spider-Man: Miles Morales",
+      "ppsa": [
+        "PPSA01417"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.3"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.3"
+        ]
+      }
+    },
+    {
+      "id": "spider-man-remastered",
+      "match": "spider-man remastered",
+      "title": "Marvel's Spider-Man Remastered",
+      "ppsa": [
+        "PPSA01469"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.3"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.3"
+        ]
+      }
+    },
+    {
+      "id": "mxgp-26",
+      "match": "mxgp",
+      "title": "MXGP 26: The Official Game",
+      "ppsa": [
+        "PPSA30839"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.3"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.3"
+        ]
+      }
+    },
+    {
+      "id": "motogp-26",
+      "match": "motogp",
+      "title": "MotoGP 26",
+      "ppsa": [
+        "PPSA32557"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.3"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.3"
+        ]
+      }
+    },
+    {
+      "id": "ghost-of-tsushima-directors-cut-carljhonsen317",
+      "extra_for": "ghost-of-tsushima-directors-cut",
+      "match": "",
+      "title": "",
+      "ppsa": [
+        "PPSA03210"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image)"
+        ],
+        "en": [
+          "carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image)"
+        ]
+      }
+    },
+    {
+      "id": "marvels-wolverine-carljhonsen317",
+      "extra_for": "marvels-wolverine",
+      "match": "",
+      "title": "",
+      "ppsa": [
+        "PPSA03671"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image)"
+        ],
+        "en": [
+          "carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image)"
+        ]
+      }
     }
   ]
 }

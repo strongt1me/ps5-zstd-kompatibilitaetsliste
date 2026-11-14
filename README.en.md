@@ -17,11 +17,11 @@ See the [CHANGELOG](CHANGELOG.en.md) for what is new. In the PDF, new and change
 
 ## Status: 2026-11-14
 
-125 games
+129 games
 
 | Status | Count |
 |---|---|
-| Works | 120 |
+| Works | 124 |
 | Does not run | 4 |
 | Conflicting | 1 |
 | Unconfirmed | 0 |

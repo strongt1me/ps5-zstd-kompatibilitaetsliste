@@ -525,9 +525,9 @@
    "region": "US",
    "status": "ok",
    "format": "ZSTD",
-   "tester": "bmoon",
-   "notes": "",
-   "tests": 1
+   "tester": "bmoon, carljhonsen317",
+   "notes": "carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image)",
+   "tests": 2
   },
   {
    "id": "ghost-of-yotei",
@@ -794,15 +794,37 @@
    "tests": 2
   },
   {
+   "id": "spider-man-remastered",
+   "title": "Marvel's Spider-Man Remastered",
+   "ppsa": "PPSA01469",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.3",
+   "tests": 1
+  },
+  {
+   "id": "spider-man-miles-morales",
+   "title": "Marvel's Spider-Man: Miles Morales",
+   "ppsa": "PPSA01417",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.3",
+   "tests": 1
+  },
+  {
    "id": "marvels-wolverine",
    "title": "Marvel's Wolverine",
    "ppsa": "PPSA03671",
    "region": "–",
    "status": "mixed",
    "format": "ZSTD/LZ4",
-   "tester": "tiga6367, hmh715, nisec_eric",
-   "notes": "Version von tiga6367 fraglich (zstd), hmh715 testete LZ4; auch in der Problemtabelle erfasst; Widerspruch zu P-044 (tiga6367 fraglich / hmh715: LZ4 läuft); Schwarzbild",
-   "tests": 3
+   "tester": "tiga6367, hmh715, nisec_eric, carljhonsen317",
+   "notes": "Version von tiga6367 fraglich (zstd), hmh715 testete LZ4; auch in der Problemtabelle erfasst; Widerspruch zu P-044 (tiga6367 fraglich / hmh715: LZ4 läuft); Schwarzbild; carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image)",
+   "tests": 4
   },
   {
    "id": "monster-hunter-wilds",
@@ -813,6 +835,28 @@
    "format": "ZSTD",
    "tester": "椒盐洋芋",
    "notes": "",
+   "tests": 1
+  },
+  {
+   "id": "motogp-26",
+   "title": "MotoGP 26",
+   "ppsa": "PPSA32557",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.3",
+   "tests": 1
+  },
+  {
+   "id": "mxgp-26",
+   "title": "MXGP 26: The Official Game",
+   "ppsa": "PPSA30839",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.3",
    "tests": 1
   },
   {
@@ -1902,9 +1946,9 @@
    "region": "US",
    "status": "ok",
    "format": "ZSTD",
-   "tester": "bmoon",
-   "notes": "",
-   "tests": 1
+   "tester": "bmoon, carljhonsen317",
+   "notes": "carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image)",
+   "tests": 2
   },
   {
    "id": "ghost-of-yotei",
@@ -2171,15 +2215,37 @@
    "tests": 2
   },
   {
+   "id": "spider-man-remastered",
+   "title": "Marvel's Spider-Man Remastered",
+   "ppsa": "PPSA01469",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.3",
+   "tests": 1
+  },
+  {
+   "id": "spider-man-miles-morales",
+   "title": "Marvel's Spider-Man: Miles Morales",
+   "ppsa": "PPSA01417",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.3",
+   "tests": 1
+  },
+  {
    "id": "marvels-wolverine",
    "title": "Marvel's Wolverine",
    "ppsa": "PPSA03671",
    "region": "–",
    "status": "mixed",
    "format": "ZSTD/LZ4",
-   "tester": "tiga6367, hmh715, nisec_eric",
-   "notes": "tiga6367's version doubtful (zstd), hmh715 tested LZ4; also listed in the problem table; Contradicts P-044 (tiga6367 doubtful / hmh715: LZ4 works); Black screen",
-   "tests": 3
+   "tester": "tiga6367, hmh715, nisec_eric, carljhonsen317",
+   "notes": "tiga6367's version doubtful (zstd), hmh715 tested LZ4; also listed in the problem table; Contradicts P-044 (tiga6367 doubtful / hmh715: LZ4 works); Black screen; carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image)",
+   "tests": 4
   },
   {
    "id": "monster-hunter-wilds",
@@ -2190,6 +2256,28 @@
    "format": "ZSTD",
    "tester": "椒盐洋芋",
    "notes": "",
+   "tests": 1
+  },
+  {
+   "id": "motogp-26",
+   "title": "MotoGP 26",
+   "ppsa": "PPSA32557",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.3",
+   "tests": 1
+  },
+  {
+   "id": "mxgp-26",
+   "title": "MXGP 26: The Official Game",
+   "ppsa": "PPSA30839",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.3",
    "tests": 1
   },
   {

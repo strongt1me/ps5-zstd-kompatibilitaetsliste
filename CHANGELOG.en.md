@@ -8,6 +8,24 @@ New and changed entries per update (newest first).
 
 | Game | PPSA | Region | Status | Format | Tester | Note |
 |---|---|---|---|---|---|---|
+| Marvel's Spider-Man Remastered | PPSA01469 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.3 |
+| Marvel's Spider-Man: Miles Morales | PPSA01417 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.3 |
+| MotoGP 26 | PPSA32557 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.3 |
+| MXGP 26: The Official Game | PPSA30839 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.3 |
+
+**Changed**
+
+| Game | Change |
+|---|---|
+| Ghost of Tsushima DC | Test reports: 1 → 2 (new from carljhonsen317): carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image) |
+| Marvel's Wolverine | Test reports: 3 → 4 (new from carljhonsen317): carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image) |
+
+## 2026-11-14
+
+**New**
+
+| Game | PPSA | Region | Status | Format | Tester | Note |
+|---|---|---|---|---|---|---|
 | Achilles: Legends Untold | PPSA16626 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.3 |
 | Asterix & Obelix XXL 2 | – | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
 | Asterix & Obelix XXL 3: The Crystal Menhir | – | – | Works | ZSTD | carljhonsen317 | folder format; packed with ampr-emu-ng 0.3.5 (the tester's display still shows 0.3.3) |
