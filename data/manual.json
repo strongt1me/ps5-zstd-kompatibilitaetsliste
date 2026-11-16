@@ -1488,6 +1488,252 @@
           "carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image)"
         ]
       }
+    },
+    {
+      "id": "dragon-ball-sparking-zero",
+      "match": "sparking",
+      "title": "Dragon Ball: Sparking! Zero",
+      "ppsa": [
+        "PPSA15210"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.5"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.5"
+        ]
+      }
+    },
+    {
+      "id": "spongebob-squarepants-titans-of-the-tide",
+      "match": "titans of the tide",
+      "title": "SpongeBob SquarePants: Titans of the Tide",
+      "ppsa": [
+        "PPSA26893"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.5"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.5"
+        ]
+      }
+    },
+    {
+      "id": "new-super-lucky-s-tale",
+      "match": "lucky's tale",
+      "title": "New Super Lucky's Tale",
+      "ppsa": [
+        "PPSA34823"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.5"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.5"
+        ]
+      }
+    },
+    {
+      "id": "lego-harry-potter-collection",
+      "match": "harry potter",
+      "title": "LEGO Harry Potter Collection",
+      "ppsa": [
+        "PPSA22946"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.5"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.5"
+        ]
+      }
+    },
+    {
+      "id": "dragon-ball-z-kakarot",
+      "match": "kakarot",
+      "title": "Dragon Ball Z: Kakarot",
+      "ppsa": [
+        "PPSA08084"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.5"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.5"
+        ]
+      }
+    },
+    {
+      "id": "until-dawn",
+      "match": "until dawn",
+      "title": "Until Dawn",
+      "ppsa": [
+        "PPSA15421"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.5"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.5"
+        ]
+      }
+    },
+    {
+      "id": "the-smurfs-dreams",
+      "match": "smurfs",
+      "title": "The Smurfs: Dreams",
+      "ppsa": [
+        "PPSA21607"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.5"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.5"
+        ]
+      }
+    },
+    {
+      "id": "ratchet-and-clank-rift-apart-carljhonsen317",
+      "extra_for": "ratchet-and-clank-rift-apart",
+      "match": "",
+      "title": "",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "carljhonsen317: läuft (ampr-emu-ng 0.3.5, exFAT-Image)"
+        ],
+        "en": [
+          "carljhonsen317: works (ampr-emu-ng 0.3.5, exFAT image)"
+        ]
+      }
+    },
+    {
+      "id": "it-takes-two-carljhonsen317",
+      "extra_for": "it-takes-two",
+      "match": "",
+      "title": "",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "carljhonsen317: läuft (ampr-emu-ng 0.3.5, exFAT-Image)"
+        ],
+        "en": [
+          "carljhonsen317: works (ampr-emu-ng 0.3.5, exFAT image)"
+        ]
+      }
     }
   ]
 }

@@ -2,6 +2,27 @@
 
 Neue und geänderte Einträge pro Aktualisierung (neueste zuerst).
 
+## 2026-11-16
+
+**Neu**
+
+| Spiel | PPSA | Region | Status | Format | Tester | Hinweis |
+|---|---|---|---|---|---|---|
+| Dragon Ball Z: Kakarot | PPSA08084 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.5 |
+| Dragon Ball: Sparking! Zero | PPSA15210 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.5 |
+| LEGO Harry Potter Collection | PPSA22946 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.5 |
+| New Super Lucky's Tale | PPSA34823 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.5 |
+| SpongeBob SquarePants: Titans of the Tide | PPSA26893 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.5 |
+| The Smurfs: Dreams | PPSA21607 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.5 |
+| Until Dawn | PPSA15421 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; gepackt mit ampr-emu-ng 0.3.5 |
+
+**Geändert**
+
+| Spiel | Änderung |
+|---|---|
+| It Takes Two | Testberichte: 1 → 2 (neu von carljhonsen317): carljhonsen317: läuft (ampr-emu-ng 0.3.5, exFAT-Image) |
+| Ratchet & Clank: Rift Apart | Testberichte: 2 → 3 (neu von carljhonsen317): carljhonsen317: läuft (ampr-emu-ng 0.3.5, exFAT-Image) |
+
 ## 2026-11-14
 
 **Neu**

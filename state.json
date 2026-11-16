@@ -1,5 +1,5 @@
 {
- "date": "2026-11-14",
+ "date": "2026-11-16",
  "games": [
   {
    "id": "007-first-light",
@@ -409,6 +409,17 @@
    "tests": 1
   },
   {
+   "id": "dragon-ball-z-kakarot",
+   "title": "Dragon Ball Z: Kakarot",
+   "ppsa": "PPSA08084",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.5",
+   "tests": 1
+  },
+  {
    "id": "dragon-ball-fighterz",
    "title": "Dragon Ball: FighterZ",
    "ppsa": "PPSA09790",
@@ -417,6 +428,17 @@
    "format": "ZSTD",
    "tester": "carljhonsen317",
    "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.3",
+   "tests": 1
+  },
+  {
+   "id": "dragon-ball-sparking-zero",
+   "title": "Dragon Ball: Sparking! Zero",
+   "ppsa": "PPSA15210",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.5",
    "tests": 1
   },
   {
@@ -646,9 +668,9 @@
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
-   "tester": "hmh715",
-   "notes": "Version 01.500.000",
-   "tests": 1
+   "tester": "hmh715, carljhonsen317",
+   "notes": "Version 01.500.000; carljhonsen317: läuft (ampr-emu-ng 0.3.5, exFAT-Image)",
+   "tests": 2
   },
   {
    "id": "kaiju-ancient-seal",
@@ -726,6 +748,17 @@
    "tester": "hmh715, carljhonsen317",
    "notes": "Neuerscheinung vom 26.05.2026, nicht das alte LEGO Batman von 2008; carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image)",
    "tests": 2
+  },
+  {
+   "id": "lego-harry-potter-collection",
+   "title": "LEGO Harry Potter Collection",
+   "ppsa": "PPSA22946",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.5",
+   "tests": 1
   },
   {
    "id": "lego-voyagers",
@@ -871,6 +904,17 @@
    "tests": 1
   },
   {
+   "id": "new-super-lucky-s-tale",
+   "title": "New Super Lucky's Tale",
+   "ppsa": "PPSA34823",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.5",
+   "tests": 1
+  },
+  {
    "id": "ninja-gaiden-4",
    "title": "Ninja Gaiden 4",
    "ppsa": "–",
@@ -954,9 +998,9 @@
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
-   "tester": "nisec_eric, RGdevz",
-   "notes": "Schwarzbild; v01.005.003: läuft mit ampr-emu-ng v0.3.3 (mit v0.3.2 Schwarzbild; Quelle: Issue #19, 08.11.2026)",
-   "tests": 2
+   "tester": "nisec_eric, RGdevz, carljhonsen317",
+   "notes": "Schwarzbild; v01.005.003: läuft mit ampr-emu-ng v0.3.3 (mit v0.3.2 Schwarzbild; Quelle: Issue #19, 08.11.2026); carljhonsen317: läuft (ampr-emu-ng 0.3.5, exFAT-Image)",
+   "tests": 3
   },
   {
    "id": "re4-remake-gold",
@@ -1146,6 +1190,17 @@
    "tests": 1
   },
   {
+   "id": "spongebob-squarepants-titans-of-the-tide",
+   "title": "SpongeBob SquarePants: Titans of the Tide",
+   "ppsa": "PPSA26893",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.5",
+   "tests": 1
+  },
+  {
    "id": "star-wars-galactic-racer",
    "title": "Star Wars: Galactic Racer",
    "ppsa": "PPSA28416",
@@ -1245,6 +1300,17 @@
    "tests": 1
   },
   {
+   "id": "the-smurfs-dreams",
+   "title": "The Smurfs: Dreams",
+   "ppsa": "PPSA21607",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.5",
+   "tests": 1
+  },
+  {
    "id": "tiebreak-grand-slam-edition",
    "title": "TIEBREAK – Grand Slam Edition",
    "ppsa": "PPSA14453",
@@ -1330,6 +1396,17 @@
    "format": "ZSTD",
    "tester": "zylcw1122",
    "notes": "Sony-Seite nennt zusätzlich PPSA20318 (vermutlich weitere SKU)",
+   "tests": 1
+  },
+  {
+   "id": "until-dawn",
+   "title": "Until Dawn",
+   "ppsa": "PPSA15421",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.5",
    "tests": 1
   },
   {
@@ -1830,6 +1907,17 @@
    "tests": 1
   },
   {
+   "id": "dragon-ball-z-kakarot",
+   "title": "Dragon Ball Z: Kakarot",
+   "ppsa": "PPSA08084",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.5",
+   "tests": 1
+  },
+  {
    "id": "dragon-ball-fighterz",
    "title": "Dragon Ball: FighterZ",
    "ppsa": "PPSA09790",
@@ -1838,6 +1926,17 @@
    "format": "ZSTD",
    "tester": "carljhonsen317",
    "notes": "exFAT image; packed with ampr-emu-ng 0.3.3",
+   "tests": 1
+  },
+  {
+   "id": "dragon-ball-sparking-zero",
+   "title": "Dragon Ball: Sparking! Zero",
+   "ppsa": "PPSA15210",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.5",
    "tests": 1
   },
   {
@@ -2067,9 +2166,9 @@
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
-   "tester": "hmh715",
-   "notes": "Version 01.500.000",
-   "tests": 1
+   "tester": "hmh715, carljhonsen317",
+   "notes": "Version 01.500.000; carljhonsen317: works (ampr-emu-ng 0.3.5, exFAT image)",
+   "tests": 2
   },
   {
    "id": "kaiju-ancient-seal",
@@ -2147,6 +2246,17 @@
    "tester": "hmh715, carljhonsen317",
    "notes": "New release of 2026-05-26, not the old 2008 LEGO Batman; carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image)",
    "tests": 2
+  },
+  {
+   "id": "lego-harry-potter-collection",
+   "title": "LEGO Harry Potter Collection",
+   "ppsa": "PPSA22946",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.5",
+   "tests": 1
   },
   {
    "id": "lego-voyagers",
@@ -2292,6 +2402,17 @@
    "tests": 1
   },
   {
+   "id": "new-super-lucky-s-tale",
+   "title": "New Super Lucky's Tale",
+   "ppsa": "PPSA34823",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.5",
+   "tests": 1
+  },
+  {
    "id": "ninja-gaiden-4",
    "title": "Ninja Gaiden 4",
    "ppsa": "–",
@@ -2375,9 +2496,9 @@
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
-   "tester": "nisec_eric, RGdevz",
-   "notes": "Black screen; v01.005.003: works with ampr-emu-ng v0.3.3 (black screen with v0.3.2; source: issue #19, 2026-11-08)",
-   "tests": 2
+   "tester": "nisec_eric, RGdevz, carljhonsen317",
+   "notes": "Black screen; v01.005.003: works with ampr-emu-ng v0.3.3 (black screen with v0.3.2; source: issue #19, 2026-11-08); carljhonsen317: works (ampr-emu-ng 0.3.5, exFAT image)",
+   "tests": 3
   },
   {
    "id": "re4-remake-gold",
@@ -2567,6 +2688,17 @@
    "tests": 1
   },
   {
+   "id": "spongebob-squarepants-titans-of-the-tide",
+   "title": "SpongeBob SquarePants: Titans of the Tide",
+   "ppsa": "PPSA26893",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.5",
+   "tests": 1
+  },
+  {
    "id": "star-wars-galactic-racer",
    "title": "Star Wars: Galactic Racer",
    "ppsa": "PPSA28416",
@@ -2666,6 +2798,17 @@
    "tests": 1
   },
   {
+   "id": "the-smurfs-dreams",
+   "title": "The Smurfs: Dreams",
+   "ppsa": "PPSA21607",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.5",
+   "tests": 1
+  },
+  {
    "id": "tiebreak-grand-slam-edition",
    "title": "TIEBREAK – Grand Slam Edition",
    "ppsa": "PPSA14453",
@@ -2751,6 +2894,17 @@
    "format": "ZSTD",
    "tester": "zylcw1122",
    "notes": "Sony page also lists PPSA20318 (probably another SKU)",
+   "tests": 1
+  },
+  {
+   "id": "until-dawn",
+   "title": "Until Dawn",
+   "ppsa": "PPSA15421",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.5",
    "tests": 1
   },
   {

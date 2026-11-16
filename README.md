@@ -15,13 +15,13 @@ Die Liste wird täglich automatisch aktualisiert.
 Was neu ist, steht im [CHANGELOG](CHANGELOG.md). In der PDF sind neue und geänderte Spiele mit
 `[NEU]` bzw. `[GEÄNDERT]` markiert und blau hinterlegt.
 
-## Stand: 2026-11-14
+## Stand: 2026-11-16
 
-129 Spiele
+136 Spiele
 
 | Status | Anzahl |
 |---|---|
-| Läuft | 124 |
+| Läuft | 131 |
 | Läuft nicht | 4 |
 | Widersprüchlich | 1 |
 | Unbestätigt | 0 |

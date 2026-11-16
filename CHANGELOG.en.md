@@ -2,6 +2,27 @@
 
 New and changed entries per update (newest first).
 
+## 2026-11-16
+
+**New**
+
+| Game | PPSA | Region | Status | Format | Tester | Note |
+|---|---|---|---|---|---|---|
+| Dragon Ball Z: Kakarot | PPSA08084 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.5 |
+| Dragon Ball: Sparking! Zero | PPSA15210 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.5 |
+| LEGO Harry Potter Collection | PPSA22946 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.5 |
+| New Super Lucky's Tale | PPSA34823 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.5 |
+| SpongeBob SquarePants: Titans of the Tide | PPSA26893 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.5 |
+| The Smurfs: Dreams | PPSA21607 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.5 |
+| Until Dawn | PPSA15421 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.5 |
+
+**Changed**
+
+| Game | Change |
+|---|---|
+| It Takes Two | Test reports: 1 → 2 (new from carljhonsen317): carljhonsen317: works (ampr-emu-ng 0.3.5, exFAT image) |
+| Ratchet & Clank: Rift Apart | Test reports: 2 → 3 (new from carljhonsen317): carljhonsen317: works (ampr-emu-ng 0.3.5, exFAT image) |
+
 ## 2026-11-14
 
 **New**
