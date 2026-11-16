@@ -8,6 +8,31 @@ New and changed entries per update (newest first).
 
 | Game | PPSA | Region | Status | Format | Tester | Note |
 |---|---|---|---|---|---|---|
+| Darksiders Warmastered Edition | PPSA31977 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.5 |
+| Enotria: The Last Song (Deluxe Edition) | PPSA20515 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.5 |
+| God of War: Sons of Sparta | PPSA28997 | – | Works | ZSTD | carljhonsen317 | Version 01.008.001; exFAT image; packed with ampr-emu-ng 0.3.5 |
+| Grand Theft Auto III – The Definitive Edition | PPSA03527 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.5 |
+| Grand Theft Auto: San Andreas – The Definitive Edition | PPSA03524 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.5 |
+| Grand Theft Auto: Vice City – The Definitive Edition | PPSA03530 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.5 |
+| LEGO Horizon Adventures | PPSA14632 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.5 |
+| LEGO Star Wars: The Skywalker Saga | PPSA01864 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.5 |
+| Need for Speed Unbound | PPSA01717 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.5 |
+| TEKKEN 8 | PPSA10595 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.5 |
+| The Rogue Prince of Persia | PPSA28155 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.5 |
+
+**Changed**
+
+| Game | Change |
+|---|---|
+| Sonic Frontiers | Test reports: 1 → 2 (new from carljhonsen317): carljhonsen317: works (ampr-emu-ng 0.3.5, exFAT image) |
+| Stellar Blade | Test reports: 1 → 2 (new from carljhonsen317): carljhonsen317: works (ampr-emu-ng 0.3.5, exFAT image) |
+
+## 2026-11-16
+
+**New**
+
+| Game | PPSA | Region | Status | Format | Tester | Note |
+|---|---|---|---|---|---|---|
 | Dragon Ball Z: Kakarot | PPSA08084 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.5 |
 | Dragon Ball: Sparking! Zero | PPSA15210 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.5 |
 | LEGO Harry Potter Collection | PPSA22946 | – | Works | ZSTD | carljhonsen317 | exFAT image; packed with ampr-emu-ng 0.3.5 |

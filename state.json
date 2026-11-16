@@ -354,6 +354,17 @@
    "tests": 2
   },
   {
+   "id": "darksiders-warmastered-edition",
+   "title": "Darksiders Warmastered Edition",
+   "ppsa": "PPSA31977",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.5",
+   "tests": 1
+  },
+  {
    "id": "days-gone-remastered",
    "title": "Days Gone Remastered",
    "ppsa": "PPSA28180",
@@ -508,6 +519,17 @@
    "tests": 1
   },
   {
+   "id": "enotria-the-last-song",
+   "title": "Enotria: The Last Song (Deluxe Edition)",
+   "ppsa": "PPSA20515",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.5",
+   "tests": 1
+  },
+  {
    "id": "fatal-frame-ii-crimson-butterfly-remake",
    "title": "Fatal Frame II: Crimson Butterfly Remake",
    "ppsa": "PPSA32803",
@@ -574,6 +596,17 @@
    "tests": 2
   },
   {
+   "id": "god-of-war-sons-of-sparta",
+   "title": "God of War: Sons of Sparta",
+   "ppsa": "PPSA28997",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "Version 01.008.001; exFAT-Image; gepackt mit ampr-emu-ng 0.3.5",
+   "tests": 1
+  },
+  {
    "id": "gothic-1-remake",
    "title": "Gothic 1 Remake",
    "ppsa": "PPSA09826",
@@ -593,6 +626,39 @@
    "format": "ZSTD",
    "tester": "nisec_eric",
    "notes": "",
+   "tests": 1
+  },
+  {
+   "id": "gta-iii-definitive-edition",
+   "title": "Grand Theft Auto III – The Definitive Edition",
+   "ppsa": "PPSA03527",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.5",
+   "tests": 1
+  },
+  {
+   "id": "gta-san-andreas-definitive-edition",
+   "title": "Grand Theft Auto: San Andreas – The Definitive Edition",
+   "ppsa": "PPSA03524",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.5",
+   "tests": 1
+  },
+  {
+   "id": "gta-vice-city-definitive-edition",
+   "title": "Grand Theft Auto: Vice City – The Definitive Edition",
+   "ppsa": "PPSA03530",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.5",
    "tests": 1
   },
   {
@@ -761,6 +827,28 @@
    "tests": 1
   },
   {
+   "id": "lego-horizon-adventures",
+   "title": "LEGO Horizon Adventures",
+   "ppsa": "PPSA14632",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.5",
+   "tests": 1
+  },
+  {
+   "id": "lego-star-wars-the-skywalker-saga",
+   "title": "LEGO Star Wars: The Skywalker Saga",
+   "ppsa": "PPSA01864",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.5",
+   "tests": 1
+  },
+  {
    "id": "lego-voyagers",
    "title": "LEGO Voyagers",
    "ppsa": "PPSA23732",
@@ -901,6 +989,17 @@
    "format": "ZSTD",
    "tester": "hmh715",
    "notes": "",
+   "tests": 1
+  },
+  {
+   "id": "need-for-speed-unbound",
+   "title": "Need for Speed Unbound",
+   "ppsa": "PPSA01717",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.5",
    "tests": 1
   },
   {
@@ -1163,9 +1262,9 @@
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
-   "tester": "hmh715",
-   "notes": "Version 01.041.000",
-   "tests": 1
+   "tester": "hmh715, carljhonsen317",
+   "notes": "Version 01.041.000; carljhonsen317: läuft (ampr-emu-ng 0.3.5, exFAT-Image)",
+   "tests": 2
   },
   {
    "id": "sonic-racing-crossworlds",
@@ -1218,9 +1317,9 @@
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
-   "tester": "bmoon, hmh715",
-   "notes": "",
-   "tests": 1
+   "tester": "bmoon, hmh715, carljhonsen317",
+   "notes": "carljhonsen317: läuft (ampr-emu-ng 0.3.5, exFAT-Image)",
+   "tests": 2
   },
   {
    "id": "street-fighter-6",
@@ -1231,6 +1330,17 @@
    "format": "ZSTD",
    "tester": "yueliang137",
    "notes": "",
+   "tests": 1
+  },
+  {
+   "id": "tekken-8",
+   "title": "TEKKEN 8",
+   "ppsa": "PPSA10595",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.5",
    "tests": 1
   },
   {
@@ -1297,6 +1407,17 @@
    "format": "ZSTD",
    "tester": "carljhonsen317",
    "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.3",
+   "tests": 1
+  },
+  {
+   "id": "the-rogue-prince-of-persia",
+   "title": "The Rogue Prince of Persia",
+   "ppsa": "PPSA28155",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT-Image; gepackt mit ampr-emu-ng 0.3.5",
    "tests": 1
   },
   {
@@ -1852,6 +1973,17 @@
    "tests": 2
   },
   {
+   "id": "darksiders-warmastered-edition",
+   "title": "Darksiders Warmastered Edition",
+   "ppsa": "PPSA31977",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.5",
+   "tests": 1
+  },
+  {
    "id": "days-gone-remastered",
    "title": "Days Gone Remastered",
    "ppsa": "PPSA28180",
@@ -2006,6 +2138,17 @@
    "tests": 1
   },
   {
+   "id": "enotria-the-last-song",
+   "title": "Enotria: The Last Song (Deluxe Edition)",
+   "ppsa": "PPSA20515",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.5",
+   "tests": 1
+  },
+  {
    "id": "fatal-frame-ii-crimson-butterfly-remake",
    "title": "Fatal Frame II: Crimson Butterfly Remake",
    "ppsa": "PPSA32803",
@@ -2072,6 +2215,17 @@
    "tests": 2
   },
   {
+   "id": "god-of-war-sons-of-sparta",
+   "title": "God of War: Sons of Sparta",
+   "ppsa": "PPSA28997",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "Version 01.008.001; exFAT image; packed with ampr-emu-ng 0.3.5",
+   "tests": 1
+  },
+  {
    "id": "gothic-1-remake",
    "title": "Gothic 1 Remake",
    "ppsa": "PPSA09826",
@@ -2091,6 +2245,39 @@
    "format": "ZSTD",
    "tester": "nisec_eric",
    "notes": "",
+   "tests": 1
+  },
+  {
+   "id": "gta-iii-definitive-edition",
+   "title": "Grand Theft Auto III – The Definitive Edition",
+   "ppsa": "PPSA03527",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.5",
+   "tests": 1
+  },
+  {
+   "id": "gta-san-andreas-definitive-edition",
+   "title": "Grand Theft Auto: San Andreas – The Definitive Edition",
+   "ppsa": "PPSA03524",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.5",
+   "tests": 1
+  },
+  {
+   "id": "gta-vice-city-definitive-edition",
+   "title": "Grand Theft Auto: Vice City – The Definitive Edition",
+   "ppsa": "PPSA03530",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.5",
    "tests": 1
   },
   {
@@ -2259,6 +2446,28 @@
    "tests": 1
   },
   {
+   "id": "lego-horizon-adventures",
+   "title": "LEGO Horizon Adventures",
+   "ppsa": "PPSA14632",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.5",
+   "tests": 1
+  },
+  {
+   "id": "lego-star-wars-the-skywalker-saga",
+   "title": "LEGO Star Wars: The Skywalker Saga",
+   "ppsa": "PPSA01864",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.5",
+   "tests": 1
+  },
+  {
    "id": "lego-voyagers",
    "title": "LEGO Voyagers",
    "ppsa": "PPSA23732",
@@ -2399,6 +2608,17 @@
    "format": "ZSTD",
    "tester": "hmh715",
    "notes": "",
+   "tests": 1
+  },
+  {
+   "id": "need-for-speed-unbound",
+   "title": "Need for Speed Unbound",
+   "ppsa": "PPSA01717",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.5",
    "tests": 1
   },
   {
@@ -2661,9 +2881,9 @@
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
-   "tester": "hmh715",
-   "notes": "Version 01.041.000",
-   "tests": 1
+   "tester": "hmh715, carljhonsen317",
+   "notes": "Version 01.041.000; carljhonsen317: works (ampr-emu-ng 0.3.5, exFAT image)",
+   "tests": 2
   },
   {
    "id": "sonic-racing-crossworlds",
@@ -2716,9 +2936,9 @@
    "region": "–",
    "status": "ok",
    "format": "ZSTD",
-   "tester": "bmoon, hmh715",
-   "notes": "",
-   "tests": 1
+   "tester": "bmoon, hmh715, carljhonsen317",
+   "notes": "carljhonsen317: works (ampr-emu-ng 0.3.5, exFAT image)",
+   "tests": 2
   },
   {
    "id": "street-fighter-6",
@@ -2729,6 +2949,17 @@
    "format": "ZSTD",
    "tester": "yueliang137",
    "notes": "",
+   "tests": 1
+  },
+  {
+   "id": "tekken-8",
+   "title": "TEKKEN 8",
+   "ppsa": "PPSA10595",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.5",
    "tests": 1
   },
   {
@@ -2795,6 +3026,17 @@
    "format": "ZSTD",
    "tester": "carljhonsen317",
    "notes": "exFAT image; packed with ampr-emu-ng 0.3.3",
+   "tests": 1
+  },
+  {
+   "id": "the-rogue-prince-of-persia",
+   "title": "The Rogue Prince of Persia",
+   "ppsa": "PPSA28155",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "carljhonsen317",
+   "notes": "exFAT image; packed with ampr-emu-ng 0.3.5",
    "tests": 1
   },
   {

@@ -1734,6 +1734,366 @@
           "carljhonsen317: works (ampr-emu-ng 0.3.5, exFAT image)"
         ]
       }
+    },
+    {
+      "id": "tekken-8",
+      "match": "tekken 8",
+      "title": "TEKKEN 8",
+      "ppsa": [
+        "PPSA10595"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.5"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.5"
+        ]
+      }
+    },
+    {
+      "id": "need-for-speed-unbound",
+      "match": "need for speed unbound",
+      "title": "Need for Speed Unbound",
+      "ppsa": [
+        "PPSA01717"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.5"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.5"
+        ]
+      }
+    },
+    {
+      "id": "the-rogue-prince-of-persia",
+      "match": "rogue prince",
+      "title": "The Rogue Prince of Persia",
+      "ppsa": [
+        "PPSA28155"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.5"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.5"
+        ]
+      }
+    },
+    {
+      "id": "lego-horizon-adventures",
+      "match": "horizon adventures",
+      "title": "LEGO Horizon Adventures",
+      "ppsa": [
+        "PPSA14632"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.5"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.5"
+        ]
+      }
+    },
+    {
+      "id": "lego-star-wars-the-skywalker-saga",
+      "match": "skywalker saga",
+      "title": "LEGO Star Wars: The Skywalker Saga",
+      "ppsa": [
+        "PPSA01864"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.5"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.5"
+        ]
+      }
+    },
+    {
+      "id": "gta-vice-city-definitive-edition",
+      "match": "vice city",
+      "title": "Grand Theft Auto: Vice City – The Definitive Edition",
+      "ppsa": [
+        "PPSA03530"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.5"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.5"
+        ]
+      }
+    },
+    {
+      "id": "gta-san-andreas-definitive-edition",
+      "match": "san andreas",
+      "title": "Grand Theft Auto: San Andreas – The Definitive Edition",
+      "ppsa": [
+        "PPSA03524"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.5"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.5"
+        ]
+      }
+    },
+    {
+      "id": "gta-iii-definitive-edition",
+      "match": "grand theft auto iii",
+      "title": "Grand Theft Auto III – The Definitive Edition",
+      "ppsa": [
+        "PPSA03527"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.5"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.5"
+        ]
+      }
+    },
+    {
+      "id": "god-of-war-sons-of-sparta",
+      "match": "sons of sparta",
+      "title": "God of War: Sons of Sparta",
+      "ppsa": [
+        "PPSA28997"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "Version 01.008.001",
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.5"
+        ],
+        "en": [
+          "Version 01.008.001",
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.5"
+        ]
+      }
+    },
+    {
+      "id": "enotria-the-last-song",
+      "match": "enotria",
+      "title": "Enotria: The Last Song (Deluxe Edition)",
+      "ppsa": [
+        "PPSA20515"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.5"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.5"
+        ]
+      }
+    },
+    {
+      "id": "darksiders-warmastered-edition",
+      "match": "darksiders",
+      "title": "Darksiders Warmastered Edition",
+      "ppsa": [
+        "PPSA31977"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "gepackt mit ampr-emu-ng 0.3.5"
+        ],
+        "en": [
+          "exFAT image",
+          "packed with ampr-emu-ng 0.3.5"
+        ]
+      }
+    },
+    {
+      "id": "sonic-frontiers-carljhonsen317-2",
+      "extra_for": "sonic-frontiers",
+      "match": "",
+      "title": "",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "carljhonsen317: läuft (ampr-emu-ng 0.3.5, exFAT-Image)"
+        ],
+        "en": [
+          "carljhonsen317: works (ampr-emu-ng 0.3.5, exFAT image)"
+        ]
+      }
+    },
+    {
+      "id": "stellar-blade-carljhonsen317-2",
+      "extra_for": "stellar-blade",
+      "match": "",
+      "title": "",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "carljhonsen317: läuft (ampr-emu-ng 0.3.5, exFAT-Image)"
+        ],
+        "en": [
+          "carljhonsen317: works (ampr-emu-ng 0.3.5, exFAT image)"
+        ]
+      }
     }
   ]
 }

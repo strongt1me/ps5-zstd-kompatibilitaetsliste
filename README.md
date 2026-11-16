@@ -17,11 +17,11 @@ Was neu ist, steht im [CHANGELOG](CHANGELOG.md). In der PDF sind neue und geänd
 
 ## Stand: 2026-11-16
 
-136 Spiele
+147 Spiele
 
 | Status | Anzahl |
 |---|---|
-| Läuft | 131 |
+| Läuft | 142 |
 | Läuft nicht | 4 |
 | Widersprüchlich | 1 |
 | Unbestätigt | 0 |
