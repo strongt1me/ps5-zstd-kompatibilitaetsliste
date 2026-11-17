@@ -2202,6 +2202,42 @@
           "exFAT image"
         ]
       }
+    },
+    {
+      "id": "forspoken-muxi",
+      "match": "forspoken",
+      "title": "Forspoken Deluxe Edition",
+      "ppsa": [
+        "PPSA03984"
+      ],
+      "regions": [
+        "EU"
+      ],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "muxi"
+      ],
+      "notes": {
+        "de": [
+          "Version 01.020.000 (muxi)",
+          "inkl. In Tanta We Trust DLC",
+          "Backport 4.xx (muxi)",
+          "läuft mit ampr-emu-ng 0.4.1 (muxi)",
+          "exFAT-Image"
+        ],
+        "en": [
+          "Version 01.020.000 (muxi)",
+          "incl. In Tanta We Trust DLC",
+          "Backport 4.xx (muxi)",
+          "works with ampr-emu-ng 0.4.1 (muxi)",
+          "exFAT image"
+        ]
+      }
     }
   ]
 }

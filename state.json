@@ -563,6 +563,17 @@
    "tests": 1
   },
   {
+   "id": "forspoken-muxi",
+   "title": "Forspoken Deluxe Edition",
+   "ppsa": "PPSA03984",
+   "region": "EU",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "muxi",
+   "notes": "Version 01.020.000 (muxi); inkl. In Tanta We Trust DLC; Backport 4.xx (muxi); läuft mit ampr-emu-ng 0.4.1 (muxi); exFAT-Image",
+   "tests": 1
+  },
+  {
    "id": "forza-horizon-5",
    "title": "Forza Horizon 5",
    "ppsa": "PPSA22327",
@@ -2190,6 +2201,17 @@
    "format": "ZSTD",
    "tester": "zylcw1122",
    "notes": "International version 31544; Simplified Chinese",
+   "tests": 1
+  },
+  {
+   "id": "forspoken-muxi",
+   "title": "Forspoken Deluxe Edition",
+   "ppsa": "PPSA03984",
+   "region": "EU",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "muxi",
+   "notes": "Version 01.020.000 (muxi); incl. In Tanta We Trust DLC; Backport 4.xx (muxi); works with ampr-emu-ng 0.4.1 (muxi); exFAT image",
    "tests": 1
   },
   {

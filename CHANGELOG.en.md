@@ -8,6 +8,14 @@ New and changed entries per update (newest first).
 
 | Game | PPSA | Region | Status | Format | Tester | Note |
 |---|---|---|---|---|---|---|
+| Forspoken Deluxe Edition | PPSA03984 | EU | Works | ZSTD | muxi | Version 01.020.000 (muxi); incl. In Tanta We Trust DLC; Backport 4.xx (muxi); works with ampr-emu-ng 0.4.1 (muxi); exFAT image |
+
+## 2026-11-17
+
+**New**
+
+| Game | PPSA | Region | Status | Format | Tester | Note |
+|---|---|---|---|---|---|---|
 | Elden Ring: Nightreign Deluxe Edition | PPSA25381 | EU | Works | ZSTD | muxi | Version 01.003.002 (muxi); Backport 4.xx (muxi); works with ampr-emu-ng 0.4.1 (muxi); exFAT image |
 
 ## 2026-11-17
