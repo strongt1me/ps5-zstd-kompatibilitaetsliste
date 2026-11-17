@@ -526,7 +526,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "muxi",
-   "notes": "Version 01.003.002 (muxi); Backport 4.xx (muxi); exFAT-Image",
+   "notes": "Version 01.003.002 (muxi); Backport 4.xx (muxi); läuft mit ampr-emu-ng 0.4.1 (muxi); exFAT-Image",
    "tests": 1
   },
   {
@@ -2156,7 +2156,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "muxi",
-   "notes": "Version 01.003.002 (muxi); Backport 4.xx (muxi); exFAT image",
+   "notes": "Version 01.003.002 (muxi); Backport 4.xx (muxi); works with ampr-emu-ng 0.4.1 (muxi); exFAT image",
    "tests": 1
   },
   {

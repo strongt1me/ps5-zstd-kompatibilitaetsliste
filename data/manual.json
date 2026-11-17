@@ -2192,11 +2192,13 @@
         "de": [
           "Version 01.003.002 (muxi)",
           "Backport 4.xx (muxi)",
+          "läuft mit ampr-emu-ng 0.4.1 (muxi)",
           "exFAT-Image"
         ],
         "en": [
           "Version 01.003.002 (muxi)",
           "Backport 4.xx (muxi)",
+          "works with ampr-emu-ng 0.4.1 (muxi)",
           "exFAT image"
         ]
       }
