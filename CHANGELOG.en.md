@@ -4,6 +4,14 @@ New and changed entries per update (newest first).
 
 ## 2026-11-17
 
+**New**
+
+| Game | PPSA | Region | Status | Format | Tester | Note |
+|---|---|---|---|---|---|---|
+| Elden Ring: Nightreign Deluxe Edition | PPSA25381 | EU | Works | ZSTD | muxi | Version 01.003.002 (muxi); Backport 4.xx (muxi); exFAT image |
+
+## 2026-11-17
+
 **Changed**
 
 | Game | Change |

@@ -2168,6 +2168,38 @@
       },
       "supersedes": true,
       "replace_notes": true
+    },
+    {
+      "id": "elden-ring-nightreign-muxi",
+      "match": "nightreign",
+      "title": "Elden Ring: Nightreign Deluxe Edition",
+      "ppsa": [
+        "PPSA25381"
+      ],
+      "regions": [
+        "EU"
+      ],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "muxi"
+      ],
+      "notes": {
+        "de": [
+          "Version 01.003.002 (muxi)",
+          "Backport 4.xx (muxi)",
+          "exFAT-Image"
+        ],
+        "en": [
+          "Version 01.003.002 (muxi)",
+          "Backport 4.xx (muxi)",
+          "exFAT image"
+        ]
+      }
     }
   ]
 }

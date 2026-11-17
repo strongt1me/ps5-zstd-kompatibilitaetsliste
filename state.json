@@ -519,6 +519,17 @@
    "tests": 1
   },
   {
+   "id": "elden-ring-nightreign-muxi",
+   "title": "Elden Ring: Nightreign Deluxe Edition",
+   "ppsa": "PPSA25381",
+   "region": "EU",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "muxi",
+   "notes": "Version 01.003.002 (muxi); Backport 4.xx (muxi); exFAT-Image",
+   "tests": 1
+  },
+  {
    "id": "enotria-the-last-song",
    "title": "Enotria: The Last Song (Deluxe Edition)",
    "ppsa": "PPSA20515",
@@ -2135,6 +2146,17 @@
    "format": "ZSTD",
    "tester": "fdong",
    "notes": "Version 01.018.001 / 90 GB",
+   "tests": 1
+  },
+  {
+   "id": "elden-ring-nightreign-muxi",
+   "title": "Elden Ring: Nightreign Deluxe Edition",
+   "ppsa": "PPSA25381",
+   "region": "EU",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "muxi",
+   "notes": "Version 01.003.002 (muxi); Backport 4.xx (muxi); exFAT image",
    "tests": 1
   },
   {
