@@ -2238,6 +2238,341 @@
           "exFAT image"
         ]
       }
+    },
+    {
+      "id": "prince-of-persia-the-lost-crown-carljhonsen317",
+      "match": "prince of persia: the lost crown",
+      "title": "Prince of Persia: The Lost Crown",
+      "ppsa": [
+        "PPSA10067"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317)"
+        ]
+      }
+    },
+    {
+      "id": "maneater-carljhonsen317",
+      "match": "maneater",
+      "title": "Maneater",
+      "ppsa": [
+        "PPSA01862"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317)"
+        ]
+      }
+    },
+    {
+      "id": "legacy-of-kain-soul-reaver-carljhonsen317",
+      "match": "soul reaver",
+      "title": "Legacy of Kain: Soul Reaver 1 & 2 Remastered",
+      "ppsa": [
+        "PPSA18152"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317)"
+        ]
+      }
+    },
+    {
+      "id": "the-smurfs-2-carljhonsen317",
+      "match": "smurfs 2",
+      "title": "The Smurfs 2: The Prisoner of the Green Stone",
+      "ppsa": [
+        "PPSA16716"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317)"
+        ]
+      }
+    },
+    {
+      "id": "1348-ex-voto-carljhonsen317",
+      "match": "1348 ex voto",
+      "title": "1348 Ex Voto",
+      "ppsa": [
+        "PPSA24249"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317)"
+        ]
+      }
+    },
+    {
+      "id": "darwins-paradox-carljhonsen317",
+      "match": "darwin",
+      "title": "Darwin's Paradox",
+      "ppsa": [
+        "PPSA28608"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317)"
+        ]
+      }
+    },
+    {
+      "id": "ghostrunner-carljhonsen317",
+      "match": "ghostrunner",
+      "title": "Ghostrunner",
+      "ppsa": [
+        "PPSA03685"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317)"
+        ]
+      }
+    },
+    {
+      "id": "ghostrunner-2-carljhonsen317",
+      "match": "ghostrunner 2",
+      "title": "Ghostrunner 2",
+      "ppsa": [
+        "PPSA09911"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317)"
+        ]
+      }
+    },
+    {
+      "id": "tomb-raider-legend-carljhonsen317",
+      "match": "tomb raider legend",
+      "title": "Tomb Raider Legend",
+      "ppsa": [
+        "PPSA22453"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317)"
+        ]
+      }
+    },
+    {
+      "id": "tomb-raider-iv-vi-remastered-carljhonsen317",
+      "match": "iv-vi",
+      "title": "Tomb Raider IV-VI Remastered",
+      "ppsa": [
+        "PPSA18154"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317)"
+        ]
+      }
+    },
+    {
+      "id": "tomb-raider-i-iii-remastered-carljhonsen317",
+      "match": "i-iii",
+      "title": "Tomb Raider I-III Remastered Starring Lara Croft",
+      "ppsa": [
+        "PPSA16901"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317)"
+        ]
+      }
+    },
+    {
+      "id": "black-myth-wukong-carljhonsen317",
+      "extra_for": "black-myth-wukong",
+      "match": "",
+      "title": "",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317)"
+        ]
+      }
     }
   ]
 }

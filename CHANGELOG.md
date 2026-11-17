@@ -8,6 +8,30 @@ Neue und geänderte Einträge pro Aktualisierung (neueste zuerst).
 
 | Spiel | PPSA | Region | Status | Format | Tester | Hinweis |
 |---|---|---|---|---|---|---|
+| 1348 Ex Voto | PPSA24249 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317) |
+| Darwin's Paradox | PPSA28608 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317) |
+| Ghostrunner | PPSA03685 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317) |
+| Ghostrunner 2 | PPSA09911 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317) |
+| Legacy of Kain: Soul Reaver 1 & 2 Remastered | PPSA18152 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317) |
+| Maneater | PPSA01862 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317) |
+| Prince of Persia: The Lost Crown | PPSA10067 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317) |
+| The Smurfs 2: The Prisoner of the Green Stone | PPSA16716 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317) |
+| Tomb Raider I-III Remastered Starring Lara Croft | PPSA16901 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317) |
+| Tomb Raider IV-VI Remastered | PPSA18154 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317) |
+| Tomb Raider Legend | PPSA22453 | – | Läuft | ZSTD | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317) |
+
+**Geändert**
+
+| Spiel | Änderung |
+|---|---|
+| Black Myth: Wukong | Testberichte: 1 → 2 (neu von carljhonsen317): exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317) |
+
+## 2026-11-17
+
+**Neu**
+
+| Spiel | PPSA | Region | Status | Format | Tester | Hinweis |
+|---|---|---|---|---|---|---|
 | Forspoken Deluxe Edition | PPSA03984 | EU | Läuft | ZSTD | muxi | Version 01.020.000 (muxi); inkl. In Tanta We Trust DLC; Backport 4.xx (muxi); läuft mit ampr-emu-ng 0.4.1 (muxi); exFAT-Image |
 
 ## 2026-11-17
