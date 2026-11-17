@@ -1,5 +1,5 @@
 {
- "date": "2026-11-16",
+ "date": "2026-11-17",
  "games": [
   {
    "id": "007-first-light",
@@ -940,12 +940,12 @@
    "id": "marvels-wolverine",
    "title": "Marvel's Wolverine",
    "ppsa": "PPSA03671",
-   "region": "–",
-   "status": "mixed",
+   "region": "US",
+   "status": "ok",
    "format": "ZSTD/LZ4",
-   "tester": "tiga6367, hmh715, nisec_eric, carljhonsen317",
-   "notes": "Version von tiga6367 fraglich (zstd), hmh715 testete LZ4; auch in der Problemtabelle erfasst; Widerspruch zu P-044 (tiga6367 fraglich / hmh715: LZ4 läuft); Schwarzbild; carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image)",
-   "tests": 4
+   "tester": "tiga6367, hmh715, nisec_eric, muxi, carljhonsen317",
+   "notes": "Version v01.001.005 (muxi); Backport 4.xx (muxi); läuft mit ampr-emu-ng 0.4.1 (muxi); exFAT-Image; carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image)",
+   "tests": 5
   },
   {
    "id": "monster-hunter-wilds",
@@ -2559,12 +2559,12 @@
    "id": "marvels-wolverine",
    "title": "Marvel's Wolverine",
    "ppsa": "PPSA03671",
-   "region": "–",
-   "status": "mixed",
+   "region": "US",
+   "status": "ok",
    "format": "ZSTD/LZ4",
-   "tester": "tiga6367, hmh715, nisec_eric, carljhonsen317",
-   "notes": "tiga6367's version doubtful (zstd), hmh715 tested LZ4; also listed in the problem table; Contradicts P-044 (tiga6367 doubtful / hmh715: LZ4 works); Black screen; carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image)",
-   "tests": 4
+   "tester": "tiga6367, hmh715, nisec_eric, muxi, carljhonsen317",
+   "notes": "Version v01.001.005 (muxi); Backport 4.xx (muxi); works with ampr-emu-ng 0.4.1 (muxi); exFAT image; carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image)",
+   "tests": 5
   },
   {
    "id": "monster-hunter-wilds",

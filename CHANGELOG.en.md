@@ -2,6 +2,14 @@
 
 New and changed entries per update (newest first).
 
+## 2026-11-17
+
+**Changed**
+
+| Game | Change |
+|---|---|
+| Marvel's Wolverine | Status: Conflicting → Works; Test reports: 4 → 5 (new from muxi): Version v01.001.005 (muxi); Backport 4.xx (muxi); works with ampr-emu-ng 0.4.1 (muxi) |
+
 ## 2026-11-16
 
 **New**

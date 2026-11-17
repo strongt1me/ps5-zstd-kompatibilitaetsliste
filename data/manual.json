@@ -1463,6 +1463,43 @@
       }
     },
     {
+      "id": "marvels-wolverine-muxi",
+      "extra_for": "marvels-wolverine",
+      "match": "",
+      "title": "",
+      "ppsa": [
+        "PPSA03671"
+      ],
+      "regions": [
+        "US"
+      ],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "muxi"
+      ],
+      "notes": {
+        "de": [
+          "Version v01.001.005 (muxi)",
+          "Backport 4.xx (muxi)",
+          "läuft mit ampr-emu-ng 0.4.1 (muxi)",
+          "exFAT-Image"
+        ],
+        "en": [
+          "Version v01.001.005 (muxi)",
+          "Backport 4.xx (muxi)",
+          "works with ampr-emu-ng 0.4.1 (muxi)",
+          "exFAT image"
+        ]
+      },
+      "supersedes": true,
+      "replace_notes": true
+    },
+    {
       "id": "marvels-wolverine-carljhonsen317",
       "extra_for": "marvels-wolverine",
       "match": "",
