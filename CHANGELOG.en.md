@@ -8,6 +8,14 @@ New and changed entries per update (newest first).
 
 | Game | Change |
 |---|---|
+| Nioh 3 | Status: Does not run → Works; Format: – → ZSTD; Test reports: 1 → 2 (new from muxi): Version 01.040.020 (muxi); Backport 4.xx (muxi); works with ampr-emu-ng 0.4.1 (muxi); exFAT image |
+
+## 2026-11-17
+
+**Changed**
+
+| Game | Change |
+|---|---|
 | Marvel's Wolverine | Status: Conflicting → Works; Test reports: 4 → 5 (new from muxi): Version v01.001.005 (muxi); Backport 4.xx (muxi); works with ampr-emu-ng 0.4.1 (muxi) |
 
 ## 2026-11-16

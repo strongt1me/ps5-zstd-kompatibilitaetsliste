@@ -2131,6 +2131,43 @@
           "carljhonsen317: works (ampr-emu-ng 0.3.5, exFAT image)"
         ]
       }
+    },
+    {
+      "id": "nioh-3-muxi",
+      "extra_for": "nioh-3",
+      "match": "",
+      "title": "",
+      "ppsa": [
+        "PPSA32785"
+      ],
+      "regions": [
+        "EU"
+      ],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "muxi"
+      ],
+      "notes": {
+        "de": [
+          "Version 01.040.020 (muxi)",
+          "Backport 4.xx (muxi)",
+          "läuft mit ampr-emu-ng 0.4.1 (muxi)",
+          "exFAT-Image"
+        ],
+        "en": [
+          "Version 01.040.020 (muxi)",
+          "Backport 4.xx (muxi)",
+          "works with ampr-emu-ng 0.4.1 (muxi)",
+          "exFAT image"
+        ]
+      },
+      "supersedes": true,
+      "replace_notes": true
     }
   ]
 }

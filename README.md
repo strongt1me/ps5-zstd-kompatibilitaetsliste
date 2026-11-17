@@ -21,8 +21,8 @@ Was neu ist, steht im [CHANGELOG](CHANGELOG.md). In der PDF sind neue und geänd
 
 | Status | Anzahl |
 |---|---|
-| Läuft | 143 |
-| Läuft nicht | 4 |
+| Läuft | 144 |
+| Läuft nicht | 3 |
 | Widersprüchlich | 0 |
 | Unbestätigt | 0 |
 
