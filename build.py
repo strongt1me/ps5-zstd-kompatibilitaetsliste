@@ -24,14 +24,16 @@ UI = {
            "src": "Quelle: PS5 ZSTD Compatibility Database (theweil.github.io/PS5-ZSTD-Compatibility), Lizenz CC BY 4.0. Hinweise aus dem Chinesischen übersetzt; Tester-Nicknames im Original.",
            "since": "Seit der letzten Aktualisierung:", "new": "neu", "chg": "geändert", "blue": "blau hinterlegt",
            "mnew": "NEU", "mchg": "GEÄNDERT", "page": "Seite", "tested": "getestet am", "date": "%d.%m.%Y",
-           "cols": ("Nr.", "Spiel", "PPSA", "Region", "Status", "Format", "Tester", "Hinweise")},
+           "cols": ("Nr.", "Spiel", "PPSA", "Region", "Status", "Format", "FW", "Tester", "Hinweise")},
     "en": {"title": "PS5 ZSTD &amp; LZ4 Compatibility List", "meta": "As of", "games": "games", "status": STATUS_EN,
            "src": "Source: PS5 ZSTD Compatibility Database (theweil.github.io/PS5-ZSTD-Compatibility), licence CC BY 4.0. Notes translated from Chinese; tester nicknames as in the original.",
            "since": "Since the last update:", "new": "new", "chg": "changed", "blue": "highlighted in blue",
            "mnew": "NEW", "mchg": "CHANGED", "page": "Page", "tested": "tested on", "date": "%Y-%m-%d",
-           "cols": ("No.", "Game", "PPSA", "Region", "Status", "Format", "Tester", "Notes")},
+           "cols": ("No.", "Game", "PPSA", "Region", "Status", "Format", "FW", "Tester", "Notes")},
 }
 STATUS_ORDER = ["ok", "fail", "mixed", "unknown"]
+# PS5-Firmware je Tester (laut Angabe des Betreibers); gilt fuer alle manuell erfassten Berichte des Testers
+TESTER_FW = {"muxi": "4.03", "carljhonsen317": "11.00"}
 TITLE_OVERRIDES = {"unidentified-p-030": "Resonance: A Plague Tale Legacy"}
 CJK = re.compile(r"[　-鿿＀-￯]")
 
@@ -71,7 +73,7 @@ def build_games(lang="de"):
     for g in games:
         title = TITLE_OVERRIDES.get(g["id"]) or g["title_en"] or g["title_original"]
         rows[g["id"]] = {"id": g["id"], "title": title, "ppsa": [], "regions": [], "results": [],
-                         "formats": [], "testers": [], "notes": []}
+                         "formats": [], "testers": [], "notes": [], "fw": []}
     for t in tests:
         r = rows.get(t["game_id"])
         if not r:
@@ -83,6 +85,10 @@ def build_games(lang="de"):
             if x.upper() != "UNKNOWN" and x not in r["regions"]:
                 r["regions"].append(x)
         r["results"].append(t["result"])
+        if t.get("ps5_firmware"):
+            for tn in (t.get("tester") or ["–"]):
+                if (str(t["ps5_firmware"]), tn) not in r["fw"]:
+                    r["fw"].append((str(t["ps5_firmware"]), tn))
         fmt = (t.get("compression") or "unknown").upper()
         if fmt != "UNKNOWN" and fmt not in r["formats"]:
             r["formats"].append(fmt)
@@ -111,6 +117,9 @@ def build_games(lang="de"):
             for key, vals in (("ppsa", m["ppsa"]), ("regions", m["regions"]), ("formats", m["formats"]),
                               ("testers", m["testers"]), ("notes", notes)):
                 r[key] += [v for v in vals if v not in r[key]]
+            for tn in m["testers"]:
+                if TESTER_FW.get(tn) and (TESTER_FW[tn], tn) not in r["fw"]:
+                    r["fw"].append((TESTER_FW[tn], tn))
             if m.get("replace_notes"):  # alte, widerspruechliche Hinweise verwerfen
                 r["notes"] = list(notes)
             r["results"] += m["results"]
@@ -120,7 +129,7 @@ def build_games(lang="de"):
             continue
         rows[m["id"]] = {"id": m["id"], "title": m["title"], "ppsa": m["ppsa"], "regions": m["regions"],
                          "results": m["results"], "formats": m["formats"], "testers": m["testers"],
-                         "notes": notes}
+                         "notes": notes, "fw": [(TESTER_FW[tn], tn) for tn in dict.fromkeys(m["testers"]) if tn in TESTER_FW]}
 
     out = []
     for r in rows.values():
@@ -139,9 +148,19 @@ def build_games(lang="de"):
         out.append({"id": r["id"], "title": r["title"], "ppsa": ", ".join(r["ppsa"]) or "–",
                     "region": "/".join(r["regions"]) or "–", "status": st,
                     "format": "/".join(r["formats"]) or "–", "tester": ", ".join(r["testers"]) or "–",
-                    "notes": "; ".join(r["notes"]), "tests": len(r["results"])})
+                    "firmware": fw_text(r), "notes": "; ".join(r["notes"]), "tests": len(r["results"])})
     out.sort(key=lambda g: g["title"].lower())
     return out
+
+
+def fw_text(r):
+    """PS5-Firmware eines Spiels; fehlt sie bei einem Teil der Tester, steht der Tester dabei."""
+    if not r["fw"]:
+        return "–"
+    known = {tn for _, tn in r["fw"]}
+    if known >= set(r["testers"]):
+        return " / ".join(dict.fromkeys(f for f, _ in r["fw"]))
+    return " / ".join(f"{f} ({tn})" for f, tn in r["fw"])
 
 
 def diff(old, new):
@@ -172,11 +191,11 @@ def esc(s):
 CL = {
     "de": {"head": "# Changelog\n\nNeue und geänderte Einträge pro Aktualisierung (neueste zuerst).\n\n",
            "new": "**Neu**", "chg": "**Geändert**", "rem": "**Entfernt**", "game": "Spiel", "change": "Änderung",
-           "cols": "| Spiel | PPSA | Region | Status | Format | Tester | Hinweis |", "status": STATUS_DE,
+           "cols": "| Spiel | PPSA | Region | Status | Format | FW | Tester | Hinweis |", "status": STATUS_DE,
            "format": "Format", "tests": "Testberichte", "newfrom": "neu von"},
     "en": {"head": "# Changelog\n\nNew and changed entries per update (newest first).\n\n",
            "new": "**New**", "chg": "**Changed**", "rem": "**Removed**", "game": "Game", "change": "Change",
-           "cols": "| Game | PPSA | Region | Status | Format | Tester | Note |", "status": STATUS_EN,
+           "cols": "| Game | PPSA | Region | Status | Format | FW | Tester | Note |", "status": STATUS_EN,
            "format": "Format", "tests": "Test reports", "newfrom": "new from"},
 }
 
@@ -187,10 +206,10 @@ def changelog_entry(date, added, changed, removed, lang="de", rows=None):
     rows = rows or {}
     L = [f"## {date}", ""]
     if added:
-        L += [C["new"], "", C["cols"], "|---|---|---|---|---|---|---|"]
+        L += [C["new"], "", C["cols"], "|---|---|---|---|---|---|---|---|"]
         for g in added:
             g = rows.get(g["id"], g)
-            L.append(f"| {esc(g['title'])} | {g['ppsa']} | {g['region']} | {C['status'][g['status']]} | {g['format']} | {esc(g['tester'])} | {esc(g['notes'])} |")
+            L.append(f"| {esc(g['title'])} | {g['ppsa']} | {g['region']} | {C['status'][g['status']]} | {g['format']} | {g.get('firmware', '–')} | {esc(g['tester'])} | {esc(g['notes'])} |")
         L.append("")
     if changed:
         L += [C["chg"], "", f"| {C['game']} | {C['change']} |", "|---|---|"]
@@ -250,11 +269,12 @@ def write_pdf(games, marks, date, path, lang="de"):
         data.append([Paragraph(str(i), cell), Paragraph(title, cell), Paragraph(esc_x(g["ppsa"]), cell),
                      Paragraph(esc_x(g["region"]), cell),
                      Paragraph(f'<font color="{colors_st[g["status"]]}"><b>{U["status"][g["status"]]}</b></font>', cell),
-                     Paragraph(esc_x(g["format"]), cell), Paragraph(esc_x(g["tester"]), cell),
+                     Paragraph(esc_x(g["format"]), cell), Paragraph(esc_x(g.get("firmware", "–")), cell),
+                     Paragraph(esc_x(g["tester"]), cell),
                      Paragraph(esc_x(g["notes"]), cell)])
         if m:
             style.append(("BACKGROUND", (0, i), (-1, i), colors.HexColor("#dce9ff")))
-    t = Table(data, colWidths=[9 * mm, 52 * mm, 30 * mm, 14 * mm, 22 * mm, 14 * mm, 35 * mm, 101 * mm], repeatRows=1)
+    t = Table(data, colWidths=[9 * mm, 52 * mm, 30 * mm, 14 * mm, 22 * mm, 14 * mm, 13 * mm, 33 * mm, 90 * mm], repeatRows=1)
     t.setStyle(TableStyle(style))
     el.append(t)
 
@@ -312,6 +332,12 @@ Spiel-Backups werden mit ZSTD oder LZ4 komprimiert, damit sie weniger Speicherpl
 Beim Spielen entpackt ein Emulator für die AMPR-Schnittstelle (ampr-emu bzw. libSceAmpr) die Daten
 in Echtzeit. Die Liste zeigt, welche Spiele in dieser komprimierten Form tatsächlich laufen. In der Spalte
 „Format“ steht, mit welchem Verfahren getestet wurde.
+
+## Hinweis zur Firmware (Spalte „FW“)
+
+Die Spalte „FW“ nennt die PS5-Firmware, mit der getestet wurde. Bei den Berichten von muxi ist das 4.03, bei den
+Berichten von carljhonsen317 11.00 (Angabe der Tester). Die Quelldatenbank nennt die Firmware nur selten; ein „–“
+heißt, dass sie nicht bekannt ist.
 
 ## Hinweis zu den Tests von muxi
 
@@ -376,6 +402,11 @@ LZ4 decompresses even faster than ZSTD but compresses less, so the files end up 
 Game backups are compressed with ZSTD or LZ4 to save disk space. While playing, an emulator
 for the AMPR interface (ampr-emu / libSceAmpr) decompresses the data in real time. This list shows which games
 actually run in this compressed form. The "Format" column states which algorithm was used for the test.
+
+## Note on firmware (column "FW")
+
+The "FW" column shows the PS5 firmware used for the test. For muxi's reports this is 4.03, for carljhonsen317's
+reports 11.00 (as stated by the testers). The source database rarely lists the firmware; a "–" means it is unknown.
 
 ## Note on muxi's tests
 

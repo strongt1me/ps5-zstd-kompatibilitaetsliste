@@ -15,7 +15,7 @@ The list is updated automatically every day.
 See the [CHANGELOG](CHANGELOG.en.md) for what is new. In the PDF, new and changed games are marked
 `[NEW]` / `[CHANGED]` and highlighted in blue.
 
-## Status: 2026-11-17
+## Status: 2026-11-18
 
 160 games
 
@@ -47,6 +47,11 @@ LZ4 decompresses even faster than ZSTD but compresses less, so the files end up 
 Game backups are compressed with ZSTD or LZ4 to save disk space. While playing, an emulator
 for the AMPR interface (ampr-emu / libSceAmpr) decompresses the data in real time. This list shows which games
 actually run in this compressed form. The "Format" column states which algorithm was used for the test.
+
+## Note on firmware (column "FW")
+
+The "FW" column shows the PS5 firmware used for the test. For muxi's reports this is 4.03, for carljhonsen317's
+reports 11.00 (as stated by the testers). The source database rarely lists the firmware; a "–" means it is unknown.
 
 ## Note on muxi's tests
 
