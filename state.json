@@ -1,5 +1,5 @@
 {
- "date": "2026-11-18",
+ "date": "2026-11-19",
  "games": [
   {
    "id": "007-first-light",
@@ -57,7 +57,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "bmoon, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image)",
    "tests": 2
   },
@@ -81,7 +81,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "aiwo1986, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "carljhonsen317: läuft (exFAT-Image, ampr-emu-ng 0.3.5)",
    "tests": 2
   },
@@ -237,7 +237,7 @@
    "status": "ok",
    "format": "LZ4/ZSTD",
    "tester": "hmh715, nisec_eric, jamesst20, Akaguiri, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "Auch in der Problemtabelle erfasst (hängt am Logo, widersprüchliche Ergebnisse); GitHub-Issue wird verfolgt; jemand konvertierte erfolgreich mit 0.5.2, aber mit über 40000 kleinen Dateien; widerspricht P-054 (hmh715: LZ4 läuft); Hängt am Logo; v01.019: läuft mit ampr-emu-ng v0.3.4 (Thread-Probleme behoben; Quelle: Issue #17, 11.11.2026); carljhonsen317: läuft, etwa 10 Minuten gespielt (ampr-emu-ng 0.3.3, exFAT-Image)",
    "tests": 4
   },
@@ -273,7 +273,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "快上楼, hmh715, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317)",
    "tests": 2
   },
@@ -669,7 +669,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "bmoon, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image)",
    "tests": 2
   },
@@ -681,7 +681,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "zhangyun111, nisec_eric, muxi",
-   "firmware": "4.03 (muxi)",
+   "firmware": "4.03*",
    "notes": "Complete Edition, Version v02.002.000 (muxi); Backport 4.xx (muxi); läuft mit ampr-emu-ng 0.3.2 und 0.3.4 (muxi); exFAT-Image",
    "tests": 3
   },
@@ -873,7 +873,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "hmh715, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "Version 01.500.000; carljhonsen317: läuft (ampr-emu-ng 0.3.5, exFAT-Image)",
    "tests": 2
   },
@@ -969,7 +969,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "hmh715, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "Neuerscheinung vom 26.05.2026, nicht das alte LEGO Batman von 2008; carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image)",
    "tests": 2
   },
@@ -1089,7 +1089,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "tnnuy23-dot, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "Version 01.005.001; läuft mit ampr-emu-ng v0.3.3 (Schwarzbild mit v0.3.2; Quelle: Issues #31, #34, 08.11.2026); carljhonsen317: läuft (Version 01.005.001, ampr-emu-ng 0.3.3, exFAT-Image)",
    "tests": 2
   },
@@ -1125,7 +1125,7 @@
    "status": "ok",
    "format": "ZSTD/LZ4",
    "tester": "tiga6367, hmh715, nisec_eric, muxi, carljhonsen317",
-   "firmware": "4.03 (muxi) / 11.00 (carljhonsen317)",
+   "firmware": "4.03 / 11.00*",
    "notes": "Version v01.001.005 (muxi); Backport 4.xx (muxi); läuft mit ampr-emu-ng 0.4.1 (muxi); exFAT-Image; carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image)",
    "tests": 5
   },
@@ -1221,7 +1221,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "kofdaibin, muxi",
-   "firmware": "4.03 (muxi)",
+   "firmware": "4.03*",
    "notes": "Version 01.040.020 (muxi); Backport 4.xx (muxi); läuft mit ampr-emu-ng 0.4.1 (muxi); exFAT-Image",
    "tests": 2
   },
@@ -1305,7 +1305,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "nisec_eric, RGdevz, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "Schwarzbild; v01.005.003: läuft mit ampr-emu-ng v0.3.3 (mit v0.3.2 Schwarzbild; Quelle: Issue #19, 08.11.2026); carljhonsen317: läuft (ampr-emu-ng 0.3.5, exFAT-Image)",
    "tests": 3
   },
@@ -1389,7 +1389,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "fdong, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "Version 01.002.000 / 66 GB; Name nicht eindeutig identifiziert, Originalnamen des Downloads prüfen; carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image); Titel identifiziert",
    "tests": 2
   },
@@ -1425,7 +1425,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "铉的小恶魔, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image)",
    "tests": 2
   },
@@ -1485,7 +1485,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "hmh715, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "Version 01.041.000; carljhonsen317: läuft (ampr-emu-ng 0.3.5, exFAT-Image)",
    "tests": 2
   },
@@ -1533,7 +1533,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "hmh715, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "carljhonsen317: läuft (ampr-emu-ng 0.3.3, exFAT-Image)",
    "tests": 2
   },
@@ -1545,7 +1545,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "bmoon, hmh715, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "carljhonsen317: läuft (ampr-emu-ng 0.3.5, exFAT-Image)",
    "tests": 2
   },
@@ -1629,7 +1629,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "hmh715, nisec_eric, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "In der Problemtabelle zu klären (widersprüchliche Ergebnisse); Laut Netz lauffähig; P-063 (hmh715): läuft; Zu bestätigen; carljhonsen317: läuft (Version 02.002.000, ampr-emu-ng 0.3.3, exFAT-Image)",
    "tests": 3
   },
@@ -1979,7 +1979,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "bmoon, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image)",
    "tests": 2
   },
@@ -2003,7 +2003,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "aiwo1986, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "carljhonsen317: works (exFAT image, ampr-emu-ng 0.3.5)",
    "tests": 2
   },
@@ -2159,7 +2159,7 @@
    "status": "ok",
    "format": "LZ4/ZSTD",
    "tester": "hmh715, nisec_eric, jamesst20, Akaguiri, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "Also listed in the problem table (hangs at logo, conflicting results); GitHub issue being tracked; someone converted successfully with 0.5.2 but with over 40000 small files; contradicts P-054 (hmh715: LZ4 works); Hangs at logo; v01.019: works with ampr-emu-ng v0.3.4 (thread problems fixed; source: issue #17, 2026-11-11); carljhonsen317: works, played about 10 minutes (ampr-emu-ng 0.3.3, exFAT image)",
    "tests": 4
   },
@@ -2195,7 +2195,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "快上楼, hmh715, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "exFAT image; works with ampr-emu-ng 0.4.1 (carljhonsen317)",
    "tests": 2
   },
@@ -2591,7 +2591,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "bmoon, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image)",
    "tests": 2
   },
@@ -2603,7 +2603,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "zhangyun111, nisec_eric, muxi",
-   "firmware": "4.03 (muxi)",
+   "firmware": "4.03*",
    "notes": "Complete Edition, version v02.002.000 (muxi); Backport 4.xx (muxi); works with ampr-emu-ng 0.3.2 and 0.3.4 (muxi); exFAT image",
    "tests": 3
   },
@@ -2795,7 +2795,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "hmh715, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "Version 01.500.000; carljhonsen317: works (ampr-emu-ng 0.3.5, exFAT image)",
    "tests": 2
   },
@@ -2891,7 +2891,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "hmh715, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "New release of 2026-05-26, not the old 2008 LEGO Batman; carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image)",
    "tests": 2
   },
@@ -3011,7 +3011,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "tnnuy23-dot, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "Version 01.005.001; works with ampr-emu-ng v0.3.3 (black screen with v0.3.2; source: issues #31, #34, 2026-11-08); carljhonsen317: works (version 01.005.001, ampr-emu-ng 0.3.3, exFAT image)",
    "tests": 2
   },
@@ -3047,7 +3047,7 @@
    "status": "ok",
    "format": "ZSTD/LZ4",
    "tester": "tiga6367, hmh715, nisec_eric, muxi, carljhonsen317",
-   "firmware": "4.03 (muxi) / 11.00 (carljhonsen317)",
+   "firmware": "4.03 / 11.00*",
    "notes": "Version v01.001.005 (muxi); Backport 4.xx (muxi); works with ampr-emu-ng 0.4.1 (muxi); exFAT image; carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image)",
    "tests": 5
   },
@@ -3143,7 +3143,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "kofdaibin, muxi",
-   "firmware": "4.03 (muxi)",
+   "firmware": "4.03*",
    "notes": "Version 01.040.020 (muxi); Backport 4.xx (muxi); works with ampr-emu-ng 0.4.1 (muxi); exFAT image",
    "tests": 2
   },
@@ -3227,7 +3227,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "nisec_eric, RGdevz, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "Black screen; v01.005.003: works with ampr-emu-ng v0.3.3 (black screen with v0.3.2; source: issue #19, 2026-11-08); carljhonsen317: works (ampr-emu-ng 0.3.5, exFAT image)",
    "tests": 3
   },
@@ -3311,7 +3311,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "fdong, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "Version 01.002.000 / 66 GB; name not clearly identified, check the original download name; carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image); title identified",
    "tests": 2
   },
@@ -3347,7 +3347,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "铉的小恶魔, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image)",
    "tests": 2
   },
@@ -3407,7 +3407,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "hmh715, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "Version 01.041.000; carljhonsen317: works (ampr-emu-ng 0.3.5, exFAT image)",
    "tests": 2
   },
@@ -3455,7 +3455,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "hmh715, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "carljhonsen317: works (ampr-emu-ng 0.3.3, exFAT image)",
    "tests": 2
   },
@@ -3467,7 +3467,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "bmoon, hmh715, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "carljhonsen317: works (ampr-emu-ng 0.3.5, exFAT image)",
    "tests": 2
   },
@@ -3551,7 +3551,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "hmh715, nisec_eric, carljhonsen317",
-   "firmware": "11.00 (carljhonsen317)",
+   "firmware": "11.00*",
    "notes": "To be clarified in the problem table (conflicting results); Reported to work online; P-063 (hmh715): works; To be confirmed; carljhonsen317: works (version 02.002.000, ampr-emu-ng 0.3.3, exFAT image)",
    "tests": 3
   },

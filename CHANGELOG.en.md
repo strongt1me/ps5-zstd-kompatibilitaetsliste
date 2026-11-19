@@ -6,7 +6,7 @@ New and changed entries per update (newest first).
 
 **Changed**
 
-New column "FW" showing the PS5 firmware used for testing: muxi 4.03, carljhonsen317 11.00 (as stated by the testers). Where only some testers' firmware is known, the tester is shown next to it; a "–" means unknown. The source database rarely lists the firmware.
+New column "FW" showing the PS5 firmware used for testing: muxi 4.03, carljhonsen317 11.00 (as stated by the testers). An asterisk (*) means known for only some of the game's reports; a "–" means unknown. The source database rarely lists the firmware.
 
 ## 2026-11-17
 

@@ -15,7 +15,7 @@ Die Liste wird täglich automatisch aktualisiert.
 Was neu ist, steht im [CHANGELOG](CHANGELOG.md). In der PDF sind neue und geänderte Spiele mit
 `[NEU]` bzw. `[GEÄNDERT]` markiert und blau hinterlegt.
 
-## Stand: 2026-11-18
+## Stand: 2026-11-19
 
 160 Spiele
 
@@ -53,7 +53,7 @@ in Echtzeit. Die Liste zeigt, welche Spiele in dieser komprimierten Form tatsäc
 ## Hinweis zur Firmware (Spalte „FW“)
 
 Die Spalte „FW“ nennt die PS5-Firmware, mit der getestet wurde. Bei den Berichten von muxi ist das 4.03, bei den
-Berichten von carljhonsen317 11.00 (Angabe der Tester). Die Quelldatenbank nennt die Firmware nur selten; ein „–“
+Berichten von carljhonsen317 11.00 (Angabe der Tester). Ein Stern (*) heißt: nur für einen Teil der Berichte des Spiels bekannt. Die Quelldatenbank nennt die Firmware nur selten; ein „–“
 heißt, dass sie nicht bekannt ist.
 
 ## Hinweis zu den Tests von muxi

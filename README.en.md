@@ -15,7 +15,7 @@ The list is updated automatically every day.
 See the [CHANGELOG](CHANGELOG.en.md) for what is new. In the PDF, new and changed games are marked
 `[NEW]` / `[CHANGED]` and highlighted in blue.
 
-## Status: 2026-11-18
+## Status: 2026-11-19
 
 160 games
 
@@ -51,7 +51,7 @@ actually run in this compressed form. The "Format" column states which algorithm
 ## Note on firmware (column "FW")
 
 The "FW" column shows the PS5 firmware used for the test. For muxi's reports this is 4.03, for carljhonsen317's
-reports 11.00 (as stated by the testers). The source database rarely lists the firmware; a "–" means it is unknown.
+reports 11.00 (as stated by the testers). An asterisk (*) means it is known for only some of the game's reports. The source database rarely lists the firmware; a "–" means it is unknown.
 
 ## Note on muxi's tests
 

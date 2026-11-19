@@ -21,12 +21,12 @@ STATUS_DE = {"ok": "Läuft", "fail": "Läuft nicht", "mixed": "Widersprüchlich"
 STATUS_EN = {"ok": "Works", "fail": "Does not run", "mixed": "Conflicting", "unknown": "Unconfirmed"}
 UI = {
     "de": {"title": "PS5 ZSTD &amp; LZ4 Kompatibilitätsliste", "meta": "Stand", "games": "Spiele", "status": STATUS_DE,
-           "src": "Quelle: PS5 ZSTD Compatibility Database (theweil.github.io/PS5-ZSTD-Compatibility), Lizenz CC BY 4.0. Hinweise aus dem Chinesischen übersetzt; Tester-Nicknames im Original.",
+           "src": "Quelle: PS5 ZSTD Compatibility Database (theweil.github.io/PS5-ZSTD-Compatibility), Lizenz CC BY 4.0. Hinweise aus dem Chinesischen übersetzt; Tester-Nicknames im Original. FW = PS5-Firmware des Tests; * = nur für einen Teil der Berichte bekannt, – = unbekannt.",
            "since": "Seit der letzten Aktualisierung:", "new": "neu", "chg": "geändert", "blue": "blau hinterlegt",
            "mnew": "NEU", "mchg": "GEÄNDERT", "page": "Seite", "tested": "getestet am", "date": "%d.%m.%Y",
            "cols": ("Nr.", "Spiel", "PPSA", "Region", "Status", "Format", "FW", "Tester", "Hinweise")},
     "en": {"title": "PS5 ZSTD &amp; LZ4 Compatibility List", "meta": "As of", "games": "games", "status": STATUS_EN,
-           "src": "Source: PS5 ZSTD Compatibility Database (theweil.github.io/PS5-ZSTD-Compatibility), licence CC BY 4.0. Notes translated from Chinese; tester nicknames as in the original.",
+           "src": "Source: PS5 ZSTD Compatibility Database (theweil.github.io/PS5-ZSTD-Compatibility), licence CC BY 4.0. Notes translated from Chinese; tester nicknames as in the original. FW = PS5 firmware of the test; * = known for only some of the reports, – = unknown.",
            "since": "Since the last update:", "new": "new", "chg": "changed", "blue": "highlighted in blue",
            "mnew": "NEW", "mchg": "CHANGED", "page": "Page", "tested": "tested on", "date": "%Y-%m-%d",
            "cols": ("No.", "Game", "PPSA", "Region", "Status", "Format", "FW", "Tester", "Notes")},
@@ -154,13 +154,13 @@ def build_games(lang="de"):
 
 
 def fw_text(r):
-    """PS5-Firmware eines Spiels; fehlt sie bei einem Teil der Tester, steht der Tester dabei."""
+    """PS5-Firmware eines Spiels; fehlt sie bei einem Teil der Tester, folgt ein Stern."""
     if not r["fw"]:
         return "–"
     known = {tn for _, tn in r["fw"]}
     if known >= set(r["testers"]):
         return " / ".join(dict.fromkeys(f for f, _ in r["fw"]))
-    return " / ".join(f"{f} ({tn})" for f, tn in r["fw"])
+    return " / ".join(dict.fromkeys(f for f, _ in r["fw"])) + "*"
 
 
 def diff(old, new):
@@ -269,12 +269,12 @@ def write_pdf(games, marks, date, path, lang="de"):
         data.append([Paragraph(str(i), cell), Paragraph(title, cell), Paragraph(esc_x(g["ppsa"]), cell),
                      Paragraph(esc_x(g["region"]), cell),
                      Paragraph(f'<font color="{colors_st[g["status"]]}"><b>{U["status"][g["status"]]}</b></font>', cell),
-                     Paragraph(esc_x(g["format"]), cell), Paragraph(esc_x(g.get("firmware", "–")), cell),
+                     Paragraph(esc_x(g["format"]), cell), Paragraph(esc_x(g.get("firmware", "–")).replace(" / ", "<br/>"), cell),
                      Paragraph(esc_x(g["tester"]), cell),
                      Paragraph(esc_x(g["notes"]), cell)])
         if m:
             style.append(("BACKGROUND", (0, i), (-1, i), colors.HexColor("#dce9ff")))
-    t = Table(data, colWidths=[9 * mm, 52 * mm, 30 * mm, 14 * mm, 22 * mm, 14 * mm, 13 * mm, 33 * mm, 90 * mm], repeatRows=1)
+    t = Table(data, colWidths=[9 * mm, 52 * mm, 30 * mm, 14 * mm, 22 * mm, 14 * mm, 14 * mm, 33 * mm, 89 * mm], repeatRows=1)
     t.setStyle(TableStyle(style))
     el.append(t)
 
@@ -336,7 +336,7 @@ in Echtzeit. Die Liste zeigt, welche Spiele in dieser komprimierten Form tatsäc
 ## Hinweis zur Firmware (Spalte „FW“)
 
 Die Spalte „FW“ nennt die PS5-Firmware, mit der getestet wurde. Bei den Berichten von muxi ist das 4.03, bei den
-Berichten von carljhonsen317 11.00 (Angabe der Tester). Die Quelldatenbank nennt die Firmware nur selten; ein „–“
+Berichten von carljhonsen317 11.00 (Angabe der Tester). Ein Stern (*) heißt: nur für einen Teil der Berichte des Spiels bekannt. Die Quelldatenbank nennt die Firmware nur selten; ein „–“
 heißt, dass sie nicht bekannt ist.
 
 ## Hinweis zu den Tests von muxi
@@ -406,7 +406,7 @@ actually run in this compressed form. The "Format" column states which algorithm
 ## Note on firmware (column "FW")
 
 The "FW" column shows the PS5 firmware used for the test. For muxi's reports this is 4.03, for carljhonsen317's
-reports 11.00 (as stated by the testers). The source database rarely lists the firmware; a "–" means it is unknown.
+reports 11.00 (as stated by the testers). An asterisk (*) means it is known for only some of the game's reports. The source database rarely lists the firmware; a "–" means it is unknown.
 
 ## Note on muxi's tests
 
