@@ -2573,6 +2573,39 @@
           "works with ampr-emu-ng 0.4.1 (carljhonsen317)"
         ]
       }
+    },
+    {
+      "id": "dirt-5-pepe0815",
+      "extra_for": "dirt-5",
+      "match": "",
+      "title": "",
+      "ppsa": [
+        "PPSA01552"
+      ],
+      "regions": [
+        "US"
+      ],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "Pepe0815"
+      ],
+      "notes": {
+        "de": [
+          "Version 06.004.00 (Pepe0815, PPSA01552)",
+          "läuft mit ampr-emu-ng 0.4.1 (Pepe0815)",
+          "exFAT-Image"
+        ],
+        "en": [
+          "Version 06.004.00 (Pepe0815, PPSA01552)",
+          "works with ampr-emu-ng 0.4.1 (Pepe0815)",
+          "exFAT image"
+        ]
+      }
     }
   ]
 }

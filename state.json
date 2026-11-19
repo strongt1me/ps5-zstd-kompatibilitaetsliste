@@ -460,14 +460,14 @@
   {
    "id": "dirt-5",
    "title": "DIRT 5",
-   "ppsa": "PPSA01551",
-   "region": "–",
-   "status": "fail",
-   "format": "–",
-   "tester": "yttx1228",
-   "firmware": "–",
-   "notes": "Läuft nicht",
-   "tests": 1
+   "ppsa": "PPSA01551, PPSA01552",
+   "region": "US",
+   "status": "mixed",
+   "format": "ZSTD",
+   "tester": "yttx1228, Pepe0815",
+   "firmware": "12.00*",
+   "notes": "Läuft nicht; Version 06.004.00 (Pepe0815, PPSA01552); läuft mit ampr-emu-ng 0.4.1 (Pepe0815); exFAT-Image",
+   "tests": 2
   },
   {
    "id": "doa-xtreme-venus-vacation-prism",
@@ -2382,14 +2382,14 @@
   {
    "id": "dirt-5",
    "title": "DIRT 5",
-   "ppsa": "PPSA01551",
-   "region": "–",
-   "status": "fail",
-   "format": "–",
-   "tester": "yttx1228",
-   "firmware": "–",
-   "notes": "Does not run",
-   "tests": 1
+   "ppsa": "PPSA01551, PPSA01552",
+   "region": "US",
+   "status": "mixed",
+   "format": "ZSTD",
+   "tester": "yttx1228, Pepe0815",
+   "firmware": "12.00*",
+   "notes": "Does not run; Version 06.004.00 (Pepe0815, PPSA01552); works with ampr-emu-ng 0.4.1 (Pepe0815); exFAT image",
+   "tests": 2
   },
   {
    "id": "doa-xtreme-venus-vacation-prism",

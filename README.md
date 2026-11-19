@@ -22,8 +22,8 @@ Was neu ist, steht im [CHANGELOG](CHANGELOG.md). In der PDF sind neue und geänd
 | Status | Anzahl |
 |---|---|
 | Läuft | 157 |
-| Läuft nicht | 3 |
-| Widersprüchlich | 0 |
+| Läuft nicht | 2 |
+| Widersprüchlich | 1 |
 | Unbestätigt | 0 |
 
 - **Läuft**: alle Testberichte erfolgreich

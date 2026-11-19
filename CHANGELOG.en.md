@@ -6,6 +6,14 @@ New and changed entries per update (newest first).
 
 **Changed**
 
+| Game | Change |
+|---|---|
+| DIRT 5 | Status: Does not run → Conflicting; Format: – → ZSTD; Test reports: 1 → 2 (new from Pepe0815): Version 06.004.00 (Pepe0815, PPSA01552); works with ampr-emu-ng 0.4.1 (Pepe0815); exFAT image |
+
+## 2026-11-19
+
+**Changed**
+
 New column "FW" showing the PS5 firmware used for testing: muxi 4.03, carljhonsen317 11.00 (as stated by the testers). An asterisk (*) means known for only some of the game's reports; a "–" means unknown. The source database rarely lists the firmware.
 
 ## 2026-11-17

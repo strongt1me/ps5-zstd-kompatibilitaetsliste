@@ -33,7 +33,7 @@ UI = {
 }
 STATUS_ORDER = ["ok", "fail", "mixed", "unknown"]
 # PS5-Firmware je Tester (laut Angabe des Betreibers); gilt fuer alle manuell erfassten Berichte des Testers
-TESTER_FW = {"muxi": "4.03", "carljhonsen317": "11.00"}
+TESTER_FW = {"muxi": "4.03", "carljhonsen317": "11.00", "Pepe0815": "12.00"}
 TITLE_OVERRIDES = {"unidentified-p-030": "Resonance: A Plague Tale Legacy"}
 CJK = re.compile(r"[　-鿿＀-￯]")
 

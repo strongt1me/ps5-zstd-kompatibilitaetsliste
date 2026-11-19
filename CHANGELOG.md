@@ -6,6 +6,14 @@ Neue und geänderte Einträge pro Aktualisierung (neueste zuerst).
 
 **Geändert**
 
+| Spiel | Änderung |
+|---|---|
+| DIRT 5 | Status: Läuft nicht → Widersprüchlich; Format: – → ZSTD; Testberichte: 1 → 2 (neu von Pepe0815): Version 06.004.00 (Pepe0815, PPSA01552); läuft mit ampr-emu-ng 0.4.1 (Pepe0815); exFAT-Image |
+
+## 2026-11-19
+
+**Geändert**
+
 Neue Spalte „FW“ mit der PS5-Firmware, mit der getestet wurde: muxi 4.03, carljhonsen317 11.00 (Angabe der Tester). Ein Stern (*) heißt: nur für einen Teil der Berichte des Spiels bekannt; ein „–“ heißt unbekannt. Die Quelldatenbank nennt die Firmware nur selten.
 
 ## 2026-11-17
