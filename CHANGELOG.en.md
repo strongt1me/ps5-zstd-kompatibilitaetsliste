@@ -8,7 +8,7 @@ New and changed entries per update (newest first).
 
 | Game | Change |
 |---|---|
-| DIRT 5 | Status: Does not run → Conflicting; Format: – → ZSTD; Test reports: 1 → 2 (new from Pepe0815): Version 06.004.00 (Pepe0815, PPSA01552); works with ampr-emu-ng 0.4.1 (Pepe0815); exFAT image |
+| DIRT 5 | Status: Does not run → Works (Pepe0815's report replaces the older failure report); Format: – → ZSTD; Test reports: 1 → 2 (new from Pepe0815): Version 06.004.00 (Pepe0815, PPSA01552); works with ampr-emu-ng 0.4.1 (Pepe0815); exFAT image |
 
 ## 2026-11-19
 

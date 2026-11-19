@@ -462,11 +462,11 @@
    "title": "DIRT 5",
    "ppsa": "PPSA01551, PPSA01552",
    "region": "US",
-   "status": "mixed",
+   "status": "ok",
    "format": "ZSTD",
    "tester": "yttx1228, Pepe0815",
    "firmware": "12.00*",
-   "notes": "Läuft nicht; Version 06.004.00 (Pepe0815, PPSA01552); läuft mit ampr-emu-ng 0.4.1 (Pepe0815); exFAT-Image",
+   "notes": "Version 06.004.00 (Pepe0815, PPSA01552); läuft mit ampr-emu-ng 0.4.1 (Pepe0815); exFAT-Image",
    "tests": 2
   },
   {
@@ -2384,11 +2384,11 @@
    "title": "DIRT 5",
    "ppsa": "PPSA01551, PPSA01552",
    "region": "US",
-   "status": "mixed",
+   "status": "ok",
    "format": "ZSTD",
    "tester": "yttx1228, Pepe0815",
    "firmware": "12.00*",
-   "notes": "Does not run; Version 06.004.00 (Pepe0815, PPSA01552); works with ampr-emu-ng 0.4.1 (Pepe0815); exFAT image",
+   "notes": "Version 06.004.00 (Pepe0815, PPSA01552); works with ampr-emu-ng 0.4.1 (Pepe0815); exFAT image",
    "tests": 2
   },
   {

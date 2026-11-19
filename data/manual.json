@@ -2605,7 +2605,9 @@
           "works with ampr-emu-ng 0.4.1 (Pepe0815)",
           "exFAT image"
         ]
-      }
+      },
+      "supersedes": true,
+      "replace_notes": true
     }
   ]
 }
