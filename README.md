@@ -1,72 +1,68 @@
-![PS5 ZSTD & LZ4 Kompatibilitätsliste](banner-de.png)
+![PS5 ZSTD & LZ4 Compatibility List](banner-en.png)
 
-# PS5 ZSTD & LZ4 Kompatibilitätsliste (Deutsch)
+# PS5 ZSTD & LZ4 Compatibility List
 
-**Deutsch** | [English](README.en.md)
+**English** | [Deutsch](README.de.md)
 
-Deutsche Übersicht, welche PS5-Spiele als ZSTD- oder LZ4-komprimiertes Backup (z. B. `.ffpfsc, .exFAT, .ffpkg, usw.`) laufen.
-Die Liste wird täglich automatisch aktualisiert.
+Overview of which PS5 games run as ZSTD- or LZ4-compressed backups (e.g. `.ffpfsc, .exFAT, .ffpkg`).
+The list is updated automatically every day.
 
 ## Download
 
-**[⬇ Aktuelle PDF herunterladen (Deutsch)](https://github.com/strongt1me/ps5-zstd-kompatibilitaetsliste/releases/latest/download/PS5-ZSTD-LZ4-Kompatibilitaetsliste.pdf)**
-· **[⬇ Download latest PDF (English)](https://github.com/strongt1me/ps5-zstd-kompatibilitaetsliste/releases/latest/download/PS5-ZSTD-LZ4-Compatibility-List.pdf)**
+**[⬇ Download latest PDF (English)](https://github.com/strongt1me/ps5-zstd-kompatibilitaetsliste/releases/latest/download/PS5-ZSTD-LZ4-Compatibility-List.pdf)**
+· **[⬇ Aktuelle PDF (Deutsch)](https://github.com/strongt1me/ps5-zstd-kompatibilitaetsliste/releases/latest/download/PS5-ZSTD-LZ4-Kompatibilitaetsliste.pdf)**
 
-Was neu ist, steht im [CHANGELOG](CHANGELOG.md). In der PDF sind neue und geänderte Spiele mit
-`[NEU]` bzw. `[GEÄNDERT]` markiert und blau hinterlegt.
+See the [CHANGELOG](CHANGELOG.md) for what is new. In the PDF, new and changed games are marked
+`[NEW]` / `[CHANGED]` and highlighted in blue.
 
-## Stand: 2026-11-19
+## Status: 2026-11-19
 
-160 Spiele
+160 games
 
-| Status | Anzahl |
+| Status | Count |
 |---|---|
-| Läuft | 158 |
-| Läuft nicht | 2 |
-| Widersprüchlich | 0 |
-| Unbestätigt | 0 |
+| Works | 158 |
+| Does not run | 2 |
+| Conflicting | 0 |
+| Unconfirmed | 0 |
 
-- **Läuft**: alle Testberichte erfolgreich
-- **Läuft nicht**: alle Testberichte fehlgeschlagen
-- **Widersprüchlich**: Berichte mit unterschiedlichem Ergebnis
-- **Unbestätigt**: Ergebnis unklar
+- **Works**: all test reports successful
+- **Does not run**: all test reports failed
+- **Conflicting**: reports with different results
+- **Unconfirmed**: result unclear
 
-## Was ist ZSTD?
+## What is ZSTD?
 
-Zstandard (ZSTD) ist ein verlustfreies Kompressionsverfahren, entwickelt von Yann Collet bei Facebook (heute Meta)
-und seit 2016 Open Source. Es komprimiert ähnlich gut wie zlib/gzip, entpackt aber deutlich schneller. Das ist
-ideal, wenn Daten zur Laufzeit entpackt werden.
+Zstandard (ZSTD) is a lossless compression algorithm developed by Yann Collet at Facebook (now Meta) and open
+source since 2016. It compresses about as well as zlib/gzip but decompresses much faster, which is ideal when
+data is unpacked at runtime.
 
-## Was ist LZ4?
+## What is LZ4?
 
-LZ4 ist ebenfalls ein verlustfreies Kompressionsverfahren und stammt vom selben Entwickler (Yann Collet).
-Es ist auf maximale Geschwindigkeit ausgelegt: LZ4 entpackt noch schneller als ZSTD, komprimiert aber
-schwächer, die Dateien werden also größer.
+LZ4 is also a lossless compression algorithm by the same author (Yann Collet). It is built for maximum speed:
+LZ4 decompresses even faster than ZSTD but compresses less, so the files end up larger.
 
-## Warum ist das für die PS5 wichtig?
+## Why does this matter for the PS5?
 
-Spiel-Backups werden mit ZSTD oder LZ4 komprimiert, damit sie weniger Speicherplatz brauchen.
-Beim Spielen entpackt ein Emulator für die AMPR-Schnittstelle (ampr-emu bzw. libSceAmpr) die Daten
-in Echtzeit. Die Liste zeigt, welche Spiele in dieser komprimierten Form tatsächlich laufen. In der Spalte
-„Format“ steht, mit welchem Verfahren getestet wurde.
+Game backups are compressed with ZSTD or LZ4 to save disk space. While playing, an emulator
+for the AMPR interface (ampr-emu / libSceAmpr) decompresses the data in real time. This list shows which games
+actually run in this compressed form. The "Format" column states which algorithm was used for the test.
 
-## Hinweis zur Firmware (Spalte „FW“)
+## Note on firmware (column "FW")
 
-Die Spalte „FW“ nennt die PS5-Firmware, mit der getestet wurde. Bei den Berichten von muxi ist das 4.03, bei den
-Berichten von carljhonsen317 11.00 (Angabe der Tester). Ein Stern (*) heißt: nur für einen Teil der Berichte des Spiels bekannt. Die Quelldatenbank nennt die Firmware nur selten; ein „–“
-heißt, dass sie nicht bekannt ist.
+The "FW" column shows the PS5 firmware used for the test. For muxi's reports this is 4.03, for carljhonsen317's
+reports 11.00 (as stated by the testers). An asterisk (*) means it is known for only some of the game's reports. The source database rarely lists the firmware; a "–" means it is unknown.
 
-## Hinweis zu den Tests von muxi
+## Note on muxi's tests
 
-muxi packt alle Titel grundsätzlich im exFAT-Image-Format. Das spielt für die Funktion eines Titels zwar keine Rolle,
-ist aber erwähnenswert.
+muxi packs all titles as exFAT images. This should not matter for whether a title works, but it is worth mentioning.
 
-## Quelle und Lizenz
+## Source and licence
 
-Daten: [PS5 ZSTD Compatibility Database](https://theweil.github.io/PS5-ZSTD-Compatibility/)
-([GitHub](https://github.com/Theweil/PS5-ZSTD-Compatibility)), Lizenz CC BY 4.0. Hinweise wurden aus dem
-Chinesischen übersetzt; Tester-Nicknames stehen im Original. Eigene Ergänzungen stehen in
-`data/manual.json` (z. B. Gothic 1 Remake, Test von muxi), bis die Quelle sie führt.
-Chinesische Hinweise, die noch keine Übersetzung in `data/translations.json` haben, werden ausgelassen.
+Data: [PS5 ZSTD Compatibility Database](https://theweil.github.io/PS5-ZSTD-Compatibility/)
+([GitHub](https://github.com/Theweil/PS5-ZSTD-Compatibility)), licence CC BY 4.0. Notes were translated from
+Chinese; tester nicknames are as in the original. Own additions are in `data/manual.json` (e.g. Gothic 1 Remake,
+tested by muxi) until the source lists them. Chinese notes without a translation in `data/translations_en.json`
+are omitted.
 
-Gebaut mit `python build.py` (benötigt `reportlab`).
+Built with `python build.py` (requires `reportlab`).

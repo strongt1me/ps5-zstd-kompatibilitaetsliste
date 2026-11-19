@@ -288,7 +288,7 @@ README_DE = """![PS5 ZSTD & LZ4 Kompatibilitätsliste](banner-de.png)
 
 # PS5 ZSTD & LZ4 Kompatibilitätsliste (Deutsch)
 
-**Deutsch** | [English](README.en.md)
+[English](README.md) | **Deutsch**
 
 Deutsche Übersicht, welche PS5-Spiele als ZSTD- oder LZ4-komprimiertes Backup (z. B. `.ffpfsc, .exFAT, .ffpkg, usw.`) laufen.
 Die Liste wird täglich automatisch aktualisiert.
@@ -298,7 +298,7 @@ Die Liste wird täglich automatisch aktualisiert.
 **[⬇ Aktuelle PDF herunterladen (Deutsch)](https://github.com/strongt1me/ps5-zstd-kompatibilitaetsliste/releases/latest/download/{pdf_de})**
 · **[⬇ Download latest PDF (English)](https://github.com/strongt1me/ps5-zstd-kompatibilitaetsliste/releases/latest/download/{pdf_en})**
 
-Was neu ist, steht im [CHANGELOG](CHANGELOG.md). In der PDF sind neue und geänderte Spiele mit
+Was neu ist, steht im [CHANGELOG](CHANGELOG.de.md). In der PDF sind neue und geänderte Spiele mit
 `[NEU]` bzw. `[GEÄNDERT]` markiert und blau hinterlegt.
 
 ## Stand: {date}
@@ -358,9 +358,9 @@ Gebaut mit `python build.py` (benötigt `reportlab`).
 
 README_EN = """![PS5 ZSTD & LZ4 Compatibility List](banner-en.png)
 
-# PS5 ZSTD & LZ4 Compatibility List (English)
+# PS5 ZSTD & LZ4 Compatibility List
 
-[Deutsch](README.md) | **English**
+**English** | [Deutsch](README.de.md)
 
 Overview of which PS5 games run as ZSTD- or LZ4-compressed backups (e.g. `.ffpfsc, .exFAT, .ffpkg`).
 The list is updated automatically every day.
@@ -370,7 +370,7 @@ The list is updated automatically every day.
 **[⬇ Download latest PDF (English)](https://github.com/strongt1me/ps5-zstd-kompatibilitaetsliste/releases/latest/download/{pdf_en})**
 · **[⬇ Aktuelle PDF (Deutsch)](https://github.com/strongt1me/ps5-zstd-kompatibilitaetsliste/releases/latest/download/{pdf_de})**
 
-See the [CHANGELOG](CHANGELOG.en.md) for what is new. In the PDF, new and changed games are marked
+See the [CHANGELOG](CHANGELOG.md) for what is new. In the PDF, new and changed games are marked
 `[NEW]` / `[CHANGED]` and highlighted in blue.
 
 ## Status: {date}
@@ -476,9 +476,9 @@ def write_readme(games, date):
     c = counts(games)
     rows = "\n".join(f"| {STATUS_DE[k]} | {c[k]} |" for k in STATUS_ORDER)
     rows_en = "\n".join(f"| {STATUS_EN[k]} | {c[k]} |" for k in STATUS_ORDER)
-    (ROOT / "README.en.md").write_text(README_EN.format(pdf_en=PDF_NAME_EN, pdf_de=PDF_NAME, date=date,
+    (ROOT / "README.md").write_text(README_EN.format(pdf_en=PDF_NAME_EN, pdf_de=PDF_NAME, date=date,
                                                        n=len(games), rows=rows_en), encoding="utf-8")
-    (ROOT / "README.md").write_text(README_DE.format(pdf_de=PDF_NAME, pdf_en=PDF_NAME_EN, date=date,
+    (ROOT / "README.de.md").write_text(README_DE.format(pdf_de=PDF_NAME, pdf_en=PDF_NAME_EN, date=date,
                                                     n=len(games), rows=rows), encoding="utf-8")
 
 
@@ -517,7 +517,7 @@ def main():
         return
     write_pdf(games, marks, date, ROOT / PDF_NAME)
     write_pdf(games_en, marks, date, ROOT / PDF_NAME_EN, "en")
-    for lang, name in (("de", "CHANGELOG.md"), ("en", "CHANGELOG.en.md")):
+    for lang, name in (("de", "CHANGELOG.de.md"), ("en", "CHANGELOG.md")):
         cl = ROOT / name
         body = cl.read_text(encoding="utf-8").split("\n\n", 2)[2] if cl.exists() else ""
         if not first and (added or changed or removed):
