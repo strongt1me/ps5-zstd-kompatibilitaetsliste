@@ -2626,7 +2626,7 @@
       "testers": [
         "psksuffsmp"
       ],
-      "firmware": "13.6",
+      "firmware": "13.60 Pro",
       "notes": {
         "de": [
           "Version v01.000.055 (psksuffsmp)",

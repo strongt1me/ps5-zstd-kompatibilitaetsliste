@@ -1113,7 +1113,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "psksuffsmp",
-   "firmware": "13.6",
+   "firmware": "13.60 Pro",
    "notes": "Version v01.000.055 (psksuffsmp); behoben in ampr-emu-ng v0.5.0 (Issue #103); getestet mit Testbuild 1c80a6; Ordner-Install",
    "tests": 1
   },
@@ -3071,7 +3071,7 @@
    "status": "ok",
    "format": "ZSTD",
    "tester": "psksuffsmp",
-   "firmware": "13.6",
+   "firmware": "13.60 Pro",
    "notes": "Version v01.000.055 (psksuffsmp); fixed in ampr-emu-ng v0.5.0 (issue #103); tested with test build 1c80a6; folder install",
    "tests": 1
   },
