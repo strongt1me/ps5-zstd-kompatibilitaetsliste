@@ -118,8 +118,9 @@ def build_games(lang="de"):
                               ("testers", m["testers"]), ("notes", notes)):
                 r[key] += [v for v in vals if v not in r[key]]
             for tn in m["testers"]:
-                if TESTER_FW.get(tn) and (TESTER_FW[tn], tn) not in r["fw"]:
-                    r["fw"].append((TESTER_FW[tn], tn))
+                f = m.get("firmware") or TESTER_FW.get(tn)  # "firmware" im Eintrag hat Vorrang
+                if f and (f, tn) not in r["fw"]:
+                    r["fw"].append((f, tn))
             if m.get("replace_notes"):  # alte, widerspruechliche Hinweise verwerfen
                 r["notes"] = list(notes)
             r["results"] += m["results"]
@@ -129,7 +130,7 @@ def build_games(lang="de"):
             continue
         rows[m["id"]] = {"id": m["id"], "title": m["title"], "ppsa": m["ppsa"], "regions": m["regions"],
                          "results": m["results"], "formats": m["formats"], "testers": m["testers"],
-                         "notes": notes, "fw": [(TESTER_FW[tn], tn) for tn in dict.fromkeys(m["testers"]) if tn in TESTER_FW]}
+                         "notes": notes, "fw": [(m.get("firmware") or TESTER_FW[tn], tn) for tn in dict.fromkeys(m["testers"]) if m.get("firmware") or tn in TESTER_FW]}
 
     out = []
     for r in rows.values():

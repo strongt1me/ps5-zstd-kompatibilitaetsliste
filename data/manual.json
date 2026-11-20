@@ -2608,6 +2608,99 @@
       },
       "supersedes": true,
       "replace_notes": true
+    },
+    {
+      "id": "marvels-avengers-psksuffsmp",
+      "match": "marvel's avengers",
+      "title": "Marvel's Avengers",
+      "ppsa": [
+        "PPSA01631"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "psksuffsmp"
+      ],
+      "firmware": "13.6",
+      "notes": {
+        "de": [
+          "Version v01.000.055 (psksuffsmp)",
+          "behoben in ampr-emu-ng v0.5.0 (Issue #103); getestet mit Testbuild 1c80a6",
+          "Ordner-Install"
+        ],
+        "en": [
+          "Version v01.000.055 (psksuffsmp)",
+          "fixed in ampr-emu-ng v0.5.0 (issue #103); tested with test build 1c80a6",
+          "folder install"
+        ]
+      }
+    },
+    {
+      "id": "demon-slayer-hinokami-chronicles-fecent",
+      "match": "hinokami",
+      "title": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
+      "ppsa": [
+        "PPSA03457"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "fecent"
+      ],
+      "firmware": "12.00",
+      "notes": {
+        "de": [
+          "Version v01.008.003 (fecent)",
+          "behoben in ampr-emu-ng v0.5.0 (Issue #105); getestet mit Testbuild 50a591",
+          "Ordner-Install"
+        ],
+        "en": [
+          "Version v01.008.003 (fecent)",
+          "fixed in ampr-emu-ng v0.5.0 (issue #105); tested with test build 50a591",
+          "folder install"
+        ]
+      }
+    },
+    {
+      "id": "grand-theft-auto-v-fecent",
+      "match": "grand theft auto v",
+      "title": "Grand Theft Auto V",
+      "ppsa": [
+        "PPSA04263"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "fecent"
+      ],
+      "firmware": "13.60",
+      "notes": {
+        "de": [
+          "Version v01.010.002 (fecent)",
+          "behoben in ampr-emu-ng v0.5.0 (Issue #88); getestet mit Testbuild 34a211",
+          "Ordner-Install"
+        ],
+        "en": [
+          "Version v01.010.002 (fecent)",
+          "fixed in ampr-emu-ng v0.5.0 (issue #88); tested with test build 34a211",
+          "folder install"
+        ]
+      }
     }
   ]
 }

@@ -2,6 +2,16 @@
 
 Neue und geänderte Einträge pro Aktualisierung (neueste zuerst).
 
+## 2026-11-20
+
+**Neu**
+
+| Spiel | PPSA | Region | Status | Format | FW | Tester | Hinweis |
+|---|---|---|---|---|---|---|---|
+| Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles | PPSA03457 | – | Läuft | ZSTD | 12.00 | fecent | Version v01.008.003 (fecent); behoben in ampr-emu-ng v0.5.0 (Issue #105); getestet mit Testbuild 50a591; Ordner-Install |
+| Grand Theft Auto V | PPSA04263 | – | Läuft | ZSTD | 13.60 | fecent | Version v01.010.002 (fecent); behoben in ampr-emu-ng v0.5.0 (Issue #88); getestet mit Testbuild 34a211; Ordner-Install |
+| Marvel's Avengers | PPSA01631 | – | Läuft | ZSTD | 13.6 | psksuffsmp | Version v01.000.055 (psksuffsmp); behoben in ampr-emu-ng v0.5.0 (Issue #103); getestet mit Testbuild 1c80a6; Ordner-Install |
+
 ## 2026-11-19
 
 **Geändert**

@@ -1,5 +1,5 @@
 {
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "games": [
   {
    "id": "007-first-light",
@@ -446,6 +446,18 @@
    "tests": 1
   },
   {
+   "id": "demon-slayer-hinokami-chronicles-fecent",
+   "title": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
+   "ppsa": "PPSA03457",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "fecent",
+   "firmware": "12.00",
+   "notes": "Version v01.008.003 (fecent); behoben in ampr-emu-ng v0.5.0 (Issue #105); getestet mit Testbuild 50a591; Ordner-Install",
+   "tests": 1
+  },
+  {
    "id": "demons-souls-remake",
    "title": "Demon's Souls",
    "ppsa": "PPSA01340",
@@ -770,6 +782,18 @@
    "tests": 1
   },
   {
+   "id": "grand-theft-auto-v-fecent",
+   "title": "Grand Theft Auto V",
+   "ppsa": "PPSA04263",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "fecent",
+   "firmware": "13.60",
+   "notes": "Version v01.010.002 (fecent); behoben in ampr-emu-ng v0.5.0 (Issue #88); getestet mit Testbuild 34a211; Ordner-Install",
+   "tests": 1
+  },
+  {
    "id": "gta-san-andreas-definitive-edition",
    "title": "Grand Theft Auto: San Andreas – The Definitive Edition",
    "ppsa": "PPSA03524",
@@ -1079,6 +1103,18 @@
    "tester": "carljhonsen317",
    "firmware": "11.00",
    "notes": "exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317)",
+   "tests": 1
+  },
+  {
+   "id": "marvels-avengers-psksuffsmp",
+   "title": "Marvel's Avengers",
+   "ppsa": "PPSA01631",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "psksuffsmp",
+   "firmware": "13.6",
+   "notes": "Version v01.000.055 (psksuffsmp); behoben in ampr-emu-ng v0.5.0 (Issue #103); getestet mit Testbuild 1c80a6; Ordner-Install",
    "tests": 1
   },
   {
@@ -2368,6 +2404,18 @@
    "tests": 1
   },
   {
+   "id": "demon-slayer-hinokami-chronicles-fecent",
+   "title": "Demon Slayer -Kimetsu no Yaiba- The Hinokami Chronicles",
+   "ppsa": "PPSA03457",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "fecent",
+   "firmware": "12.00",
+   "notes": "Version v01.008.003 (fecent); fixed in ampr-emu-ng v0.5.0 (issue #105); tested with test build 50a591; folder install",
+   "tests": 1
+  },
+  {
    "id": "demons-souls-remake",
    "title": "Demon's Souls",
    "ppsa": "PPSA01340",
@@ -2692,6 +2740,18 @@
    "tests": 1
   },
   {
+   "id": "grand-theft-auto-v-fecent",
+   "title": "Grand Theft Auto V",
+   "ppsa": "PPSA04263",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "fecent",
+   "firmware": "13.60",
+   "notes": "Version v01.010.002 (fecent); fixed in ampr-emu-ng v0.5.0 (issue #88); tested with test build 34a211; folder install",
+   "tests": 1
+  },
+  {
    "id": "gta-san-andreas-definitive-edition",
    "title": "Grand Theft Auto: San Andreas – The Definitive Edition",
    "ppsa": "PPSA03524",
@@ -3001,6 +3061,18 @@
    "tester": "carljhonsen317",
    "firmware": "11.00",
    "notes": "exFAT image; works with ampr-emu-ng 0.4.1 (carljhonsen317)",
+   "tests": 1
+  },
+  {
+   "id": "marvels-avengers-psksuffsmp",
+   "title": "Marvel's Avengers",
+   "ppsa": "PPSA01631",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "psksuffsmp",
+   "firmware": "13.6",
+   "notes": "Version v01.000.055 (psksuffsmp); fixed in ampr-emu-ng v0.5.0 (issue #103); tested with test build 1c80a6; folder install",
    "tests": 1
   },
   {
