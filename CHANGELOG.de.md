@@ -2,6 +2,57 @@
 
 Neue und geänderte Einträge pro Aktualisierung (neueste zuerst).
 
+## 2026-11-22
+
+**Neu**
+
+| Spiel | PPSA | Region | Status | Format | FW | Tester | Hinweis |
+|---|---|---|---|---|---|---|---|
+| Darksiders 2 Deathinitive Edition | PPSA23806 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
+| Eriksholm: The Stolen Dream | PPSA20548 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
+| Flintlock: The Siege of Dawn | PPSA07382 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
+| Garfield Kart 2: All You Can Drift | PPSA25839 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
+| Hellblade: Senua's Sacrifice | PPSA27581 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
+| Hollow Knight: Silksong | PPSA12544 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
+| Hot Wheels Infinite Rush | PPSA22408 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
+| Hot Wheels Monster Trucks: Stunt Mayhem | PPSA18191 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
+| Hot Wheels Unleashed | PPSA02324 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
+| Hot Wheels Unleashed 2: Turbocharged | PPSA09285 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
+| Hot Wheels: Let's Race Ultimate Speed | PPSA26501 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
+| Jet Kave Adventure | PPSA17373 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
+| Like a Dragon: Pirate Yakuza in Hawaii | PPSA24478 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60) |
+| METAL GEAR SOLID | PPSA14363 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
+| METAL GEAR SOLID 2: Sons of Liberty | PPSA14396 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
+| METAL GEAR SOLID 3: Snake Eater | PPSA14404 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
+| NINJA GAIDEN 2 Black | PPSA26679 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60) |
+| Ninja Gaiden: Ragebound | PPSA28002 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60) |
+| Smurfs Kart | PPSA14050 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60) |
+| Sonic Origins Plus | PPSA05325 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
+| Sonic Superstars | PPSA06888 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
+| Sonic X Shadow Generations | PPSA17597 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
+| South of Midnight | PPSA29642 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
+| Star Wars Jedi: Fallen Order | PPSA02199 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60) |
+| Star Wars Jedi: Survivor | PPSA07783 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60) |
+| Syberia Remastered | PPSA30140 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
+| Syberia: The World Before | PPSA02777 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
+| The Dark Pictures Anthology: Directive 8020 | PPSA16384 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60) |
+| Turok | PPSA24558 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
+| Turok 2: Seeds of Evil | PPSA24560 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60) |
+| Turok 3: Shadow of Oblivion | PPSA19936 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60) |
+| Yakuza 0 Director's Cut | PPSA31327 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60) |
+| Yakuza Kiwami | PPSA31334 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60) |
+| Yakuza Kiwami 2 | PPSA31333 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60) |
+| Yakuza: Like a Dragon Hero Edition | PPSA02383 | – | Läuft | ZSTD | 9.60 | carljhonsen317 | exFAT-Image; läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60) |
+
+**Geändert**
+
+| Spiel | Änderung |
+|---|---|
+| GRID Legends | Testberichte: 1 → 2 (neu von carljhonsen317): exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
+| Ninja Gaiden 4 | Status: Läuft nicht → Widersprüchlich; Format: – → ZSTD; Testberichte: 1 → 2 (neu von carljhonsen317): exFAT-Image; läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60) |
+| Senua's Saga: Hellblade II | Testberichte: 1 → 2 (neu von carljhonsen317): exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
+| Yakuza Kiwami 3 & Dark Ties | Testberichte: 1 → 2 (neu von carljhonsen317): exFAT-Image; läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60) |
+
 ## 2026-11-20
 
 **Neu**

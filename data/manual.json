@@ -2701,6 +2701,1133 @@
           "folder install"
         ]
       }
+    },
+    {
+      "id": "turok-3-shadow-of-oblivion-carljhonsen317-fw960",
+      "match": "turok 3: shadow of oblivion",
+      "title": "Turok 3: Shadow of Oblivion",
+      "ppsa": [
+        "PPSA19936"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "turok-2-seeds-of-evil-carljhonsen317-fw960",
+      "match": "turok 2: seeds of evil",
+      "title": "Turok 2: Seeds of Evil",
+      "ppsa": [
+        "PPSA24560"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "smurfs-kart-carljhonsen317-fw960",
+      "match": "smurfs kart",
+      "title": "Smurfs Kart",
+      "ppsa": [
+        "PPSA14050"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "the-dark-pictures-anthology-directive-8020-carljhonsen317-fw960",
+      "match": "the dark pictures anthology: directive 8020",
+      "title": "The Dark Pictures Anthology: Directive 8020",
+      "ppsa": [
+        "PPSA16384"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "yakuza-like-a-dragon-hero-edition-carljhonsen317-fw960",
+      "match": "yakuza: like a dragon hero edition",
+      "title": "Yakuza: Like a Dragon Hero Edition",
+      "ppsa": [
+        "PPSA02383"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "ninja-gaiden-2-black-carljhonsen317-fw960",
+      "match": "ninja gaiden 2 black",
+      "title": "NINJA GAIDEN 2 Black",
+      "ppsa": [
+        "PPSA26679"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "star-wars-jedi-survivor-carljhonsen317-fw960",
+      "match": "star wars jedi: survivor",
+      "title": "Star Wars Jedi: Survivor",
+      "ppsa": [
+        "PPSA07783"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "like-a-dragon-pirate-yakuza-in-hawaii-carljhonsen317-fw960",
+      "match": "like a dragon: pirate yakuza in hawaii",
+      "title": "Like a Dragon: Pirate Yakuza in Hawaii",
+      "ppsa": [
+        "PPSA24478"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "yakuza-0-director-s-cut-carljhonsen317-fw960",
+      "match": "yakuza 0 director's cut",
+      "title": "Yakuza 0 Director's Cut",
+      "ppsa": [
+        "PPSA31327"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "yakuza-kiwami-2-carljhonsen317-fw960",
+      "match": "yakuza kiwami 2",
+      "title": "Yakuza Kiwami 2",
+      "ppsa": [
+        "PPSA31333"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "yakuza-kiwami-carljhonsen317-fw960",
+      "match": "yakuza kiwami 1",
+      "title": "Yakuza Kiwami",
+      "ppsa": [
+        "PPSA31334"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "ninja-gaiden-ragebound-carljhonsen317-fw960",
+      "match": "ninja gaiden: ragebound",
+      "title": "Ninja Gaiden: Ragebound",
+      "ppsa": [
+        "PPSA28002"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "star-wars-jedi-fallen-order-carljhonsen317-fw960",
+      "match": "star wars jedi: fallen order",
+      "title": "Star Wars Jedi: Fallen Order",
+      "ppsa": [
+        "PPSA02199"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "turok-carljhonsen317-fw960",
+      "match": "turok",
+      "title": "Turok",
+      "ppsa": [
+        "PPSA24558"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "syberia-the-world-before-carljhonsen317-fw960",
+      "match": "syberia: the world before",
+      "title": "Syberia: The World Before",
+      "ppsa": [
+        "PPSA02777"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "syberia-remastered-carljhonsen317-fw960",
+      "match": "syberia remastered",
+      "title": "Syberia Remastered",
+      "ppsa": [
+        "PPSA30140"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "south-of-midnight-carljhonsen317-fw960",
+      "match": "south of midnight",
+      "title": "South of Midnight",
+      "ppsa": [
+        "PPSA29642"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "sonic-x-shadow-generations-carljhonsen317-fw960",
+      "match": "sonic x shadow generations",
+      "title": "Sonic X Shadow Generations",
+      "ppsa": [
+        "PPSA17597"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "sonic-superstars-carljhonsen317-fw960",
+      "match": "sonic superstars",
+      "title": "Sonic Superstars",
+      "ppsa": [
+        "PPSA06888"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "sonic-origins-plus-carljhonsen317-fw960",
+      "match": "sonic origins plus",
+      "title": "Sonic Origins Plus",
+      "ppsa": [
+        "PPSA05325"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "hellblade-senua-s-sacrifice-carljhonsen317-fw960",
+      "match": "hellblade: senua's sacrifice",
+      "title": "Hellblade: Senua's Sacrifice",
+      "ppsa": [
+        "PPSA27581"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "metal-gear-solid-3-snake-eater-carljhonsen317-fw960",
+      "match": "metal gear solid 3: snake eater",
+      "title": "METAL GEAR SOLID 3: Snake Eater",
+      "ppsa": [
+        "PPSA14404"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "metal-gear-solid-2-sons-of-liberty-carljhonsen317-fw960",
+      "match": "metal gear solid 2: sons of liberty",
+      "title": "METAL GEAR SOLID 2: Sons of Liberty",
+      "ppsa": [
+        "PPSA14396"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "metal-gear-solid-carljhonsen317-fw960",
+      "match": "metal gear solid",
+      "title": "METAL GEAR SOLID",
+      "ppsa": [
+        "PPSA14363"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "jet-kave-adventure-carljhonsen317-fw960",
+      "match": "jet kave adventure",
+      "title": "Jet Kave Adventure",
+      "ppsa": [
+        "PPSA17373"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "hot-wheels-unleashed-2-turbocharged-carljhonsen317-fw960",
+      "match": "hot wheels unleashed 2: turbocharged",
+      "title": "Hot Wheels Unleashed 2: Turbocharged",
+      "ppsa": [
+        "PPSA09285"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "hot-wheels-unleashed-carljhonsen317-fw960",
+      "match": "hot wheels unleashed",
+      "title": "Hot Wheels Unleashed",
+      "ppsa": [
+        "PPSA02324"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "hot-wheels-monster-trucks-stunt-mayhem-carljhonsen317-fw960",
+      "match": "hot wheels monster trucks: stunt mayhem",
+      "title": "Hot Wheels Monster Trucks: Stunt Mayhem",
+      "ppsa": [
+        "PPSA18191"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "flintlock-the-siege-of-dawn-carljhonsen317-fw960",
+      "match": "flintlock: the siege of dawn",
+      "title": "Flintlock: The Siege of Dawn",
+      "ppsa": [
+        "PPSA07382"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "hot-wheels-let-s-race-ultimate-speed-carljhonsen317-fw960",
+      "match": "hot wheels: let's race ultimate speed",
+      "title": "Hot Wheels: Let's Race Ultimate Speed",
+      "ppsa": [
+        "PPSA26501"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "hot-wheels-infinite-rush-carljhonsen317-fw960",
+      "match": "hot wheels infinite rush",
+      "title": "Hot Wheels Infinite Rush",
+      "ppsa": [
+        "PPSA22408"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "hollow-knight-silksong-carljhonsen317-fw960",
+      "match": "hollow knight: silksong",
+      "title": "Hollow Knight: Silksong",
+      "ppsa": [
+        "PPSA12544"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "garfield-kart-2-all-you-can-drift-carljhonsen317-fw960",
+      "match": "garfield kart 2: all you can drift",
+      "title": "Garfield Kart 2: All You Can Drift",
+      "ppsa": [
+        "PPSA25839"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "eriksholm-the-stolen-dream-carljhonsen317-fw960",
+      "match": "eriksholm: the stolen dream",
+      "title": "Eriksholm: The Stolen Dream",
+      "ppsa": [
+        "PPSA20548"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "darksiders-2-deathinitive-edition-carljhonsen317-fw960",
+      "match": "darksiders 2 deathinitive edition",
+      "title": "Darksiders 2 Deathinitive Edition",
+      "ppsa": [
+        "PPSA23806"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "grid-legends-carljhonsen317-fw960",
+      "extra_for": "grid-legends",
+      "match": "",
+      "title": "",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "hellblade-ii-senuas-saga-carljhonsen317-fw960",
+      "extra_for": "hellblade-ii-senuas-saga",
+      "match": "",
+      "title": "",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "yakuza-kiwami-3-dark-ties-carljhonsen317-fw960",
+      "extra_for": "yakuza-kiwami-3-dark-ties",
+      "match": "",
+      "title": "",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ]
+      }
+    },
+    {
+      "id": "ninja-gaiden-4-carljhonsen317-fw960",
+      "extra_for": "ninja-gaiden-4",
+      "match": "",
+      "title": "",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "carljhonsen317"
+      ],
+      "firmware": "9.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
+        ]
+      }
     }
   ]
 }
