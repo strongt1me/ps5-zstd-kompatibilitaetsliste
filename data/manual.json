@@ -3827,7 +3827,9 @@
           "exFAT image",
           "works with ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60)"
         ]
-      }
+      },
+      "supersedes": true,
+      "replace_notes": true
     }
   ]
 }

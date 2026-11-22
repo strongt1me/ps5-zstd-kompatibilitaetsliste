@@ -21,9 +21,9 @@ See the [CHANGELOG](CHANGELOG.md) for what is new. In the PDF, new and changed g
 
 | Status | Count |
 |---|---|
-| Works | 196 |
+| Works | 197 |
 | Does not run | 1 |
-| Conflicting | 1 |
+| Conflicting | 0 |
 | Unconfirmed | 0 |
 
 - **Works**: all test reports successful

@@ -21,9 +21,9 @@ Was neu ist, steht im [CHANGELOG](CHANGELOG.de.md). In der PDF sind neue und ge�
 
 | Status | Anzahl |
 |---|---|
-| L채uft | 196 |
+| L채uft | 197 |
 | L채uft nicht | 1 |
-| Widerspr체chlich | 1 |
+| Widerspr체chlich | 0 |
 | Unbest채tigt | 0 |
 
 - **L채uft**: alle Testberichte erfolgreich

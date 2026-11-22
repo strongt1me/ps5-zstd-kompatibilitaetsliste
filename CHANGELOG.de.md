@@ -49,7 +49,7 @@ Neue und geänderte Einträge pro Aktualisierung (neueste zuerst).
 | Spiel | Änderung |
 |---|---|
 | GRID Legends | Testberichte: 1 → 2 (neu von carljhonsen317): exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
-| Ninja Gaiden 4 | Status: Läuft nicht → Widersprüchlich; Format: – → ZSTD; Testberichte: 1 → 2 (neu von carljhonsen317): exFAT-Image; läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60) |
+| Ninja Gaiden 4 | Status: Läuft nicht → Läuft (Bericht von carljhonsen317 ersetzt den älteren Fehlerbericht); Format: – → ZSTD; Testberichte: 1 → 2 (neu von carljhonsen317): exFAT-Image; läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60) |
 | Senua's Saga: Hellblade II | Testberichte: 1 → 2 (neu von carljhonsen317): exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (carljhonsen317, FW 9.60) |
 | Yakuza Kiwami 3 & Dark Ties | Testberichte: 1 → 2 (neu von carljhonsen317): exFAT-Image; läuft mit ampr-emu-ng 0.5.0 (carljhonsen317, FW 9.60) |
 
