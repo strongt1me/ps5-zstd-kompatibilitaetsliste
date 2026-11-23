@@ -322,7 +322,7 @@
    "format": "ZSTD",
    "tester": "blue_dragon",
    "firmware": "11.60",
-   "notes": "exFAT-Image; läuft mit ampr-emu-ng 0.5.0 (blue_dragon, FW 11.60)",
+   "notes": "exFAT-Image; läuft mit ampr-emu-ng 0.4.1 (blue_dragon, FW 11.60)",
    "tests": 1
   },
   {
@@ -2712,7 +2712,7 @@
    "format": "ZSTD",
    "tester": "blue_dragon",
    "firmware": "11.60",
-   "notes": "exFAT image; works with ampr-emu-ng 0.5.0 (blue_dragon, FW 11.60)",
+   "notes": "exFAT image; works with ampr-emu-ng 0.4.1 (blue_dragon, FW 11.60)",
    "tests": 1
   },
   {

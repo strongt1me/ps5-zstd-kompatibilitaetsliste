@@ -3850,11 +3850,11 @@
       "notes": {
         "de": [
           "exFAT-Image",
-          "läuft mit ampr-emu-ng 0.5.0 (blue_dragon, FW 11.60)"
+          "läuft mit ampr-emu-ng 0.4.1 (blue_dragon, FW 11.60)"
         ],
         "en": [
           "exFAT image",
-          "works with ampr-emu-ng 0.5.0 (blue_dragon, FW 11.60)"
+          "works with ampr-emu-ng 0.4.1 (blue_dragon, FW 11.60)"
         ]
       }
     }
