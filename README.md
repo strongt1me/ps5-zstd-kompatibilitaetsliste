@@ -15,13 +15,13 @@ The list is updated automatically every day.
 See the [CHANGELOG](CHANGELOG.md) for what is new. In the PDF, new and changed games are marked
 `[NEW]` / `[CHANGED]` and highlighted in blue.
 
-## Status: 2026-11-22
+## Status: 2026-11-23
 
-198 games
+199 games
 
 | Status | Count |
 |---|---|
-| Works | 197 |
+| Works | 198 |
 | Does not run | 1 |
 | Conflicting | 0 |
 | Unconfirmed | 0 |

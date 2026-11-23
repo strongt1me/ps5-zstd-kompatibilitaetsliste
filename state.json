@@ -1,5 +1,5 @@
 {
- "date": "2026-11-22",
+ "date": "2026-11-23",
  "games": [
   {
    "id": "007-first-light",
@@ -311,6 +311,18 @@
    "tester": "rjwnjc",
    "firmware": "–",
    "notes": "The Game Awards 2025: Spiel des Jahres; Nummer aus einer einzelnen Quelle (Feilong Pocket)",
+   "tests": 1
+  },
+  {
+   "id": "clive-n-wrench-blue-dragon",
+   "title": "Clive 'N' Wrench",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "blue_dragon",
+   "firmware": "11.60",
+   "notes": "exFAT-Image; läuft mit ampr-emu-ng 0.5.0 (blue_dragon, FW 11.60)",
    "tests": 1
   },
   {
@@ -2689,6 +2701,18 @@
    "tester": "rjwnjc",
    "firmware": "–",
    "notes": "The Game Awards 2025: Game of the Year; ID from a single source (Feilong Pocket)",
+   "tests": 1
+  },
+  {
+   "id": "clive-n-wrench-blue-dragon",
+   "title": "Clive 'N' Wrench",
+   "ppsa": "–",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "blue_dragon",
+   "firmware": "11.60",
+   "notes": "exFAT image; works with ampr-emu-ng 0.5.0 (blue_dragon, FW 11.60)",
    "tests": 1
   },
   {

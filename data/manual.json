@@ -3830,6 +3830,33 @@
       },
       "supersedes": true,
       "replace_notes": true
+    },
+    {
+      "id": "clive-n-wrench-blue-dragon",
+      "match": "clive 'n' wrench",
+      "title": "Clive 'N' Wrench",
+      "ppsa": [],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "blue_dragon"
+      ],
+      "firmware": "11.60",
+      "notes": {
+        "de": [
+          "exFAT-Image",
+          "läuft mit ampr-emu-ng 0.5.0 (blue_dragon, FW 11.60)"
+        ],
+        "en": [
+          "exFAT image",
+          "works with ampr-emu-ng 0.5.0 (blue_dragon, FW 11.60)"
+        ]
+      }
     }
   ]
 }

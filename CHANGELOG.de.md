@@ -2,6 +2,14 @@
 
 Neue und geänderte Einträge pro Aktualisierung (neueste zuerst).
 
+## 2026-11-23
+
+**Neu**
+
+| Spiel | PPSA | Region | Status | Format | FW | Tester | Hinweis |
+|---|---|---|---|---|---|---|---|
+| Clive 'N' Wrench | – | – | Läuft | ZSTD | 11.60 | blue_dragon | exFAT-Image; läuft mit ampr-emu-ng 0.5.0 (blue_dragon, FW 11.60) |
+
 ## 2026-11-22
 
 **Neu**
