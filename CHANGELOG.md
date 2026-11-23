@@ -8,7 +8,7 @@ New and changed entries per update (newest first).
 
 | Game | PPSA | Region | Status | Format | FW | Tester | Note |
 |---|---|---|---|---|---|---|---|
-| Clive 'N' Wrench | PPSA07451 | DE | Works | ZSTD | 11.60 | blue_dragon | exFAT image; works with ampr-emu-ng 0.5.0 (blue_dragon, FW 11.60) |
+| Clive 'N' Wrench | PPSA07451 | EU | Works | ZSTD | 11.60 | blue_dragon | exFAT image; works with ampr-emu-ng 0.5.0 (blue_dragon, FW 11.60) |
 
 ## 2026-11-22
 
