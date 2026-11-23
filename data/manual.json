@@ -3835,7 +3835,7 @@
       "id": "clive-n-wrench-blue-dragon",
       "match": "clive 'n' wrench",
       "title": "Clive 'N' Wrench",
-      "ppsa": [],
+      "ppsa": ["PPSA07451"],
       "regions": [],
       "results": [
         "pass"
