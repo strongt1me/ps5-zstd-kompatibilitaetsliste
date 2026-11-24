@@ -1,5 +1,5 @@
 {
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "games": [
   {
    "id": "007-first-light",
@@ -683,6 +683,18 @@
    "tester": "zylcw1122",
    "firmware": "–",
    "notes": "Internationale Version 31544; vereinfachtes Chinesisch",
+   "tests": 1
+  },
+  {
+   "id": "final-fantasy-vii-rebirth-zarrex",
+   "title": "Final Fantasy VII Rebirth",
+   "ppsa": "PPSA08668",
+   "region": "EU",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "zarrex",
+   "firmware": "13.60",
+   "notes": "als Ordner (exFAT usw. nicht getestet); läuft mit ampr-emu-ng 0.4.1 (zarrex, FW 13.60)",
    "tests": 1
   },
   {
@@ -3073,6 +3085,18 @@
    "tester": "zylcw1122",
    "firmware": "–",
    "notes": "International version 31544; Simplified Chinese",
+   "tests": 1
+  },
+  {
+   "id": "final-fantasy-vii-rebirth-zarrex",
+   "title": "Final Fantasy VII Rebirth",
+   "ppsa": "PPSA08668",
+   "region": "EU",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "zarrex",
+   "firmware": "13.60",
+   "notes": "as folder (exFAT etc. not tested); works with ampr-emu-ng 0.4.1 (zarrex, FW 13.60)",
    "tests": 1
   },
   {

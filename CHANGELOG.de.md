@@ -2,6 +2,14 @@
 
 Neue und geänderte Einträge pro Aktualisierung (neueste zuerst).
 
+## 2026-11-24
+
+**Neu**
+
+| Spiel | PPSA | Region | Status | Format | FW | Tester | Hinweis |
+|---|---|---|---|---|---|---|---|
+| Final Fantasy VII Rebirth | PPSA08668 | EU | Läuft | ZSTD | 13.60 | zarrex | als Ordner (exFAT usw. nicht getestet); läuft mit ampr-emu-ng 0.4.1 (zarrex, FW 13.60) |
+
 ## 2026-11-23
 
 **Neu**

@@ -3835,8 +3835,12 @@
       "id": "clive-n-wrench-blue-dragon",
       "match": "clive 'n' wrench",
       "title": "Clive 'N' Wrench",
-      "ppsa": ["PPSA07451"],
-      "regions": ["EU"],
+      "ppsa": [
+        "PPSA07451"
+      ],
+      "regions": [
+        "EU"
+      ],
       "results": [
         "pass"
       ],
@@ -3855,6 +3859,37 @@
         "en": [
           "exFAT image",
           "works with ampr-emu-ng 0.4.1 (blue_dragon, FW 11.60)"
+        ]
+      }
+    },
+    {
+      "id": "final-fantasy-vii-rebirth-zarrex",
+      "match": "final fantasy vii rebirth",
+      "title": "Final Fantasy VII Rebirth",
+      "ppsa": [
+        "PPSA08668"
+      ],
+      "regions": [
+        "EU"
+      ],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "zarrex"
+      ],
+      "firmware": "13.60",
+      "notes": {
+        "de": [
+          "als Ordner (exFAT usw. nicht getestet)",
+          "läuft mit ampr-emu-ng 0.4.1 (zarrex, FW 13.60)"
+        ],
+        "en": [
+          "as folder (exFAT etc. not tested)",
+          "works with ampr-emu-ng 0.4.1 (zarrex, FW 13.60)"
         ]
       }
     }
