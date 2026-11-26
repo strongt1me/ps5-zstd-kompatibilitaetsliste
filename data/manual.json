@@ -3892,6 +3892,41 @@
           "works with ampr-emu-ng 0.4.1 (zarrex, FW 13.60)"
         ]
       }
+    },
+    {
+      "id": "grand-theft-auto-vi-jamesst20",
+      "match": "grand theft auto vi",
+      "title": "Grand Theft Auto VI",
+      "ppsa": [
+        "PPSA38500"
+      ],
+      "regions": [],
+      "results": [
+        "pass"
+      ],
+      "formats": [
+        "ZSTD"
+      ],
+      "testers": [
+        "jamesst20"
+      ],
+      "firmware": "13.00 Pro",
+      "notes": {
+        "de": [
+          "Version 01.002.001",
+          "Ordner auf externer USB-Platte",
+          "Objekte laden teils spät (kleine Grafikfehler)",
+          "mit Backport-Patches (9.00/12.00) Absturz oder schlechte Leistung",
+          "läuft mit ampr-emu-ng 0.5.1 (jamesst20, ampr-emu-ng Issue #123)"
+        ],
+        "en": [
+          "version 01.002.001",
+          "folder on external USB drive",
+          "objects sometimes load late (minor graphical glitches)",
+          "with backport patches (9.00/12.00) crash or poor performance",
+          "works with ampr-emu-ng 0.5.1 (jamesst20, ampr-emu-ng issue #123)"
+        ]
+      }
     }
   ]
 }

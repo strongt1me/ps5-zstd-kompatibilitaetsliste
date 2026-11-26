@@ -1,5 +1,5 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-26",
  "games": [
   {
    "id": "007-first-light",
@@ -863,6 +863,18 @@
    "tester": "fecent",
    "firmware": "13.60",
    "notes": "Version v01.010.002 (fecent); behoben in ampr-emu-ng v0.5.0 (Issue #88); getestet mit Testbuild 34a211; Ordner-Install",
+   "tests": 1
+  },
+  {
+   "id": "grand-theft-auto-vi-jamesst20",
+   "title": "Grand Theft Auto VI",
+   "ppsa": "PPSA38500",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "jamesst20",
+   "firmware": "13.00 Pro",
+   "notes": "Version 01.002.001; Ordner auf externer USB-Platte; Objekte laden teils spät (kleine Grafikfehler); mit Backport-Patches (9.00/12.00) Absturz oder schlechte Leistung; läuft mit ampr-emu-ng 0.5.1 (jamesst20, ampr-emu-ng Issue #123)",
    "tests": 1
   },
   {
@@ -3265,6 +3277,18 @@
    "tester": "fecent",
    "firmware": "13.60",
    "notes": "Version v01.010.002 (fecent); fixed in ampr-emu-ng v0.5.0 (issue #88); tested with test build 34a211; folder install",
+   "tests": 1
+  },
+  {
+   "id": "grand-theft-auto-vi-jamesst20",
+   "title": "Grand Theft Auto VI",
+   "ppsa": "PPSA38500",
+   "region": "–",
+   "status": "ok",
+   "format": "ZSTD",
+   "tester": "jamesst20",
+   "firmware": "13.00 Pro",
+   "notes": "version 01.002.001; folder on external USB drive; objects sometimes load late (minor graphical glitches); with backport patches (9.00/12.00) crash or poor performance; works with ampr-emu-ng 0.5.1 (jamesst20, ampr-emu-ng issue #123)",
    "tests": 1
   },
   {

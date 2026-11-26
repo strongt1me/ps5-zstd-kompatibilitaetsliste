@@ -2,6 +2,14 @@
 
 New and changed entries per update (newest first).
 
+## 2026-11-26
+
+**New**
+
+| Game | PPSA | Region | Status | Format | FW | Tester | Note |
+|---|---|---|---|---|---|---|---|
+| Grand Theft Auto VI | PPSA38500 | – | Works | ZSTD | 13.00 Pro | jamesst20 | version 01.002.001; folder on external USB drive; objects sometimes load late (minor graphical glitches); with backport patches (9.00/12.00) crash or poor performance; works with ampr-emu-ng 0.5.1 (jamesst20, ampr-emu-ng issue #123) |
+
 ## 2026-11-24
 
 **New**
